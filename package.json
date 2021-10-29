@@ -1,0 +1,27 @@
+{
+  "name": "wtwwf_backend",
+  "version": "1.0.0",
+  "description": "API for what to watch with friends app",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnFlorkey/wtwwf_backend.git"
+  },
+  "author": "John Florkey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JohnFlorkey/wtwwf_backend/issues"
+  },
+  "homepage": "https://github.com/JohnFlorkey/wtwwf_backend#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "json-server": "^0.17.0"
+  }
+}

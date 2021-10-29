@@ -1,0 +1,1607 @@
+{
+	"movies": [
+		{
+			"id": 1,
+			"title": "The Empire Strikes Back",
+			"runtime": 124,
+			"release_date": "1980-05-20",
+			"genres": "Adventure, Action, Science Fiction",
+			"overview": "The epic saga continues as Luke Skywalker, in hopes of defeating the evil Galactic Empire, learns the ways of the Jedi from aging master Yoda. But Darth Vader is more determined than ever to capture Luke. Meanwhile, rebel leader Princess Leia, cocky Han Solo, Chewbacca, and droids C-3PO and R2-D2 are thrown into various stages of capture, betrayal and despair.",
+			"poster_path": "https://image.tmdb.org/t/p/w154/7BuH8itoSrLExs2YZSsM01Qk2no.jpg",
+			"providers": [
+				{
+					"name": "Disney+",
+					"logo_path": "https://www.themoviedb.org/t/p/original/dgPueyEdOwpQ10fjuhL2WYFQwQs.jpg"
+				}
+			],
+			"tagline": "The Adventure Continues...",
+			"trailer": "https://youtu.be/XgB4gaY2dWE",
+			"vote_average": 84
+		},
+		{
+			"id": 2,
+			"title": "Star Wars",
+			"runtime": 121,
+			"release_date": "1977-05-25",
+			"genres": "Adventure, Action, Science Fiction",
+			"overview": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
+			"poster_path": "https://image.tmdb.org/t/p/w154/6FfCtAuVAW8XJjZ7eWeLibRLWTw.jpg",
+			"providers": [
+				{
+					"name": "Disney+",
+					"logo_path": "https://www.themoviedb.org/t/p/original/dgPueyEdOwpQ10fjuhL2WYFQwQs.jpg"
+				}
+			],
+			"tagline": "A long time ago in a galaxy far, far away...",
+			"trailer": "https://youtu.be/XgB4gaY2dWE",
+			"vote_average": 82
+		},
+		{
+			"id": 3,
+			"title": "Return Of The Jedi",
+			"runtime": 135,
+			"release_date": "1983-05-23",
+			"genres": "Adventure, Action, Science Fiction",
+			"overview": "Luke Skywalker leads a mission to rescue his friend Han Solo from the clutches of Jabba the Hutt, while the Emperor seeks to destroy the Rebellion once and for all with a second dreaded Death Star.",
+			"poster_path": "https://image.tmdb.org/t/p/w154/mDCBQNhR6R0PVFucJl0O4Hp5klZ.jpg",
+			"providers": [
+				{
+					"name": "Disney+",
+					"logo_path": "https://www.themoviedb.org/t/p/original/dgPueyEdOwpQ10fjuhL2WYFQwQs.jpg"
+				}
+			],
+			"tagline": "The Empire Falls...",
+			"trailer": "https://youtu.be/XgB4gaY2dWE",
+			"vote_average": 79
+		}
+	],
+	"tv": [
+		{
+			"backdrop_path": "/AdJgkXb8oLI8e4rsk8XzkvABIuw.jpg",
+			"first_air_date": "2014-10-13",
+			"genre_ids": [
+					10759,
+					16
+			],
+			"id": 60554,
+			"name": "Star Wars Rebels",
+			"origin_country": [
+					"US"
+			],
+			"original_language": "en",
+			"original_name": "Star Wars Rebels",
+			"overview": "Set between the events of Star Wars: Episodes III and IV, the story unfolds during a dark time when the evil Galactic Empire is tightening its grip of power on the galaxy. Imperial forces have occupied a remote planet and are ruining the lives of its people. The motley but clever crew of the starship Ghost — cowboy Jedi Kanan, ace pilot Hera, street-smart teenager Ezra, the “muscle” Zeb, warrior firebrand Sabine, and cantankerous old astromech droid Chopper — is among a select few who are brave enough to stand against the Empire. Together, they will face threatening new villains, encounter colorful adversaries, embark on thrilling adventures, and become heroes with the power to ignite a rebellion.",
+			"popularity": 59.403,
+			"poster_path": "https://image.tmdb.org/t/p/w154/vOUxo5sfXyQPIoF8rtYK1OVVBPi.jpg",
+			"vote_average": 7.7,
+			"vote_count": 468
+	},
+	{
+			"backdrop_path": "/m6eRgkR1KC6Mr6gKx6gKCzSn6vD.jpg",
+			"first_air_date": "2008-10-03",
+			"genre_ids": [
+					10759,
+					16,
+					10765
+			],
+			"id": 4194,
+			"name": "Star Wars: The Clone Wars",
+			"origin_country": [
+					"US"
+			],
+			"original_language": "en",
+			"original_name": "Star Wars: The Clone Wars",
+			"overview": "Yoda, Obi-Wan Kenobi, Anakin Skywalker, Mace Windu and other Jedi Knights lead the Grand Army of the Republic against the droid army of the Separatists.",
+			"popularity": 74.21,
+			"poster_path": "https://image.tmdb.org/t/p/w154/e1nWfnnCVqxS2LeTO3dwGyAsG2V.jpg",
+			"vote_average": 8.5,
+			"vote_count": 1256
+	},
+	{
+		"backdrop_path": "/9ijMGlJKqcslswWUzTEwScm82Gs.jpg",
+		"first_air_date": "2019-11-12",
+		"genre_ids": [
+				10765,
+				10759,
+				37,
+				18
+		],
+		"id": 82856,
+		"name": "The Mandalorian",
+		"origin_country": [
+				"US"
+		],
+		"original_language": "en",
+		"original_name": "The Mandalorian",
+		"overview": "After the fall of the Galactic Empire, lawlessness has spread throughout the galaxy. A lone gunfighter makes his way through the outer reaches, earning his keep as a bounty hunter.",
+		"popularity": 234.396,
+		"poster_path": "https://image.tmdb.org/t/p/w154/sWgBv7LV2PRoQgkxwlibdGXKz1S.jpg",
+		"vote_average": 8.5,
+		"vote_count": 6898
+}
+	],
+	"user": {
+			"id": 1,
+			"username": "browflork",
+			"email": "john.florkey@gmail.com",
+			"password": "password",
+			"country": "US",
+			"providers": [
+				{"name": "Netflix"},
+				{"name": "Disney+"},
+				{"name": "HBO NOW"},
+				{"name": "Apple+"}
+			]
+		},
+	"friendgroups": [
+		{
+			"id": 1,
+			"name": "best friends group",
+			"members": [
+				{
+					"id": 1,
+					"username": "friend1"
+				},
+				{
+					"id": 2,
+					"username": "friend2"
+				}
+			],
+			"movierecommendations": [
+				{
+					"id": 1,
+					"title": "The Empire Strikes Back",
+					"runtime": 124,
+					"release_date": "1980-05-20",
+					"genres": "Adventure, Action, Science Fiction",
+					"overview": "The epic saga continues as Luke Skywalker, in hopes of defeating the evil Galactic Empire, learns the ways of the Jedi from aging master Yoda. But Darth Vader is more determined than ever to capture Luke. Meanwhile, rebel leader Princess Leia, cocky Han Solo, Chewbacca, and droids C-3PO and R2-D2 are thrown into various stages of capture, betrayal and despair.",
+					"poster_path": "https://image.tmdb.org/t/p/w154/7BuH8itoSrLExs2YZSsM01Qk2no.jpg",
+					"providers": [
+						{
+							"name": "Disney+",
+							"logo_path": "https://www.themoviedb.org/t/p/original/dgPueyEdOwpQ10fjuhL2WYFQwQs.jpg"
+						}
+					],
+					"tagline": "The Adventure Continues...",
+					"trailer": "https://youtu.be/XgB4gaY2dWE",
+					"vote_average": 84
+				},
+				{
+					"id": 2,
+					"title": "Star Wars",
+					"runtime": 121,
+					"release_date": "1977-05-25",
+					"genres": "Adventure, Action, Science Fiction",
+					"overview": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
+					"poster_path": "https://image.tmdb.org/t/p/w154/6FfCtAuVAW8XJjZ7eWeLibRLWTw.jpg",
+					"providers": [
+						{
+							"name": "Disney+",
+							"logo_path": "https://www.themoviedb.org/t/p/original/dgPueyEdOwpQ10fjuhL2WYFQwQs.jpg"
+						}
+					],
+					"tagline": "A long time ago in a galaxy far, far away...",
+					"trailer": "https://youtu.be/XgB4gaY2dWE",
+					"vote_average": 82
+				}
+			],
+			"tvrecommendations": [
+				{
+					"backdrop_path": "/AdJgkXb8oLI8e4rsk8XzkvABIuw.jpg",
+					"first_air_date": "2014-10-13",
+					"genre_ids": [
+							10759,
+							16
+					],
+					"id": 60554,
+					"name": "Star Wars Rebels",
+					"origin_country": [
+							"US"
+					],
+					"original_language": "en",
+					"original_name": "Star Wars Rebels",
+					"overview": "Set between the events of Star Wars: Episodes III and IV, the story unfolds during a dark time when the evil Galactic Empire is tightening its grip of power on the galaxy. Imperial forces have occupied a remote planet and are ruining the lives of its people. The motley but clever crew of the starship Ghost — cowboy Jedi Kanan, ace pilot Hera, street-smart teenager Ezra, the “muscle” Zeb, warrior firebrand Sabine, and cantankerous old astromech droid Chopper — is among a select few who are brave enough to stand against the Empire. Together, they will face threatening new villains, encounter colorful adversaries, embark on thrilling adventures, and become heroes with the power to ignite a rebellion.",
+					"popularity": 59.403,
+					"poster_path": "https://image.tmdb.org/t/p/w154/vOUxo5sfXyQPIoF8rtYK1OVVBPi.jpg",
+					"vote_average": 7.7,
+					"vote_count": 468
+			},
+			{
+					"backdrop_path": "/m6eRgkR1KC6Mr6gKx6gKCzSn6vD.jpg",
+					"first_air_date": "2008-10-03",
+					"genre_ids": [
+							10759,
+							16,
+							10765
+					],
+					"id": 4194,
+					"name": "Star Wars: The Clone Wars",
+					"origin_country": [
+							"US"
+					],
+					"original_language": "en",
+					"original_name": "Star Wars: The Clone Wars",
+					"overview": "Yoda, Obi-Wan Kenobi, Anakin Skywalker, Mace Windu and other Jedi Knights lead the Grand Army of the Republic against the droid army of the Separatists.",
+					"popularity": 74.21,
+					"poster_path": "https://image.tmdb.org/t/p/w154/e1nWfnnCVqxS2LeTO3dwGyAsG2V.jpg",
+					"vote_average": 8.5,
+					"vote_count": 1256
+			}
+			]
+		},
+		{
+			"id": 2,
+			"name": "other friends group",
+			"members": [
+				{
+					"id": 3,
+					"username": "friend3"
+				},
+				{
+					"id": 4,
+					"username": "friend4"
+				}
+			],
+			"movierecommendations": [
+				{
+					"id": 2,
+					"title": "Star Wars",
+					"runtime": 121,
+					"release_date": "1977-05-25",
+					"genres": "Adventure, Action, Science Fiction",
+					"overview": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
+					"poster_path": "https://image.tmdb.org/t/p/w154/6FfCtAuVAW8XJjZ7eWeLibRLWTw.jpg",
+					"providers": [
+						{
+							"name": "Disney+",
+							"logo_path": "https://www.themoviedb.org/t/p/original/dgPueyEdOwpQ10fjuhL2WYFQwQs.jpg"
+						}
+					],
+					"tagline": "A long time ago in a galaxy far, far away...",
+					"trailer": "https://youtu.be/XgB4gaY2dWE",
+					"vote_average": 82
+				},
+				{
+					"id": 3,
+					"title": "Return Of The Jedi",
+					"runtime": 135,
+					"release_date": "1983-05-23",
+					"genres": "Adventure, Action, Science Fiction",
+					"overview": "Luke Skywalker leads a mission to rescue his friend Han Solo from the clutches of Jabba the Hutt, while the Emperor seeks to destroy the Rebellion once and for all with a second dreaded Death Star.",
+					"poster_path": "https://image.tmdb.org/t/p/w154/mDCBQNhR6R0PVFucJl0O4Hp5klZ.jpg",
+					"providers": [
+						{
+							"name": "Disney+",
+							"logo_path": "https://www.themoviedb.org/t/p/original/dgPueyEdOwpQ10fjuhL2WYFQwQs.jpg"
+						}
+					],
+					"tagline": "The Empire Falls...",
+					"trailer": "https://youtu.be/XgB4gaY2dWE",
+					"vote_average": 79
+				}
+			],
+			"tvrecommendations":[
+				{
+					"backdrop_path": "/m6eRgkR1KC6Mr6gKx6gKCzSn6vD.jpg",
+					"first_air_date": "2008-10-03",
+					"genre_ids": [
+							10759,
+							16,
+							10765
+					],
+					"id": 4194,
+					"name": "Star Wars: The Clone Wars",
+					"origin_country": [
+							"US"
+					],
+					"original_language": "en",
+					"original_name": "Star Wars: The Clone Wars",
+					"overview": "Yoda, Obi-Wan Kenobi, Anakin Skywalker, Mace Windu and other Jedi Knights lead the Grand Army of the Republic against the droid army of the Separatists.",
+					"popularity": 74.21,
+					"poster_path": "https://image.tmdb.org/t/p/w154/e1nWfnnCVqxS2LeTO3dwGyAsG2V.jpg",
+					"vote_average": 8.5,
+					"vote_count": 1256
+			},
+			{
+				"backdrop_path": "/9ijMGlJKqcslswWUzTEwScm82Gs.jpg",
+				"first_air_date": "2019-11-12",
+				"genre_ids": [
+						10765,
+						10759,
+						37,
+						18
+				],
+				"id": 82856,
+				"name": "The Mandalorian",
+				"origin_country": [
+						"US"
+				],
+				"original_language": "en",
+				"original_name": "The Mandalorian",
+				"overview": "After the fall of the Galactic Empire, lawlessness has spread throughout the galaxy. A lone gunfighter makes his way through the outer reaches, earning his keep as a bounty hunter.",
+				"popularity": 234.396,
+				"poster_path": "https://image.tmdb.org/t/p/w154/sWgBv7LV2PRoQgkxwlibdGXKz1S.jpg",
+				"vote_average": 8.5,
+				"vote_count": 6898
+		}
+			]
+			}
+	],
+	"searchtv": {
+		"page": 1,
+		"results": [
+				{
+						"backdrop_path": "/9ijMGlJKqcslswWUzTEwScm82Gs.jpg",
+						"first_air_date": "2019-11-12",
+						"genre_ids": [
+								10765,
+								10759,
+								37,
+								18
+						],
+						"id": 82856,
+						"name": "The Mandalorian",
+						"origin_country": [
+								"US"
+						],
+						"original_language": "en",
+						"original_name": "The Mandalorian",
+						"overview": "After the fall of the Galactic Empire, lawlessness has spread throughout the galaxy. A lone gunfighter makes his way through the outer reaches, earning his keep as a bounty hunter.",
+						"popularity": 234.396,
+						"poster_path": "/sWgBv7LV2PRoQgkxwlibdGXKz1S.jpg",
+						"vote_average": 8.5,
+						"vote_count": 6898
+				},
+				{
+						"backdrop_path": "/dKH2l6WrrYS3tGp4JD3Y0AtVzPu.jpg",
+						"first_air_date": "2020-05-04",
+						"genre_ids": [
+								99
+						],
+						"id": 101978,
+						"name": "Disney Gallery / Star Wars: The Mandalorian",
+						"origin_country": [
+								"US"
+						],
+						"original_language": "en",
+						"original_name": "Disney Gallery / Star Wars: The Mandalorian",
+						"overview": "Executive producer Jon Favreau invites the cast and crew of The Mandalorian to share an unprecedented look at the making of the series. Each chapter explores a different facet of the first live-action Star Wars television show through interviews, never-before-seen footage, and roundtable conversations hosted by Favreau himself.",
+						"popularity": 21.053,
+						"poster_path": "/6Hc2eHp59iTyMqkhcumNovq2l6y.jpg",
+						"vote_average": 8,
+						"vote_count": 31
+				}
+		],
+		"total_pages": 1,
+		"total_results": 2
+	},
+	"searchmovies": {
+			"page": 1,
+			"results": [
+					{
+							"adult": false,
+							"backdrop_path": "/f53Jujiap580mgfefID0T0g2e17.jpg",
+							"genre_ids": [
+									10751,
+									16,
+									878,
+									35,
+									27,
+									12,
+									28
+							],
+							"id": 857702,
+							"original_language": "en",
+							"original_title": "LEGO Star Wars Terrifying Tales",
+							"overview": "Poe Dameron and BB-8 must face the greedy crime boss Graballa the Hutt, who has purchased Darth Vader’s castle and is renovating it into the galaxy’s first all-inclusive Sith-inspired luxury hotel.",
+							"popularity": 503.309,
+							"poster_path": "/fYiaBZDjyXjvlY6EDZMAxIhBO1I.jpg",
+							"release_date": "2021-10-01",
+							"title": "LEGO Star Wars Terrifying Tales",
+							"video": false,
+							"vote_average": 7,
+							"vote_count": 42
+					},
+					{
+							"adult": false,
+							"backdrop_path": "/iPnH51khswDrYij6XIBHKlAznW.jpg",
+							"genre_ids": [
+									12,
+									28,
+									878
+							],
+							"id": 11,
+							"original_language": "en",
+							"original_title": "Star Wars",
+							"overview": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
+							"popularity": 68.493,
+							"poster_path": "/6FfCtAuVAW8XJjZ7eWeLibRLWTw.jpg",
+							"release_date": "1977-05-25",
+							"title": "Star Wars",
+							"video": false,
+							"vote_average": 8.2,
+							"vote_count": 16127
+					},
+					{
+							"adult": false,
+							"backdrop_path": "/k6EOrckWFuz7I4z4wiRwz8zsj4H.jpg",
+							"genre_ids": [
+									28,
+									12,
+									878,
+									14
+							],
+							"id": 140607,
+							"original_language": "en",
+							"original_title": "Star Wars: The Force Awakens",
+							"overview": "Thirty years after defeating the Galactic Empire, Han Solo and his allies face a new threat from the evil Kylo Ren and his army of Stormtroopers.",
+							"popularity": 71.524,
+							"poster_path": "/wqnLdwVXoBjKibFRR5U3y0aDUhs.jpg",
+							"release_date": "2015-12-15",
+							"title": "Star Wars: The Force Awakens",
+							"video": false,
+							"vote_average": 7.3,
+							"vote_count": 16236
+					},
+					{
+							"adult": false,
+							"backdrop_path": "/epVMXf10WqFkONzKR8V76Ypj5Y3.jpg",
+							"genre_ids": [
+									878,
+									28,
+									12
+							],
+							"id": 181808,
+							"original_language": "en",
+							"original_title": "Star Wars: The Last Jedi",
+							"overview": "Rey develops her newly discovered abilities with the guidance of Luke Skywalker, who is unsettled by the strength of her powers. Meanwhile, the Resistance prepares to do battle with the First Order.",
+							"popularity": 61.329,
+							"poster_path": "/kOVEVeg59E0wsnXmF9nrh6OmWII.jpg",
+							"release_date": "2017-12-13",
+							"title": "Star Wars: The Last Jedi",
+							"video": false,
+							"vote_average": 6.9,
+							"vote_count": 12320
+					},
+					{
+							"adult": false,
+							"backdrop_path": "/SPkEiZGxq5aHWQ2Zw7AITwSEo2.jpg",
+							"genre_ids": [
+									28,
+									12,
+									878
+							],
+							"id": 181812,
+							"original_language": "en",
+							"original_title": "Star Wars: The Rise of Skywalker",
+							"overview": "The surviving Resistance faces the First Order once again as the journey of Rey, Finn and Poe Dameron continues. With the power and knowledge of generations behind them, the final battle begins.",
+							"popularity": 70.99,
+							"poster_path": "/db32LaOibwEliAmSL2jjDF6oDdj.jpg",
+							"release_date": "2019-12-18",
+							"title": "Star Wars: The Rise of Skywalker",
+							"video": false,
+							"vote_average": 6.5,
+							"vote_count": 7135
+					},
+					{
+							"adult": false,
+							"backdrop_path": "/ojHCeDULAkQK25700fhRU75Tur2.jpg",
+							"genre_ids": [
+									878,
+									12,
+									28,
+									80
+							],
+							"id": 348350,
+							"original_language": "en",
+							"original_title": "Solo: A Star Wars Story",
+							"overview": "Through a series of daring escapades deep within a dark and dangerous criminal underworld, Han Solo meets his mighty future copilot Chewbacca and encounters the notorious gambler Lando Calrissian.",
+							"popularity": 43.714,
+							"poster_path": "/4oD6VEccFkorEBTEDXtpLAaz0Rl.jpg",
+							"release_date": "2018-05-15",
+							"title": "Solo: A Star Wars Story",
+							"video": false,
+							"vote_average": 6.6,
+							"vote_count": 6570
+					},
+					{
+							"adult": false,
+							"backdrop_path": "/6t8ES1d12OzWyCGxBeDYLHoaDrT.jpg",
+							"genre_ids": [
+									28,
+									12,
+									878
+							],
+							"id": 330459,
+							"original_language": "en",
+							"original_title": "Rogue One: A Star Wars Story",
+							"overview": "A rogue band of resistance fighters unite for a mission to steal the Death Star plans and bring a new hope to the galaxy.",
+							"popularity": 44.839,
+							"poster_path": "/5jX3p0apUG5bkMHtnKZch0xpkBS.jpg",
+							"release_date": "2016-12-14",
+							"title": "Rogue One: A Star Wars Story",
+							"video": false,
+							"vote_average": 7.5,
+							"vote_count": 12490
+					},
+					{
+							"adult": false,
+							"backdrop_path": "/1Lhc32P0a62BgMFgd20wXR1osR3.jpg",
+							"genre_ids": [
+									16,
+									10751,
+									12,
+									35,
+									878
+							],
+							"id": 732670,
+							"original_language": "en",
+							"original_title": "The Lego Star Wars Holiday Special",
+							"overview": "As her friends prep for a Life Day holiday celebration, Rey journeys with BB-8 on a quest to gain a deeper knowledge of the Force at a mysterious Jedi Temple. There, she embarks on a cross-timeline adventure through beloved moments in Star Wars history, coming into contact with iconic heroes and villains from all eras of the saga. But will she make it back in time for the Life Day feast?",
+							"popularity": 40.157,
+							"poster_path": "/zyzJSI7UZZzz5Toj10rYGF5689z.jpg",
+							"release_date": "2020-11-17",
+							"title": "The Lego Star Wars Holiday Special",
+							"video": false,
+							"vote_average": 6.7,
+							"vote_count": 191
+					},
+					{
+							"adult": false,
+							"backdrop_path": "/sNNFLEcAuy4C3RyXCnKoArn7Aty.jpg",
+							"genre_ids": [
+									16,
+									28,
+									878,
+									12
+							],
+							"id": 12180,
+							"original_language": "en",
+							"original_title": "Star Wars: The Clone Wars",
+							"overview": "Set between Episode II and III, The Clone Wars is the first computer animated Star Wars film. Anakin and Obi Wan must find out who kidnapped Jabba the Hutt's son and return him safely. The Seperatists will try anything to stop them and ruin any chance of a diplomatic agreement between the Hutts and the Republic.",
+							"popularity": 28.746,
+							"poster_path": "/ywRtBu88SLAkNxD0GFib6qsFkBK.jpg",
+							"release_date": "2008-08-05",
+							"title": "Star Wars: The Clone Wars",
+							"video": false,
+							"vote_average": 6.1,
+							"vote_count": 1447
+					},
+					{
+							"adult": false,
+							"backdrop_path": "/8MynmjcKSvGdcxjVwsx3TWwOTBa.jpg",
+							"genre_ids": [
+									12,
+									28,
+									878
+							],
+							"id": 1893,
+							"original_language": "en",
+							"original_title": "Star Wars: Episode I - The Phantom Menace",
+							"overview": "Anakin Skywalker, a young slave strong with the Force, is discovered on Tatooine. Meanwhile, the evil Sith have returned, enacting their plot for revenge against the Jedi.",
+							"popularity": 32.795,
+							"poster_path": "/6wkfovpn7Eq8dYNKaG5PY3q2oq6.jpg",
+							"release_date": "1999-05-19",
+							"title": "Star Wars: Episode I - The Phantom Menace",
+							"video": false,
+							"vote_average": 6.5,
+							"vote_count": 11462
+					},
+					{
+							"adult": false,
+							"backdrop_path": "/uNjBnOmdjZoiWTLQ938YJZ1cYVU.jpg",
+							"genre_ids": [
+									16,
+									35,
+									10751,
+									878,
+									12,
+									10770
+							],
+							"id": 392216,
+							"original_language": "en",
+							"original_title": "Phineas and Ferb: Star Wars",
+							"overview": "Phineas and Ferb become the galaxy's unlikeliest last hope when they must return the Death Star plans to the Rebel Alliance.",
+							"popularity": 13.489,
+							"poster_path": "/xomphpz7MIasqVluPX83TjoTL8G.jpg",
+							"release_date": "2014-07-26",
+							"title": "Phineas and Ferb: Star Wars",
+							"video": false,
+							"vote_average": 7,
+							"vote_count": 125
+					},
+					{
+							"adult": false,
+							"backdrop_path": "/eygfh5xsMAMUOT5VMJL4rPTgCs9.jpg",
+							"genre_ids": [
+									878,
+									12,
+									28
+							],
+							"id": 1895,
+							"original_language": "en",
+							"original_title": "Star Wars: Episode III - Revenge of the Sith",
+							"overview": "The evil Darth Sidious enacts his final plan for unlimited power -- and the heroic Jedi Anakin Skywalker must choose a side.",
+							"popularity": 34.226,
+							"poster_path": "/xfSAoBEm9MNBjmlNcDYLvLSMlnq.jpg",
+							"release_date": "2005-05-17",
+							"title": "Star Wars: Episode III - Revenge of the Sith",
+							"video": false,
+							"vote_average": 7.4,
+							"vote_count": 10741
+					},
+					{
+							"adult": false,
+							"backdrop_path": "/1uQSh7P3k0oRbRf0vH8GVt4thpP.jpg",
+							"genre_ids": [
+									12,
+									28,
+									878
+							],
+							"id": 1894,
+							"original_language": "en",
+							"original_title": "Star Wars: Episode II - Attack of the Clones",
+							"overview": "Following an assassination attempt on Senator Padmé Amidala, Jedi Knights Anakin Skywalker and Obi-Wan Kenobi investigate a mysterious plot that could change the galaxy forever.",
+							"popularity": 32.944,
+							"poster_path": "/oZNPzxqM2s5DyVWab09NTQScDQt.jpg",
+							"release_date": "2002-05-15",
+							"title": "Star Wars: Episode II - Attack of the Clones",
+							"video": false,
+							"vote_average": 6.5,
+							"vote_count": 10360
+					},
+					{
+							"adult": false,
+							"backdrop_path": "/ae9xlnkS2qb5Dy9Mtlu68AWh42O.jpg",
+							"genre_ids": [
+									12,
+									35,
+									10751,
+									878,
+									10770
+							],
+							"id": 74849,
+							"original_language": "en",
+							"original_title": "The Star Wars Holiday Special",
+							"overview": "Luke Skywalker and Han Solo battle evil Imperial forces to help Chewbacca reach his imperiled family on the Wookiee planet - in time for Life Day, their most important day of the year!",
+							"popularity": 15.935,
+							"poster_path": "/1TY4OAkcHRovlHDxSLW7UDJlild.jpg",
+							"release_date": "1978-12-01",
+							"title": "The Star Wars Holiday Special",
+							"video": false,
+							"vote_average": 3.3,
+							"vote_count": 334
+					},
+					{
+							"adult": false,
+							"backdrop_path": null,
+							"genre_ids": [
+									99
+							],
+							"id": 435365,
+							"original_language": "en",
+							"original_title": "The Story of Star Wars",
+							"overview": "The Skywalker family is at the heart of the Star Wars saga. Now hear the inside story of Luke and Anakin Skywalker from the characters who witnessed it all: the famous droid duo C-3PO and R2-D2. Episodes IV,V and VI are explored in \"The Story of Luke Skywalker,\" which follows the young man escaping from his daily chores on Tatooine to his becoming a hero in the Rebal Alliance. In \"The Story of Anakin Skywalker,\" you'll go behind the mask of the greatest Star Wars villain and discover how Darth Vader started life as a young Podracing Champ on Tatooine and later became a headstrong young Jedi seduced by the Dark Side of the Force. With clips from the Star Wars films, C-3PO and R2-D2 take you on an hour-long journey through the saga and prepare you for the explosive final chapter: Star Wars: Episode III Revenge of the Sith.",
+							"popularity": 14.008,
+							"poster_path": "/fvw9W7ds0Q51hQIbS7JoUBqL3tK.jpg",
+							"release_date": "2004-08-18",
+							"title": "The Story of Star Wars",
+							"video": false,
+							"vote_average": 7.7,
+							"vote_count": 8
+					},
+					{
+							"adult": false,
+							"backdrop_path": "/c8XIFuJCPTtTJdSRpqnUoMr6eK1.jpg",
+							"genre_ids": [
+									878
+							],
+							"id": 667574,
+							"original_language": "en",
+							"original_title": "Battle Star Wars",
+							"overview": "When the leader of the evil Coalition threatens to destroy a Rebel planet for its resources, his daughter will have no choice but to join the Rebel side and fight for what is right.",
+							"popularity": 7.473,
+							"poster_path": "/ocA0ECiFoB4d1HITyEDQlLk7x84.jpg",
+							"release_date": "2020-01-28",
+							"title": "Battle Star Wars",
+							"video": false,
+							"vote_average": 5.1,
+							"vote_count": 26
+					},
+					{
+							"adult": false,
+							"backdrop_path": null,
+							"genre_ids": [
+									16,
+									35,
+									878
+							],
+							"id": 42979,
+							"original_language": "en",
+							"original_title": "Robot Chicken: Star Wars",
+							"overview": "A series of 30 sketches, following the hilarious antics of various characters from a galaxy, far, far away.",
+							"popularity": 8.694,
+							"poster_path": "/h44WN4mVJ6wEpJgLaaNoFjv0NAo.jpg",
+							"release_date": "2007-07-17",
+							"title": "Robot Chicken: Star Wars",
+							"video": false,
+							"vote_average": 7.3,
+							"vote_count": 181
+					},
+					{
+							"adult": false,
+							"backdrop_path": "/hVl0qfLZ5loznDgQ0HxCTZqvZhz.jpg",
+							"genre_ids": [
+									10751,
+									16,
+									878,
+									35,
+									12
+							],
+							"id": 70608,
+							"original_language": "en",
+							"original_title": "LEGO Star Wars: The Padawan Menace",
+							"overview": "Master Yoda must go retrieve secret battle plans. However, things become a little more complicated when a class of younglings join the mission.",
+							"popularity": 8.924,
+							"poster_path": "/lcAA36kzOahKXVwWeJLaepMr58M.jpg",
+							"release_date": "2011-07-22",
+							"title": "LEGO Star Wars: The Padawan Menace",
+							"video": false,
+							"vote_average": 6.4,
+							"vote_count": 100
+					},
+					{
+							"adult": false,
+							"backdrop_path": null,
+							"genre_ids": [
+									99
+							],
+							"id": 378386,
+							"original_language": "en",
+							"original_title": "Star Wars: Greatest Moments",
+							"overview": "Alex Zane counts down the top 20 Star Wars moments as voted by the public. Includes contributions from famous fans as well as the stars and crew of the intergalactic saga.",
+							"popularity": 6.036,
+							"poster_path": "/zIffPwISrW48qSmvAXEV27lBTMA.jpg",
+							"release_date": "2015-12-26",
+							"title": "Star Wars: Greatest Moments",
+							"video": false,
+							"vote_average": 6.5,
+							"vote_count": 20
+					},
+					{
+							"adult": false,
+							"backdrop_path": null,
+							"genre_ids": [
+									99
+							],
+							"id": 81418,
+							"original_language": "en",
+							"original_title": "Star Wars: Deleted Magic",
+							"overview": "This is a very interesting Star Wars documentary about the making of the first Star Wars film (and to a lesser extent Empire and Jedi) including a look at some of the deleted scenes, behind the scenes footage, and notes on subtle things that you might have never seen or noticed before.",
+							"popularity": 5.706,
+							"poster_path": "/dhTb1CYXdfxMT2RAPCeFAvfmWiT.jpg",
+							"release_date": "2005-03-01",
+							"title": "Star Wars: Deleted Magic",
+							"video": false,
+							"vote_average": 7.5,
+							"vote_count": 14
+					}
+			],
+			"total_pages": 7,
+			"total_results": 140
+	},
+	"discovertv": {
+		"page": 1,
+		"results": [
+				{
+						"backdrop_path": "/xAKMj134XHQVNHLC6rWsccLMenG.jpg",
+						"first_air_date": "2021-10-12",
+						"genre_ids": [
+								10765,
+								35,
+								80
+						],
+						"id": 90462,
+						"name": "Chucky",
+						"origin_country": [
+								"US"
+						],
+						"original_language": "en",
+						"original_name": "Chucky",
+						"overview": "After a vintage Chucky doll turns up at a suburban yard sale, an idyllic American town is thrown into chaos as a series of horrifying murders begin to expose the town’s hypocrisies and secrets. Meanwhile, the arrival of enemies — and allies — from Chucky’s past threatens to expose the truth behind the killings, as well as the demon doll’s untold origins.",
+						"popularity": 6336.725,
+						"poster_path": "/iF8ai2QLNiHV4anwY1TuSGZXqfN.jpg",
+						"vote_average": 8,
+						"vote_count": 931
+				},
+				{
+						"backdrop_path": "/qw3J9cNeLioOLoR68WX7z79aCdK.jpg",
+						"first_air_date": "2021-09-17",
+						"genre_ids": [
+								10759,
+								9648,
+								18
+						],
+						"id": 93405,
+						"name": "Squid Game",
+						"origin_country": [
+								"KR"
+						],
+						"original_language": "ko",
+						"original_name": "오징어 게임",
+						"overview": "Hundreds of cash-strapped players accept a strange invitation to compete in children's games—with high stakes. But, a tempting prize awaits the victor.",
+						"popularity": 4310.846,
+						"poster_path": "/dDlEmu3EZ0Pgg93K2SVNLCjCSvE.jpg",
+						"vote_average": 7.8,
+						"vote_count": 8153
+				},
+				{
+						"backdrop_path": "/oC9SgtJTDCEpWnTBtVGoAvjl5hb.jpg",
+						"first_air_date": "2006-09-18",
+						"genre_ids": [
+								10767
+						],
+						"id": 1991,
+						"name": "Rachael Ray",
+						"origin_country": [
+								"US"
+						],
+						"original_language": "en",
+						"original_name": "Rachael Ray",
+						"overview": "Rachael Ray, also known as The Rachael Ray Show, is an American talk show starring Rachael Ray that debuted in syndication in the United States and Canada on September 18, 2006. It is filmed at Chelsea Television Studios in New York City. The show's 8th season premiered on September 9, 2013, and became the last Harpo show in syndication to switch to HD with a revamped studio. In January 2012, CBS Television Distribution announced a two-year renewal for the show, taking it through the 2013–14 season.",
+						"popularity": 2237.508,
+						"poster_path": "/dsAJhCLYX1fiNRoiiJqR6Up4aJ.jpg",
+						"vote_average": 5.4,
+						"vote_count": 32
+				},
+				{
+						"backdrop_path": "/9OYu6oDLIidSOocW3JTGtd2Oyqy.jpg",
+						"first_air_date": "2017-09-25",
+						"genre_ids": [
+								18
+						],
+						"id": 71712,
+						"name": "The Good Doctor",
+						"origin_country": [
+								"US"
+						],
+						"original_language": "en",
+						"original_name": "The Good Doctor",
+						"overview": "Shaun Murphy, a young surgeon with autism and savant syndrome, relocates from a quiet country life to join a prestigious hospital's surgical unit. Unable to personally connect with those around him, Shaun uses his extraordinary medical gifts to save lives and challenge the skepticism of his colleagues.",
+						"popularity": 1028.724,
+						"poster_path": "/cXUqtadGsIcZDWUTrfnbDjAy8eN.jpg",
+						"vote_average": 8.6,
+						"vote_count": 9628
+				},
+				{
+						"backdrop_path": "/e92qfYRVYUL602ztyEoujUtXlS1.jpg",
+						"first_air_date": "2018-09-09",
+						"genre_ids": [
+								9648,
+								80,
+								18
+						],
+						"id": 78191,
+						"name": "You",
+						"origin_country": [
+								"US"
+						],
+						"original_language": "en",
+						"original_name": "You",
+						"overview": "A dangerously charming, intensely obsessive young man goes to extreme measures to insert himself into the lives of those he is transfixed by.",
+						"popularity": 1285.942,
+						"poster_path": "/yxIdKGEjagaLs5kMjw92kAHmopH.jpg",
+						"vote_average": 8.1,
+						"vote_count": 1537
+				},
+				{
+						"backdrop_path": "/ccaZ3yyyC6rcMAQrlLZ51FpahNO.jpg",
+						"first_air_date": "2016-01-25",
+						"genre_ids": [
+								80,
+								10765
+						],
+						"id": 63174,
+						"name": "Lucifer",
+						"origin_country": [
+								"US"
+						],
+						"original_language": "en",
+						"original_name": "Lucifer",
+						"overview": "Bored and unhappy as the Lord of Hell, Lucifer Morningstar abandoned his throne and retired to Los Angeles, where he has teamed up with LAPD detective Chloe Decker to take down criminals. But the longer he's away from the underworld, the greater the threat that the worst of humanity could escape.",
+						"popularity": 1198.237,
+						"poster_path": "/ekZobS8isE6mA53RAiGDG93hBxL.jpg",
+						"vote_average": 8.5,
+						"vote_count": 10827
+				},
+				{
+						"backdrop_path": "/fCgTw8Tpe6R5SyB1UnLad2gPbq4.jpg",
+						"first_air_date": "2021-08-23",
+						"genre_ids": [
+								18,
+								10766,
+								35
+						],
+						"id": 133372,
+						"name": "Meet",
+						"origin_country": [
+								"IN"
+						],
+						"original_language": "hi",
+						"original_name": "मीत",
+						"overview": "Despite her efforts to provide for her family, Meets disregard for societal gender norms and her nonconformist job as a delivery agent make her an unsuitable girl in the eyes of her family.",
+						"popularity": 1417.38,
+						"poster_path": "/9X7FovF5n8NQUHUPJYYfxRlF3yp.jpg",
+						"vote_average": 4.5,
+						"vote_count": 2
+				},
+				{
+						"backdrop_path": "/1HiLMi66dO8Ia7EsPT2D9FwK5tL.jpg",
+						"first_air_date": "2021-09-28",
+						"genre_ids": [
+								18,
+								10765,
+								10759
+						],
+						"id": 128839,
+						"name": "La Brea",
+						"origin_country": [
+								"US"
+						],
+						"original_language": "en",
+						"original_name": "La Brea",
+						"overview": "An epic adventure begins when a massive sinkhole opens in the middle of Los Angeles, pulling hundreds of people and buildings into its depths. Those who fell in find themselves in a mysterious and dangerous primeval land, where they have no choice but to band together to survive. Meanwhile, the rest of the world desperately seeks to understand what happened. In the search for answers, one family torn apart by this disaster will have to unlock the secrets of this inexplicable event to find a way back to each other.",
+						"popularity": 1183.288,
+						"poster_path": "/nsoRsiUEakEO7VMIoa6Jkw4cPHs.jpg",
+						"vote_average": 8,
+						"vote_count": 42
+				},
+				{
+						"backdrop_path": "/bxU79lpl8ZQAVJ72155kqWkuqMu.jpg",
+						"first_air_date": "2019-01-11",
+						"genre_ids": [
+								35,
+								18
+						],
+						"id": 81356,
+						"name": "Sex Education",
+						"origin_country": [
+								"GB"
+						],
+						"original_language": "en",
+						"original_name": "Sex Education",
+						"overview": "Inexperienced Otis channels his sex therapist mom when he teams up with rebellious Maeve to set up an underground sex therapy clinic at school.",
+						"popularity": 1066.76,
+						"poster_path": "/8j12tohv1NBZNmpU93f47sAKBbw.jpg",
+						"vote_average": 8.4,
+						"vote_count": 4976
+				},
+				{
+						"backdrop_path": "/yjsXtps0rw36UB8TomSjI4y4zvR.jpg",
+						"first_air_date": "2021-10-14",
+						"genre_ids": [
+								80,
+								18,
+								9648,
+								10759
+						],
+						"id": 110356,
+						"name": "My Name",
+						"origin_country": [
+								"KR"
+						],
+						"original_language": "ko",
+						"original_name": "마이 네임",
+						"overview": "Following her father's murder, a revenge-driven woman puts her trust in a powerful crime boss — and enters the police force under his direction.",
+						"popularity": 971.897,
+						"poster_path": "/h9p1zxKzti35Aqe6xpwkP9NlG7p.jpg",
+						"vote_average": 8.8,
+						"vote_count": 91
+				},
+				{
+						"backdrop_path": "/uAWB8qOs7L6zGTwxAbeT97AsJk6.jpg",
+						"first_air_date": "2021-09-23",
+						"genre_ids": [
+								10765,
+								18
+						],
+						"id": 93740,
+						"name": "Foundation",
+						"origin_country": [
+								"US"
+						],
+						"original_language": "en",
+						"original_name": "Foundation",
+						"overview": "Follow a band of exiles on their monumental journey to save humanity and rebuild civilization amid the fall of the Galactic Empire.",
+						"popularity": 892.91,
+						"poster_path": "/A1fXGFxDifQzj08OlaGTVcnXHyd.jpg",
+						"vote_average": 8.2,
+						"vote_count": 242
+				},
+				{
+						"backdrop_path": "/wvdWb5kTQipdMDqCclC6Y3zr4j3.jpg",
+						"first_air_date": "2010-10-31",
+						"genre_ids": [
+								10759,
+								18,
+								10765
+						],
+						"id": 1402,
+						"name": "The Walking Dead",
+						"origin_country": [
+								"US"
+						],
+						"original_language": "en",
+						"original_name": "The Walking Dead",
+						"overview": "Sheriff's deputy Rick Grimes awakens from a coma to find a post-apocalyptic world dominated by flesh-eating zombies. He sets out to find his family and encounters many other survivors along the way.",
+						"popularity": 866.214,
+						"poster_path": "/w21lgYIi9GeUH5dO8l3B9ARZbCB.jpg",
+						"vote_average": 8.1,
+						"vote_count": 11910
+				},
+				{
+						"backdrop_path": "/eyG9srihv68ScRdEbJZj66WT4O0.jpg",
+						"first_air_date": "2014-10-07",
+						"genre_ids": [
+								18,
+								10765
+						],
+						"id": 60735,
+						"name": "The Flash",
+						"origin_country": [
+								"US"
+						],
+						"original_language": "en",
+						"original_name": "The Flash",
+						"overview": "After a particle accelerator causes a freak storm, CSI Investigator Barry Allen is struck by lightning and falls into a coma. Months later he awakens with the power of super speed, granting him the ability to move through Central City like an unseen guardian angel. Though initially excited by his newfound powers, Barry is shocked to discover he is not the only \"meta-human\" who was created in the wake of the accelerator explosion -- and not everyone is using their new powers for good. Barry partners with S.T.A.R. Labs and dedicates his life to protect the innocent. For now, only a few close friends and associates know that Barry is literally the fastest man alive, but it won't be long before the world learns what Barry Allen has become...The Flash.",
+						"popularity": 821.138,
+						"poster_path": "/lJA2RCMfsWoskqlQhXPSLFQGXEJ.jpg",
+						"vote_average": 7.8,
+						"vote_count": 8631
+				},
+				{
+						"backdrop_path": "/yF7G00lb3AbCSa8ZPgR8M4nFtFL.jpg",
+						"first_air_date": "2020-09-14",
+						"genre_ids": [],
+						"id": 107602,
+						"name": "5 chefs dans ma cuisine",
+						"origin_country": [
+								"CA"
+						],
+						"original_language": "fr",
+						"original_name": "5 chefs dans ma cuisine",
+						"overview": "",
+						"popularity": 1116.172,
+						"poster_path": "/2UuRWSoLCTohtKOTpKI1lwL5GrD.jpg",
+						"vote_average": 1.5,
+						"vote_count": 4
+				},
+				{
+						"backdrop_path": "/vFMvVG4KyMGwxOi9EB9JeIkLdvj.jpg",
+						"first_air_date": "2021-10-06",
+						"genre_ids": [
+								18
+						],
+						"id": 133086,
+						"name": "The Five Juanas",
+						"origin_country": [
+								"MX"
+						],
+						"original_language": "es",
+						"original_name": "La venganza de las Juanas",
+						"overview": "Five women with the same birthmark set out to unravel the truth about their pasts and discover a tragic web of lies spun by a powerful politician.",
+						"popularity": 733.043,
+						"poster_path": "/iFffOCcrtf5mSoGKd2J31d2b5yg.jpg",
+						"vote_average": 7.4,
+						"vote_count": 74
+				},
+				{
+						"backdrop_path": "/b3YoKUxr9fHNLgWEplNBYCtBy8K.jpg",
+						"first_air_date": "2019-08-16",
+						"genre_ids": [
+								18
+						],
+						"id": 90239,
+						"name": "El Juego de las Llaves",
+						"origin_country": [
+								"MX",
+								"US"
+						],
+						"original_language": "es",
+						"original_name": "El Juego de las Llaves",
+						"overview": "A casual encounter between Adriana and Sergio, two former high school friends, triggers the beginning of the game of the keys where four couples generate new sexual and emotional combinations in a dangerous and lustful game.",
+						"popularity": 735.351,
+						"poster_path": "/9NQybnf78WiXWcxPaf7cyF09bOm.jpg",
+						"vote_average": 7.5,
+						"vote_count": 1399
+				},
+				{
+						"backdrop_path": "/wiE9doxiLwq3WCGamDIOb2PqBqc.jpg",
+						"first_air_date": "2013-09-12",
+						"genre_ids": [
+								80,
+								18
+						],
+						"id": 60574,
+						"name": "Peaky Blinders",
+						"origin_country": [
+								"GB"
+						],
+						"original_language": "en",
+						"original_name": "Peaky Blinders",
+						"overview": "A gangster family epic set in 1919 Birmingham, England and centered on a gang who sew razor blades in the peaks of their caps, and their fierce boss Tommy Shelby, who means to move up in the world.",
+						"popularity": 736.134,
+						"poster_path": "/bGZn5RVzMMXju4ev7xbl1aLdXqq.jpg",
+						"vote_average": 8.6,
+						"vote_count": 4076
+				},
+				{
+						"backdrop_path": "/1vgdmeW6keP47DQ1tGwfVCdUKqu.jpg",
+						"first_air_date": "2020-10-12",
+						"genre_ids": [
+								35
+						],
+						"id": 111551,
+						"name": "Haireta mou ton Platano",
+						"origin_country": [
+								"GR"
+						],
+						"original_language": "el",
+						"original_name": "Χαιρέτα μου τον Πλάτανο",
+						"overview": "The small Greek village of Platanos (Plane Tree) buries the elderly recluse Vangelas and notifies the deceased's estranged children and grandchildren about his death. Vangela's will leaves 3 million euros to his family, but requires them to move to the village and obey certain terms in order to inherit.",
+						"popularity": 1030.019,
+						"poster_path": "/vAu6or1W4G1q7wJxQfDmATtnIg.jpg",
+						"vote_average": 6,
+						"vote_count": 2
+				},
+				{
+						"backdrop_path": "/qZtAf4Z1lazGQoYVXiHOrvLr5lI.jpg",
+						"first_air_date": "2017-01-26",
+						"genre_ids": [
+								9648,
+								18,
+								80
+						],
+						"id": 69050,
+						"name": "Riverdale",
+						"origin_country": [
+								"US"
+						],
+						"original_language": "en",
+						"original_name": "Riverdale",
+						"overview": "Set in the present, the series offers a bold, subversive take on Archie, Betty, Veronica and their friends, exploring the surreality of small-town life, the darkness and weirdness bubbling beneath Riverdale’s wholesome facade.",
+						"popularity": 710.833,
+						"poster_path": "/wRbjVBdDo5qHAEOVYoMWpM58FSA.jpg",
+						"vote_average": 8.6,
+						"vote_count": 12043
+				},
+				{
+						"backdrop_path": "/4N6zEMfZ57zNEQcM8gWeERFupMv.jpg",
+						"first_air_date": "2021-08-11",
+						"genre_ids": [
+								16,
+								10759,
+								10765
+						],
+						"id": 91363,
+						"name": "What If...?",
+						"origin_country": [
+								"US"
+						],
+						"original_language": "en",
+						"original_name": "What If...?",
+						"overview": "Taking inspiration from the comic books of the same name, each episode explores a pivotal moment from the Marvel Cinematic Universe and turns it on its head, leading the audience into uncharted territory.",
+						"popularity": 593.737,
+						"poster_path": "/lztz5XBMG1x6Y5ubz7CxfPFsAcW.jpg",
+						"vote_average": 8.5,
+						"vote_count": 2391
+				}
+		],
+		"total_pages": 500,
+		"total_results": 10000
+	},
+	"discovermovies": {
+    "page": 1,
+    "results": [
+        {
+            "adult": false,
+            "backdrop_path": "/lNyLSOKMMeUPr1RsL4KcRuIXwHt.jpg",
+            "genre_ids": [
+                878,
+                28
+            ],
+            "id": 580489,
+            "original_language": "en",
+            "original_title": "Venom: Let There Be Carnage",
+            "overview": "After finding a host body in investigative reporter Eddie Brock, the alien symbiote must face a new enemy, Carnage, the alter ego of serial killer Cletus Kasady.",
+            "popularity": 7484.462,
+            "poster_path": "/rjkmN1dniUHVYAtwuV3Tji7FsDO.jpg",
+            "release_date": "2021-10-01",
+            "title": "Venom: Let There Be Carnage",
+            "video": false,
+            "vote_average": 7,
+            "vote_count": 1059
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/eeijXm3553xvuFbkPFkDG6CLCbQ.jpg",
+            "genre_ids": [
+                28,
+                12,
+                18,
+                14,
+                878
+            ],
+            "id": 438631,
+            "original_language": "en",
+            "original_title": "Dune",
+            "overview": "Paul Atreides, a brilliant and gifted young man born into a great destiny beyond his understanding, must travel to the most dangerous planet in the universe to ensure the future of his family and his people. As malevolent forces explode into conflict over the planet's exclusive supply of the most precious resource in existence-a commodity capable of unlocking humanity's greatest potential-only those who can conquer their fear will survive.",
+            "popularity": 5449.083,
+            "poster_path": "/d5NXSklXo0qyIYkgV94XAgMIckC.jpg",
+            "release_date": "2021-10-22",
+            "title": "Dune",
+            "video": false,
+            "vote_average": 8.1,
+            "vote_count": 2176
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/2cdrhlf3hvvueGyQDx0u8jpWvQR.jpg",
+            "genre_ids": [
+                27,
+                53
+            ],
+            "id": 610253,
+            "original_language": "en",
+            "original_title": "Halloween Kills",
+            "overview": "Minutes after Laurie Strode, her daughter Karen and granddaughter Allyson left masked monster Michael Myers caged and burning in Laurie's basement, Laurie is rushed to the hospital with life-threatening injuries, believing she finally killed her lifelong tormentor. But when Michael manages to free himself from Laurie's trap, his ritual bloodbath resumes. As Laurie fights her pain and prepares to defend herself against him, she inspires all of Haddonfield to rise up against their unstoppable monster. The Strode women join a group of other survivors of Michael's first rampage who decide to take matters into their own hands, forming a vigilante mob that sets out to hunt Michael down, once and for all.",
+            "popularity": 3799.665,
+            "poster_path": "/qmJGd5IfURq8iPQ9KF3les47vFS.jpg",
+            "release_date": "2021-10-15",
+            "title": "Halloween Kills",
+            "video": false,
+            "vote_average": 7.4,
+            "vote_count": 637
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/8Y43POKjjKDGI9MH89NW0NAzzp8.jpg",
+            "genre_ids": [
+                35,
+                28,
+                12,
+                878
+            ],
+            "id": 550988,
+            "original_language": "en",
+            "original_title": "Free Guy",
+            "overview": "A bank teller called Guy realizes he is a background character in an open world video game called Free City that will soon go offline.",
+            "popularity": 3519.504,
+            "poster_path": "/xmbU4JTUm8rsdtn7Y3Fcm30GpeT.jpg",
+            "release_date": "2021-08-13",
+            "title": "Free Guy",
+            "video": false,
+            "vote_average": 7.8,
+            "vote_count": 3044
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/VuukZLgaCrho2Ar8Scl9HtV3yD.jpg",
+            "genre_ids": [
+                878,
+                28
+            ],
+            "id": 335983,
+            "original_language": "en",
+            "original_title": "Venom",
+            "overview": "Investigative journalist Eddie Brock attempts a comeback following a scandal, but accidentally becomes the host of Venom, a violent, super powerful alien symbiote. Soon, he must rely on his newfound powers to protect the world from a shadowy organization looking for a symbiote of their own.",
+            "popularity": 2162.92,
+            "poster_path": "/2uNW4WbgBXL25BAbXGLnLqX71Sw.jpg",
+            "release_date": "2018-10-05",
+            "title": "Venom",
+            "video": false,
+            "vote_average": 6.8,
+            "vote_count": 11923
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/kTOheVmqSBDIRGrQLv2SiSc89os.jpg",
+            "genre_ids": [
+                16,
+                35,
+                10751
+            ],
+            "id": 639721,
+            "original_language": "en",
+            "original_title": "The Addams Family 2",
+            "overview": "The Addams get tangled up in more wacky adventures and find themselves involved in hilarious run-ins with all sorts of unsuspecting characters.",
+            "popularity": 2118.999,
+            "poster_path": "/xYLBgw7dHyEqmcrSk2Sq3asuSq5.jpg",
+            "release_date": "2021-10-01",
+            "title": "The Addams Family 2",
+            "video": false,
+            "vote_average": 7.5,
+            "vote_count": 385
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/sjeEHzxdDrtMTHQwARi4UJ4NXN7.jpg",
+            "genre_ids": [
+                878,
+                53,
+                9648
+            ],
+            "id": 675319,
+            "original_language": "en",
+            "original_title": "Zone 414",
+            "overview": "In the near future on a colony of state-of-the-art robots, a private investigator is hired by the colony's creator to bring his missing daughter home.",
+            "popularity": 1883.928,
+            "poster_path": "/wIm5S6Blkb0qDMTGVu80VWSrQV1.jpg",
+            "release_date": "2021-09-03",
+            "title": "Zone 414",
+            "video": false,
+            "vote_average": 6,
+            "vote_count": 63
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/aO9Nnv9GdwiPdkNO79TISlQ5bbG.jpg",
+            "genre_ids": [
+                28,
+                12
+            ],
+            "id": 568620,
+            "original_language": "en",
+            "original_title": "Snake Eyes: G.I. Joe Origins",
+            "overview": "After saving the life of their heir apparent, tenacious loner Snake Eyes is welcomed into an ancient Japanese clan called the Arashikage where he is taught the ways of the ninja warrior. But, when secrets from his past are revealed, Snake Eyes' honor and allegiance will be tested – even if that means losing the trust of those closest to him.",
+            "popularity": 1845.224,
+            "poster_path": "/uIXF0sQGXOxQhbaEaKOi2VYlIL0.jpg",
+            "release_date": "2021-07-23",
+            "title": "Snake Eyes: G.I. Joe Origins",
+            "video": false,
+            "vote_average": 6.9,
+            "vote_count": 712
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/owraiceOKtSOa3t8sp3wA9K2Ox6.jpg",
+            "genre_ids": [
+                16,
+                28,
+                12,
+                878
+            ],
+            "id": 703771,
+            "original_language": "en",
+            "original_title": "Deathstroke: Knights & Dragons - The Movie",
+            "overview": "The assassin Deathstroke tries to save his family from the wrath of H.I.V.E. and the murderous Jackal.",
+            "popularity": 1511.572,
+            "poster_path": "/vFIHbiy55smzi50RmF8LQjmpGcx.jpg",
+            "release_date": "2020-08-04",
+            "title": "Deathstroke: Knights & Dragons - The Movie",
+            "video": false,
+            "vote_average": 7,
+            "vote_count": 283
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/ux6gkGSKNFtp2NFYxwYFxVWdnGa.jpg",
+            "genre_ids": [
+                80,
+                18,
+                53
+            ],
+            "id": 874948,
+            "original_language": "tr",
+            "original_title": "Kin",
+            "overview": "Ahead of a promotion, a police chief becomes entangled in a deadly incident and uncovers an intrigue fueled by grudge that threatens his colleagues.",
+            "popularity": 1465.021,
+            "poster_path": "/xSqtHT2DWbWBZ4dUvvMs6z1OfFK.jpg",
+            "release_date": "2021-10-08",
+            "title": "Grudge",
+            "video": false,
+            "vote_average": 6.5,
+            "vote_count": 25
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/4vCh8R4yd6ybOmbxRAPOzaXmLTV.jpg",
+            "genre_ids": [
+                10749,
+                18
+            ],
+            "id": 744275,
+            "original_language": "en",
+            "original_title": "After We Fell",
+            "overview": "Just as Tessa's life begins to become unglued, nothing is what she thought it would be. Not her friends nor her family. The only person that she should be able to rely on is Hardin, who is furious when he discovers the massive secret that she's been keeping. Before Tessa makes the biggest decision of her life, everything changes because of revelations about her family.",
+            "popularity": 1452.437,
+            "poster_path": "/3WfvjNWr5k1Zzww81b3GWc8KQhb.jpg",
+            "release_date": "2021-09-30",
+            "title": "After We Fell",
+            "video": false,
+            "vote_average": 7.8,
+            "vote_count": 420
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/4KpNHvQIjyg1YFovRAoUXoFrGnR.jpg",
+            "genre_ids": [
+                16,
+                12
+            ],
+            "id": 662708,
+            "original_language": "ja",
+            "original_title": "劇場版ポケットモンスター ココ",
+            "overview": "In the Forest of Okoya, Koko is a feral child who has been raised as a Pokémon by the Mythical Pokémon Zarude. Koko has grown up never doubting that he is a Pokémon even though he can't really use any sort of moves. Ash Ketchum and Pikachu meet Koko and help him protect the Great Tree from the crooked scientist Dr. Zed.",
+            "popularity": 1431.415,
+            "poster_path": "/vGcHyV9s1N2I7bJLSBODvqHTYLL.jpg",
+            "release_date": "2021-10-08",
+            "title": "Pokémon the Movie: Secrets of the Jungle",
+            "video": false,
+            "vote_average": 7.5,
+            "vote_count": 51
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/q4h2ZbhHKhnWvrrqzcjT778zlbn.jpg",
+            "genre_ids": [
+                16,
+                878,
+                14,
+                28
+            ],
+            "id": 831405,
+            "original_language": "en",
+            "original_title": "Injustice",
+            "overview": "When Lois Lane is killed, an unhinged Superman decides to take control of the Earth. Determined to stop him, Batman creates a team of freedom-fighting heroes. But when superheroes go to war, can the world survive?",
+            "popularity": 1261.199,
+            "poster_path": "/lNRdCfVcjLs2LhO1Vb5rgnHV4JW.jpg",
+            "release_date": "2021-10-09",
+            "title": "Injustice",
+            "video": false,
+            "vote_average": 8.1,
+            "vote_count": 246
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/dNQTwFmEj1b5SktT8oWGH5Cunlx.jpg",
+            "genre_ids": [
+                28,
+                12,
+                14
+            ],
+            "id": 566525,
+            "original_language": "en",
+            "original_title": "Shang-Chi and the Legend of the Ten Rings",
+            "overview": "Shang-Chi must confront the past he thought he left behind when he is drawn into the web of the mysterious Ten Rings organization.",
+            "popularity": 1194.052,
+            "poster_path": "/1BIoJGKbXjdFDAqUEiA2VHqkK1Z.jpg",
+            "release_date": "2021-09-03",
+            "title": "Shang-Chi and the Legend of the Ten Rings",
+            "video": false,
+            "vote_average": 7.7,
+            "vote_count": 1315
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/jlGmlFOcfo8n5tURmhC7YVd4Iyy.jpg",
+            "genre_ids": [
+                28,
+                12,
+                14
+            ],
+            "id": 436969,
+            "original_language": "en",
+            "original_title": "The Suicide Squad",
+            "overview": "Supervillains Harley Quinn, Bloodsport, Peacemaker and a collection of nutty cons at Belle Reve prison join the super-secret, super-shady Task Force X as they are dropped off at the remote, enemy-infused island of Corto Maltese.",
+            "popularity": 1101.364,
+            "poster_path": "/kb4s0ML0iVZlG6wAKbbs9NAm6X.jpg",
+            "release_date": "2021-08-06",
+            "title": "The Suicide Squad",
+            "video": false,
+            "vote_average": 7.8,
+            "vote_count": 4485
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/akwg1s7hV5ljeSYFfkw7hTHjVqk.jpg",
+            "genre_ids": [
+                16,
+                35,
+                12,
+                10751
+            ],
+            "id": 459151,
+            "original_language": "en",
+            "original_title": "The Boss Baby: Family Business",
+            "overview": "The Templeton brothers — Tim and his Boss Baby little bro Ted — have become adults and drifted away from each other. But a new boss baby with a cutting-edge approach and a can-do attitude is about to bring them together again … and inspire a new family business.",
+            "popularity": 1087.959,
+            "poster_path": "/uWStkK8bq9ixY3fc7y209ZleCoF.jpg",
+            "release_date": "2021-07-02",
+            "title": "The Boss Baby: Family Business",
+            "video": false,
+            "vote_average": 7.7,
+            "vote_count": 1529
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/eBGKU0ZLJmxtVtzESTB1mfllX1J.jpg",
+            "genre_ids": [
+                80,
+                28,
+                53
+            ],
+            "id": 630004,
+            "original_language": "en",
+            "original_title": "The Vault",
+            "overview": "When an engineer learns of a mysterious, impenetrable fortress hidden under The Bank of Spain, he joins a crew of master thieves who plan to steal the legendary lost treasure locked inside while the whole country is distracted by Spain's World Cup Final. With thousands of soccer fans cheering in the streets, and security forces closing in, the crew have just minutes to pull off the score of a lifetime.",
+            "popularity": 1026.196,
+            "poster_path": "/iiHubBBVFg6K7t5THdsImqy1ct2.jpg",
+            "release_date": "2021-03-26",
+            "title": "The Vault",
+            "video": false,
+            "vote_average": 7.1,
+            "vote_count": 334
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/fWjcUTKOKsAPK4VUAzEQW4kN4K6.jpg",
+            "genre_ids": [
+                28,
+                80,
+                53
+            ],
+            "id": 385128,
+            "original_language": "en",
+            "original_title": "F9",
+            "overview": "Dominic Toretto and his crew battle the most skilled assassin and high-performance driver they've ever encountered: his forsaken brother.",
+            "popularity": 997.594,
+            "poster_path": "/bOFaAXmWWXC3Rbv4u4uM9ZSzRXP.jpg",
+            "release_date": "2021-06-25",
+            "title": "F9",
+            "video": false,
+            "vote_average": 7.4,
+            "vote_count": 4145
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/umAoDwLZMBrYeCDfbJYFRMuXWAr.jpg",
+            "genre_ids": [
+                878
+            ],
+            "id": 681887,
+            "original_language": "en",
+            "original_title": "Cosmic Sin",
+            "overview": "In the year 2524, four centuries after humans started colonizing the outer planets, retired General James Ford gets called back into service when a hostile alien fleet attacks soldiers on a remote planet. The threat against mankind soon escalates into an interstellar war as Ford and a team of elite soldiers try to stop the imminent attack before it's too late.",
+            "popularity": 974.468,
+            "poster_path": "/6Wm7P6y22UZA40QuPYHyWyJ6leI.jpg",
+            "release_date": "2021-03-12",
+            "title": "Cosmic Sin",
+            "video": false,
+            "vote_average": 4.5,
+            "vote_count": 346
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/vkIJ2QgcKMJRvi6pBW4Tr2kgLdy.jpg",
+            "genre_ids": [
+                80,
+                53
+            ],
+            "id": 637534,
+            "original_language": "fr",
+            "original_title": "BAC Nord",
+            "overview": "A police brigade working in the dangerous northern neighborhoods of Marseille, where the level of crime is higher than anywhere else in France.",
+            "popularity": 964.312,
+            "poster_path": "/nLanxl7Xhfbd5s8FxPy8jWZw4rv.jpg",
+            "release_date": "2021-09-17",
+            "title": "The Stronghold",
+            "video": false,
+            "vote_average": 7.8,
+            "vote_count": 445
+        }
+    ],
+    "total_pages": 500,
+    "total_results": 10000
+	}
+}
