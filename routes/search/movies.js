@@ -25,7 +25,7 @@ router.get("/", async (req, res, next) => {
         genres: m.genre_ids,
         overview: m.overview,
         popularity: m.popularity,
-        posterPath: IMAGE_URL + m.poster_path,
+        posterPath: m.poster_path ? IMAGE_URL + m.poster_path : undefined,
         releaseDate: m.release_date,
         title: m.title,
         voteAverage: m.vote_average,
