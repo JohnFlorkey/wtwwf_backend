@@ -1,8 +1,11 @@
 const express = require("express");
-const app = express();
+const cors = require("cors");
 const ExpressError = require("./expressError");
 
+const app = express();
+
 app.use(express.json());
+app.use(cors());
 
 const searchMovieRoutes = require("./routes/search/movies");
 
