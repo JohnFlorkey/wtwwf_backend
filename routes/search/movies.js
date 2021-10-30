@@ -6,13 +6,21 @@ const IMAGE_URL = require("../../config");
 
 router.get("/", async (req, res, next) => {
   try {
-    const response = await axios.get("http://localhost:3001/searchmovies");
-
-    if (response.data.results.length > 0) {
-      page = response.data.page;
-      totalPages = response.data.total_pages;
-      totalResults = response.data.total_results;
-      results = response.data.results.map((m) => ({
+    const searchTerm = req.query.title;
+    const requestedPage = req.query.page;
+    const response = await axios.get("http://localhost:3001/searchmovies", {
+      params: { page: requestedPage },
+    });
+    const data = response.data[0];
+    let page = "";
+    let totalPages = "";
+    let totalResults = "";
+    let results = [];
+    if (data.results.length > 0) {
+      page = data.page;
+      totalPages = data.total_pages;
+      totalResults = data.total_results;
+      results = data.results.map((m) => ({
         id: m.id,
         genres: m.genre_ids,
         overview: m.overview,
@@ -24,7 +32,7 @@ router.get("/", async (req, res, next) => {
       }));
     }
 
-    return res.json({ page, totalPages, totalResults, results });
+    return res.json({ page, searchTerm, totalPages, totalResults, results });
   } catch (e) {
     throw new ExpressError("Bad request", 400);
   }
