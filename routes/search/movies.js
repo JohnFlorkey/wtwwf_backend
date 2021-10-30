@@ -2,6 +2,7 @@ const express = require("express");
 const router = new express.Router();
 const axios = require("axios");
 const ExpressError = require("../../expressError");
+const IMAGE_URL = require("../../config");
 
 router.get("/", async (req, res, next) => {
   try {
@@ -16,7 +17,7 @@ router.get("/", async (req, res, next) => {
         genres: m.genre_ids,
         overview: m.overview,
         popularity: m.popularity,
-        posterPath: m.poster_path,
+        posterPath: IMAGE_URL + m.poster_path,
         releaseDate: m.release_date,
         title: m.title,
         voteAverage: m.vote_average,
