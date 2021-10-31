@@ -7,11 +7,15 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-const searchRoutes = require("./routes/search");
 const discoverRoutes = require("./routes/discover");
+const movieRoutes = require("./routes/movies");
+const searchRoutes = require("./routes/search");
+const tvRoutes = require("./routes/tv");
 
 app.use("/discover", discoverRoutes);
+app.use("/movies", movieRoutes);
 app.use("/search", searchRoutes);
+app.use("/tv", tvRoutes);
 
 app.use(function (req, res, next) {
   const err = new ExpressError("Not Found", 404);
