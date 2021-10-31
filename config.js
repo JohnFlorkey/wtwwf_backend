@@ -1,5 +1,5 @@
-const TMDB_IMAGE_URL = "https://image.tmdb.org/t/p";
+const TMDB_IMAGE_BASE_URL = "https://image.tmdb.org/t/p";
 const POSTER_SIZE_PATH = "/w154";
-const IMAGE_URL = TMDB_IMAGE_URL + POSTER_SIZE_PATH;
+const IMAGE_BASE_URL = TMDB_IMAGE_BASE_URL + POSTER_SIZE_PATH;
 
-module.exports = IMAGE_URL;
+module.exports = IMAGE_BASE_URL;

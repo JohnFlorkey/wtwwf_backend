@@ -7,9 +7,9 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-const searchMovieRoutes = require("./routes/search/movies");
+const searchRoutes = require("./routes/search");
 
-app.use("/search/movies", searchMovieRoutes);
+app.use("/search", searchRoutes);
 
 app.use(function (req, res, next) {
   const err = new ExpressError("Not Found", 404);
