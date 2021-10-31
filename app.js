@@ -8,7 +8,9 @@ app.use(express.json());
 app.use(cors());
 
 const searchRoutes = require("./routes/search");
+const discoverRoutes = require("./routes/discover");
 
+app.use("/discover", discoverRoutes);
 app.use("/search", searchRoutes);
 
 app.use(function (req, res, next) {

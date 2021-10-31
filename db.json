@@ -1894,599 +1894,1221 @@
 		}
 	],
 
-	"discovertv": {
-		"page": 1,
-		"results": [
-				{
-						"backdrop_path": "/xAKMj134XHQVNHLC6rWsccLMenG.jpg",
-						"first_air_date": "2021-10-12",
-						"genre_ids": [
-								10765,
-								35,
-								80
-						],
-						"id": 90462,
-						"name": "Chucky",
-						"origin_country": [
-								"US"
-						],
-						"original_language": "en",
-						"original_name": "Chucky",
-						"overview": "After a vintage Chucky doll turns up at a suburban yard sale, an idyllic American town is thrown into chaos as a series of horrifying murders begin to expose the town’s hypocrisies and secrets. Meanwhile, the arrival of enemies — and allies — from Chucky’s past threatens to expose the truth behind the killings, as well as the demon doll’s untold origins.",
-						"popularity": 6336.725,
-						"poster_path": "/iF8ai2QLNiHV4anwY1TuSGZXqfN.jpg",
-						"vote_average": 8,
-						"vote_count": 931
-				},
-				{
-						"backdrop_path": "/qw3J9cNeLioOLoR68WX7z79aCdK.jpg",
-						"first_air_date": "2021-09-17",
-						"genre_ids": [
-								10759,
-								9648,
-								18
-						],
-						"id": 93405,
-						"name": "Squid Game",
-						"origin_country": [
-								"KR"
-						],
-						"original_language": "ko",
-						"original_name": "오징어 게임",
-						"overview": "Hundreds of cash-strapped players accept a strange invitation to compete in children's games—with high stakes. But, a tempting prize awaits the victor.",
-						"popularity": 4310.846,
-						"poster_path": "/dDlEmu3EZ0Pgg93K2SVNLCjCSvE.jpg",
-						"vote_average": 7.8,
-						"vote_count": 8153
-				},
-				{
-						"backdrop_path": "/oC9SgtJTDCEpWnTBtVGoAvjl5hb.jpg",
-						"first_air_date": "2006-09-18",
-						"genre_ids": [
-								10767
-						],
-						"id": 1991,
-						"name": "Rachael Ray",
-						"origin_country": [
-								"US"
-						],
-						"original_language": "en",
-						"original_name": "Rachael Ray",
-						"overview": "Rachael Ray, also known as The Rachael Ray Show, is an American talk show starring Rachael Ray that debuted in syndication in the United States and Canada on September 18, 2006. It is filmed at Chelsea Television Studios in New York City. The show's 8th season premiered on September 9, 2013, and became the last Harpo show in syndication to switch to HD with a revamped studio. In January 2012, CBS Television Distribution announced a two-year renewal for the show, taking it through the 2013–14 season.",
-						"popularity": 2237.508,
-						"poster_path": "/dsAJhCLYX1fiNRoiiJqR6Up4aJ.jpg",
-						"vote_average": 5.4,
-						"vote_count": 32
-				},
-				{
-						"backdrop_path": "/9OYu6oDLIidSOocW3JTGtd2Oyqy.jpg",
-						"first_air_date": "2017-09-25",
-						"genre_ids": [
-								18
-						],
-						"id": 71712,
-						"name": "The Good Doctor",
-						"origin_country": [
-								"US"
-						],
-						"original_language": "en",
-						"original_name": "The Good Doctor",
-						"overview": "Shaun Murphy, a young surgeon with autism and savant syndrome, relocates from a quiet country life to join a prestigious hospital's surgical unit. Unable to personally connect with those around him, Shaun uses his extraordinary medical gifts to save lives and challenge the skepticism of his colleagues.",
-						"popularity": 1028.724,
-						"poster_path": "/cXUqtadGsIcZDWUTrfnbDjAy8eN.jpg",
-						"vote_average": 8.6,
-						"vote_count": 9628
-				},
-				{
-						"backdrop_path": "/e92qfYRVYUL602ztyEoujUtXlS1.jpg",
-						"first_air_date": "2018-09-09",
-						"genre_ids": [
-								9648,
-								80,
-								18
-						],
-						"id": 78191,
-						"name": "You",
-						"origin_country": [
-								"US"
-						],
-						"original_language": "en",
-						"original_name": "You",
-						"overview": "A dangerously charming, intensely obsessive young man goes to extreme measures to insert himself into the lives of those he is transfixed by.",
-						"popularity": 1285.942,
-						"poster_path": "/yxIdKGEjagaLs5kMjw92kAHmopH.jpg",
-						"vote_average": 8.1,
-						"vote_count": 1537
-				},
-				{
-						"backdrop_path": "/ccaZ3yyyC6rcMAQrlLZ51FpahNO.jpg",
-						"first_air_date": "2016-01-25",
-						"genre_ids": [
-								80,
-								10765
-						],
-						"id": 63174,
-						"name": "Lucifer",
-						"origin_country": [
-								"US"
-						],
-						"original_language": "en",
-						"original_name": "Lucifer",
-						"overview": "Bored and unhappy as the Lord of Hell, Lucifer Morningstar abandoned his throne and retired to Los Angeles, where he has teamed up with LAPD detective Chloe Decker to take down criminals. But the longer he's away from the underworld, the greater the threat that the worst of humanity could escape.",
-						"popularity": 1198.237,
-						"poster_path": "/ekZobS8isE6mA53RAiGDG93hBxL.jpg",
-						"vote_average": 8.5,
-						"vote_count": 10827
-				},
-				{
-						"backdrop_path": "/fCgTw8Tpe6R5SyB1UnLad2gPbq4.jpg",
-						"first_air_date": "2021-08-23",
-						"genre_ids": [
-								18,
-								10766,
-								35
-						],
-						"id": 133372,
-						"name": "Meet",
-						"origin_country": [
-								"IN"
-						],
-						"original_language": "hi",
-						"original_name": "मीत",
-						"overview": "Despite her efforts to provide for her family, Meets disregard for societal gender norms and her nonconformist job as a delivery agent make her an unsuitable girl in the eyes of her family.",
-						"popularity": 1417.38,
-						"poster_path": "/9X7FovF5n8NQUHUPJYYfxRlF3yp.jpg",
-						"vote_average": 4.5,
-						"vote_count": 2
-				},
-				{
-						"backdrop_path": "/1HiLMi66dO8Ia7EsPT2D9FwK5tL.jpg",
-						"first_air_date": "2021-09-28",
-						"genre_ids": [
-								18,
-								10765,
-								10759
-						],
-						"id": 128839,
-						"name": "La Brea",
-						"origin_country": [
-								"US"
-						],
-						"original_language": "en",
-						"original_name": "La Brea",
-						"overview": "An epic adventure begins when a massive sinkhole opens in the middle of Los Angeles, pulling hundreds of people and buildings into its depths. Those who fell in find themselves in a mysterious and dangerous primeval land, where they have no choice but to band together to survive. Meanwhile, the rest of the world desperately seeks to understand what happened. In the search for answers, one family torn apart by this disaster will have to unlock the secrets of this inexplicable event to find a way back to each other.",
-						"popularity": 1183.288,
-						"poster_path": "/nsoRsiUEakEO7VMIoa6Jkw4cPHs.jpg",
-						"vote_average": 8,
-						"vote_count": 42
-				},
-				{
-						"backdrop_path": "/bxU79lpl8ZQAVJ72155kqWkuqMu.jpg",
-						"first_air_date": "2019-01-11",
-						"genre_ids": [
-								35,
-								18
-						],
-						"id": 81356,
-						"name": "Sex Education",
-						"origin_country": [
-								"GB"
-						],
-						"original_language": "en",
-						"original_name": "Sex Education",
-						"overview": "Inexperienced Otis channels his sex therapist mom when he teams up with rebellious Maeve to set up an underground sex therapy clinic at school.",
-						"popularity": 1066.76,
-						"poster_path": "/8j12tohv1NBZNmpU93f47sAKBbw.jpg",
-						"vote_average": 8.4,
-						"vote_count": 4976
-				},
-				{
-						"backdrop_path": "/yjsXtps0rw36UB8TomSjI4y4zvR.jpg",
-						"first_air_date": "2021-10-14",
-						"genre_ids": [
-								80,
-								18,
-								9648,
-								10759
-						],
-						"id": 110356,
-						"name": "My Name",
-						"origin_country": [
-								"KR"
-						],
-						"original_language": "ko",
-						"original_name": "마이 네임",
-						"overview": "Following her father's murder, a revenge-driven woman puts her trust in a powerful crime boss — and enters the police force under his direction.",
-						"popularity": 971.897,
-						"poster_path": "/h9p1zxKzti35Aqe6xpwkP9NlG7p.jpg",
-						"vote_average": 8.8,
-						"vote_count": 91
-				},
-				{
-						"backdrop_path": "/uAWB8qOs7L6zGTwxAbeT97AsJk6.jpg",
-						"first_air_date": "2021-09-23",
-						"genre_ids": [
-								10765,
-								18
-						],
-						"id": 93740,
-						"name": "Foundation",
-						"origin_country": [
-								"US"
-						],
-						"original_language": "en",
-						"original_name": "Foundation",
-						"overview": "Follow a band of exiles on their monumental journey to save humanity and rebuild civilization amid the fall of the Galactic Empire.",
-						"popularity": 892.91,
-						"poster_path": "/A1fXGFxDifQzj08OlaGTVcnXHyd.jpg",
-						"vote_average": 8.2,
-						"vote_count": 242
-				},
-				{
-						"backdrop_path": "/wvdWb5kTQipdMDqCclC6Y3zr4j3.jpg",
-						"first_air_date": "2010-10-31",
-						"genre_ids": [
-								10759,
-								18,
-								10765
-						],
-						"id": 1402,
-						"name": "The Walking Dead",
-						"origin_country": [
-								"US"
-						],
-						"original_language": "en",
-						"original_name": "The Walking Dead",
-						"overview": "Sheriff's deputy Rick Grimes awakens from a coma to find a post-apocalyptic world dominated by flesh-eating zombies. He sets out to find his family and encounters many other survivors along the way.",
-						"popularity": 866.214,
-						"poster_path": "/w21lgYIi9GeUH5dO8l3B9ARZbCB.jpg",
-						"vote_average": 8.1,
-						"vote_count": 11910
-				},
-				{
-						"backdrop_path": "/eyG9srihv68ScRdEbJZj66WT4O0.jpg",
-						"first_air_date": "2014-10-07",
-						"genre_ids": [
-								18,
-								10765
-						],
-						"id": 60735,
-						"name": "The Flash",
-						"origin_country": [
-								"US"
-						],
-						"original_language": "en",
-						"original_name": "The Flash",
-						"overview": "After a particle accelerator causes a freak storm, CSI Investigator Barry Allen is struck by lightning and falls into a coma. Months later he awakens with the power of super speed, granting him the ability to move through Central City like an unseen guardian angel. Though initially excited by his newfound powers, Barry is shocked to discover he is not the only \"meta-human\" who was created in the wake of the accelerator explosion -- and not everyone is using their new powers for good. Barry partners with S.T.A.R. Labs and dedicates his life to protect the innocent. For now, only a few close friends and associates know that Barry is literally the fastest man alive, but it won't be long before the world learns what Barry Allen has become...The Flash.",
-						"popularity": 821.138,
-						"poster_path": "/lJA2RCMfsWoskqlQhXPSLFQGXEJ.jpg",
-						"vote_average": 7.8,
-						"vote_count": 8631
-				},
-				{
-						"backdrop_path": "/yF7G00lb3AbCSa8ZPgR8M4nFtFL.jpg",
-						"first_air_date": "2020-09-14",
-						"genre_ids": [],
-						"id": 107602,
-						"name": "5 chefs dans ma cuisine",
-						"origin_country": [
-								"CA"
-						],
-						"original_language": "fr",
-						"original_name": "5 chefs dans ma cuisine",
-						"overview": "",
-						"popularity": 1116.172,
-						"poster_path": "/2UuRWSoLCTohtKOTpKI1lwL5GrD.jpg",
-						"vote_average": 1.5,
-						"vote_count": 4
-				},
-				{
-						"backdrop_path": "/vFMvVG4KyMGwxOi9EB9JeIkLdvj.jpg",
-						"first_air_date": "2021-10-06",
-						"genre_ids": [
-								18
-						],
-						"id": 133086,
-						"name": "The Five Juanas",
-						"origin_country": [
-								"MX"
-						],
-						"original_language": "es",
-						"original_name": "La venganza de las Juanas",
-						"overview": "Five women with the same birthmark set out to unravel the truth about their pasts and discover a tragic web of lies spun by a powerful politician.",
-						"popularity": 733.043,
-						"poster_path": "/iFffOCcrtf5mSoGKd2J31d2b5yg.jpg",
-						"vote_average": 7.4,
-						"vote_count": 74
-				},
-				{
-						"backdrop_path": "/b3YoKUxr9fHNLgWEplNBYCtBy8K.jpg",
-						"first_air_date": "2019-08-16",
-						"genre_ids": [
-								18
-						],
-						"id": 90239,
-						"name": "El Juego de las Llaves",
-						"origin_country": [
-								"MX",
-								"US"
-						],
-						"original_language": "es",
-						"original_name": "El Juego de las Llaves",
-						"overview": "A casual encounter between Adriana and Sergio, two former high school friends, triggers the beginning of the game of the keys where four couples generate new sexual and emotional combinations in a dangerous and lustful game.",
-						"popularity": 735.351,
-						"poster_path": "/9NQybnf78WiXWcxPaf7cyF09bOm.jpg",
-						"vote_average": 7.5,
-						"vote_count": 1399
-				},
-				{
-						"backdrop_path": "/wiE9doxiLwq3WCGamDIOb2PqBqc.jpg",
-						"first_air_date": "2013-09-12",
-						"genre_ids": [
-								80,
-								18
-						],
-						"id": 60574,
-						"name": "Peaky Blinders",
-						"origin_country": [
-								"GB"
-						],
-						"original_language": "en",
-						"original_name": "Peaky Blinders",
-						"overview": "A gangster family epic set in 1919 Birmingham, England and centered on a gang who sew razor blades in the peaks of their caps, and their fierce boss Tommy Shelby, who means to move up in the world.",
-						"popularity": 736.134,
-						"poster_path": "/bGZn5RVzMMXju4ev7xbl1aLdXqq.jpg",
-						"vote_average": 8.6,
-						"vote_count": 4076
-				},
-				{
-						"backdrop_path": "/1vgdmeW6keP47DQ1tGwfVCdUKqu.jpg",
-						"first_air_date": "2020-10-12",
-						"genre_ids": [
-								35
-						],
-						"id": 111551,
-						"name": "Haireta mou ton Platano",
-						"origin_country": [
-								"GR"
-						],
-						"original_language": "el",
-						"original_name": "Χαιρέτα μου τον Πλάτανο",
-						"overview": "The small Greek village of Platanos (Plane Tree) buries the elderly recluse Vangelas and notifies the deceased's estranged children and grandchildren about his death. Vangela's will leaves 3 million euros to his family, but requires them to move to the village and obey certain terms in order to inherit.",
-						"popularity": 1030.019,
-						"poster_path": "/vAu6or1W4G1q7wJxQfDmATtnIg.jpg",
-						"vote_average": 6,
-						"vote_count": 2
-				},
-				{
-						"backdrop_path": "/qZtAf4Z1lazGQoYVXiHOrvLr5lI.jpg",
-						"first_air_date": "2017-01-26",
-						"genre_ids": [
-								9648,
-								18,
-								80
-						],
-						"id": 69050,
-						"name": "Riverdale",
-						"origin_country": [
-								"US"
-						],
-						"original_language": "en",
-						"original_name": "Riverdale",
-						"overview": "Set in the present, the series offers a bold, subversive take on Archie, Betty, Veronica and their friends, exploring the surreality of small-town life, the darkness and weirdness bubbling beneath Riverdale’s wholesome facade.",
-						"popularity": 710.833,
-						"poster_path": "/wRbjVBdDo5qHAEOVYoMWpM58FSA.jpg",
-						"vote_average": 8.6,
-						"vote_count": 12043
-				},
-				{
-						"backdrop_path": "/4N6zEMfZ57zNEQcM8gWeERFupMv.jpg",
-						"first_air_date": "2021-08-11",
-						"genre_ids": [
-								16,
-								10759,
-								10765
-						],
-						"id": 91363,
-						"name": "What If...?",
-						"origin_country": [
-								"US"
-						],
-						"original_language": "en",
-						"original_name": "What If...?",
-						"overview": "Taking inspiration from the comic books of the same name, each episode explores a pivotal moment from the Marvel Cinematic Universe and turns it on its head, leading the audience into uncharted territory.",
-						"popularity": 593.737,
-						"poster_path": "/lztz5XBMG1x6Y5ubz7CxfPFsAcW.jpg",
-						"vote_average": 8.5,
-						"vote_count": 2391
-				}
-		],
-		"total_pages": 500,
-		"total_results": 10000
+	"discovertv": [
+		{
+			"page": 1,
+			"results": [
+					{
+							"backdrop_path": "/xAKMj134XHQVNHLC6rWsccLMenG.jpg",
+							"first_air_date": "2021-10-12",
+							"genre_ids": [
+									10765,
+									35,
+									80
+							],
+							"id": 90462,
+							"name": "Chucky",
+							"origin_country": [
+									"US"
+							],
+							"original_language": "en",
+							"original_name": "Chucky",
+							"overview": "After a vintage Chucky doll turns up at a suburban yard sale, an idyllic American town is thrown into chaos as a series of horrifying murders begin to expose the town’s hypocrisies and secrets. Meanwhile, the arrival of enemies — and allies — from Chucky’s past threatens to expose the truth behind the killings, as well as the demon doll’s untold origins.",
+							"popularity": 5864.448,
+							"poster_path": "/iF8ai2QLNiHV4anwY1TuSGZXqfN.jpg",
+							"vote_average": 8,
+							"vote_count": 1322
+					},
+					{
+							"backdrop_path": "/qw3J9cNeLioOLoR68WX7z79aCdK.jpg",
+							"first_air_date": "2021-09-17",
+							"genre_ids": [
+									10759,
+									9648,
+									18
+							],
+							"id": 93405,
+							"name": "Squid Game",
+							"origin_country": [
+									"KR"
+							],
+							"original_language": "ko",
+							"original_name": "오징어 게임",
+							"overview": "Hundreds of cash-strapped players accept a strange invitation to compete in children's games—with high stakes. But, a tempting prize awaits the victor.",
+							"popularity": 3496.593,
+							"poster_path": "/dDlEmu3EZ0Pgg93K2SVNLCjCSvE.jpg",
+							"vote_average": 7.8,
+							"vote_count": 8373
+					},
+					{
+							"backdrop_path": "/oC9SgtJTDCEpWnTBtVGoAvjl5hb.jpg",
+							"first_air_date": "2006-09-18",
+							"genre_ids": [
+									10767
+							],
+							"id": 1991,
+							"name": "Rachael Ray",
+							"origin_country": [
+									"US"
+							],
+							"original_language": "en",
+							"original_name": "Rachael Ray",
+							"overview": "Rachael Ray, also known as The Rachael Ray Show, is an American talk show starring Rachael Ray that debuted in syndication in the United States and Canada on September 18, 2006. It is filmed at Chelsea Television Studios in New York City. The show's 8th season premiered on September 9, 2013, and became the last Harpo show in syndication to switch to HD with a revamped studio. In January 2012, CBS Television Distribution announced a two-year renewal for the show, taking it through the 2013–14 season.",
+							"popularity": 1140.155,
+							"poster_path": "/dsAJhCLYX1fiNRoiiJqR6Up4aJ.jpg",
+							"vote_average": 5.4,
+							"vote_count": 33
+					},
+					{
+							"backdrop_path": "/uAWB8qOs7L6zGTwxAbeT97AsJk6.jpg",
+							"first_air_date": "2021-09-23",
+							"genre_ids": [
+									10765,
+									18
+							],
+							"id": 93740,
+							"name": "Foundation",
+							"origin_country": [
+									"US"
+							],
+							"original_language": "en",
+							"original_name": "Foundation",
+							"overview": "Follow a band of exiles on their monumental journey to save humanity and rebuild civilization amid the fall of the Galactic Empire.",
+							"popularity": 1114.347,
+							"poster_path": "/A1fXGFxDifQzj08OlaGTVcnXHyd.jpg",
+							"vote_average": 8.2,
+							"vote_count": 261
+					},
+					{
+							"backdrop_path": "/ccaZ3yyyC6rcMAQrlLZ51FpahNO.jpg",
+							"first_air_date": "2016-01-25",
+							"genre_ids": [
+									80,
+									10765
+							],
+							"id": 63174,
+							"name": "Lucifer",
+							"origin_country": [
+									"US"
+							],
+							"original_language": "en",
+							"original_name": "Lucifer",
+							"overview": "Bored and unhappy as the Lord of Hell, Lucifer Morningstar abandoned his throne and retired to Los Angeles, where he has teamed up with LAPD detective Chloe Decker to take down criminals. But the longer he's away from the underworld, the greater the threat that the worst of humanity could escape.",
+							"popularity": 1094.313,
+							"poster_path": "/ekZobS8isE6mA53RAiGDG93hBxL.jpg",
+							"vote_average": 8.5,
+							"vote_count": 10867
+					},
+					{
+							"backdrop_path": "/9IsGcpX1p0iU3eRpiTFrWkg5qqj.jpg",
+							"first_air_date": "2021-10-21",
+							"genre_ids": [
+									10765,
+									18
+							],
+							"id": 127235,
+							"name": "Invasion",
+							"origin_country": [
+									"US"
+							],
+							"original_language": "en",
+							"original_name": "Invasion",
+							"overview": "Earth is visited by an alien species that threatens humanity’s existence. Events unfold in real time through the eyes of five ordinary people across the globe as they struggle to make sense of the chaos unraveling around them.",
+							"popularity": 979.765,
+							"poster_path": "/7rpiHZx10Nm50AtzTUEO9eyaKdq.jpg",
+							"vote_average": 7.9,
+							"vote_count": 61
+					},
+					{
+							"backdrop_path": "/9OYu6oDLIidSOocW3JTGtd2Oyqy.jpg",
+							"first_air_date": "2017-09-25",
+							"genre_ids": [
+									18
+							],
+							"id": 71712,
+							"name": "The Good Doctor",
+							"origin_country": [
+									"US"
+							],
+							"original_language": "en",
+							"original_name": "The Good Doctor",
+							"overview": "Shaun Murphy, a young surgeon with autism and savant syndrome, relocates from a quiet country life to join a prestigious hospital's surgical unit. Unable to personally connect with those around him, Shaun uses his extraordinary medical gifts to save lives and challenge the skepticism of his colleagues.",
+							"popularity": 906.687,
+							"poster_path": "/cXUqtadGsIcZDWUTrfnbDjAy8eN.jpg",
+							"vote_average": 8.6,
+							"vote_count": 9659
+					},
+					{
+							"backdrop_path": "/bxU79lpl8ZQAVJ72155kqWkuqMu.jpg",
+							"first_air_date": "2019-01-11",
+							"genre_ids": [
+									35,
+									18
+							],
+							"id": 81356,
+							"name": "Sex Education",
+							"origin_country": [
+									"GB"
+							],
+							"original_language": "en",
+							"original_name": "Sex Education",
+							"overview": "Inexperienced Otis channels his sex therapist mom when he teams up with rebellious Maeve to set up an underground sex therapy clinic at school.",
+							"popularity": 895.722,
+							"poster_path": "/8j12tohv1NBZNmpU93f47sAKBbw.jpg",
+							"vote_average": 8.4,
+							"vote_count": 5002
+					},
+					{
+							"backdrop_path": "/e92qfYRVYUL602ztyEoujUtXlS1.jpg",
+							"first_air_date": "2018-09-09",
+							"genre_ids": [
+									9648,
+									80,
+									18
+							],
+							"id": 78191,
+							"name": "You",
+							"origin_country": [
+									"US"
+							],
+							"original_language": "en",
+							"original_name": "You",
+							"overview": "A dangerously charming, intensely obsessive young man goes to extreme measures to insert himself into the lives of those he is transfixed by.",
+							"popularity": 884.549,
+							"poster_path": "/yxIdKGEjagaLs5kMjw92kAHmopH.jpg",
+							"vote_average": 8.1,
+							"vote_count": 1584
+					},
+					{
+							"backdrop_path": "/fCgTw8Tpe6R5SyB1UnLad2gPbq4.jpg",
+							"first_air_date": "2021-08-23",
+							"genre_ids": [
+									18,
+									10766
+							],
+							"id": 133372,
+							"name": "Meet",
+							"origin_country": [
+									"IN"
+							],
+							"original_language": "hi",
+							"original_name": "मीत",
+							"overview": "A remake of Zee Sarthak’s Sindura Bindu.\n\nDespite her efforts to provide for her family, Meets disregard for societal gender norms and her nonconformist job as a delivery agent make her an unsuitable girl in the eyes of her family.",
+							"popularity": 836.201,
+							"poster_path": "/9X7FovF5n8NQUHUPJYYfxRlF3yp.jpg",
+							"vote_average": 4.5,
+							"vote_count": 2
+					},
+					{
+							"backdrop_path": "/wiE9doxiLwq3WCGamDIOb2PqBqc.jpg",
+							"first_air_date": "2013-09-12",
+							"genre_ids": [
+									80,
+									18
+							],
+							"id": 60574,
+							"name": "Peaky Blinders",
+							"origin_country": [
+									"GB"
+							],
+							"original_language": "en",
+							"original_name": "Peaky Blinders",
+							"overview": "A gangster family epic set in 1919 Birmingham, England and centered on a gang who sew razor blades in the peaks of their caps, and their fierce boss Tommy Shelby, who means to move up in the world.",
+							"popularity": 746.475,
+							"poster_path": "/bGZn5RVzMMXju4ev7xbl1aLdXqq.jpg",
+							"vote_average": 8.6,
+							"vote_count": 4130
+					},
+					{
+							"backdrop_path": "/wvdWb5kTQipdMDqCclC6Y3zr4j3.jpg",
+							"first_air_date": "2010-10-31",
+							"genre_ids": [
+									10759,
+									18,
+									10765
+							],
+							"id": 1402,
+							"name": "The Walking Dead",
+							"origin_country": [
+									"US"
+							],
+							"original_language": "en",
+							"original_name": "The Walking Dead",
+							"overview": "Sheriff's deputy Rick Grimes awakens from a coma to find a post-apocalyptic world dominated by flesh-eating zombies. He sets out to find his family and encounters many other survivors along the way.",
+							"popularity": 726.932,
+							"poster_path": "/w21lgYIi9GeUH5dO8l3B9ARZbCB.jpg",
+							"vote_average": 8.1,
+							"vote_count": 11934
+					},
+					{
+							"backdrop_path": "/1HiLMi66dO8Ia7EsPT2D9FwK5tL.jpg",
+							"first_air_date": "2021-09-28",
+							"genre_ids": [
+									18,
+									10765,
+									10759
+							],
+							"id": 128839,
+							"name": "La Brea",
+							"origin_country": [
+									"US"
+							],
+							"original_language": "en",
+							"original_name": "La Brea",
+							"overview": "An epic adventure begins when a massive sinkhole opens in the middle of Los Angeles, pulling hundreds of people and buildings into its depths. Those who fell in find themselves in a mysterious and dangerous primeval land, where they have no choice but to band together to survive. Meanwhile, the rest of the world desperately seeks to understand what happened. In the search for answers, one family torn apart by this disaster will have to unlock the secrets of this inexplicable event to find a way back to each other.",
+							"popularity": 705.439,
+							"poster_path": "/nsoRsiUEakEO7VMIoa6Jkw4cPHs.jpg",
+							"vote_average": 7.9,
+							"vote_count": 52
+					},
+					{
+							"backdrop_path": "/eyG9srihv68ScRdEbJZj66WT4O0.jpg",
+							"first_air_date": "2014-10-07",
+							"genre_ids": [
+									18,
+									10765
+							],
+							"id": 60735,
+							"name": "The Flash",
+							"origin_country": [
+									"US"
+							],
+							"original_language": "en",
+							"original_name": "The Flash",
+							"overview": "After a particle accelerator causes a freak storm, CSI Investigator Barry Allen is struck by lightning and falls into a coma. Months later he awakens with the power of super speed, granting him the ability to move through Central City like an unseen guardian angel. Though initially excited by his newfound powers, Barry is shocked to discover he is not the only \"meta-human\" who was created in the wake of the accelerator explosion -- and not everyone is using their new powers for good. Barry partners with S.T.A.R. Labs and dedicates his life to protect the innocent. For now, only a few close friends and associates know that Barry is literally the fastest man alive, but it won't be long before the world learns what Barry Allen has become...The Flash.",
+							"popularity": 698.499,
+							"poster_path": "/lJA2RCMfsWoskqlQhXPSLFQGXEJ.jpg",
+							"vote_average": 7.8,
+							"vote_count": 8659
+					},
+					{
+							"backdrop_path": null,
+							"first_air_date": "1972-09-04",
+							"genre_ids": [],
+							"id": 2051,
+							"name": "The Price Is Right",
+							"origin_country": [
+									"US"
+							],
+							"original_language": "en",
+							"original_name": "The Price Is Right",
+							"overview": "\"Come on down!\" The Price Is Right features a wide variety of games and contests with the same basic challenge: Guess the prices of everyday (or not-quite-everyday) retail items. ",
+							"popularity": 695.408,
+							"poster_path": "/6m4uYFAJwkanZXd0n0HUQ0lYHLl.jpg",
+							"vote_average": 6.7,
+							"vote_count": 33
+					},
+					{
+							"backdrop_path": "/4LZuFMhLivOSO7zuWAQ3RffMnnr.jpg",
+							"first_air_date": "2021-10-15",
+							"genre_ids": [
+									80,
+									18,
+									9648,
+									10759
+							],
+							"id": 110356,
+							"name": "My Name",
+							"origin_country": [
+									"KR"
+							],
+							"original_language": "ko",
+							"original_name": "마이 네임",
+							"overview": "Following her father's murder, a revenge-driven woman puts her trust in a powerful crime boss — and enters the police force under his direction.",
+							"popularity": 683.406,
+							"poster_path": "/h9p1zxKzti35Aqe6xpwkP9NlG7p.jpg",
+							"vote_average": 8.5,
+							"vote_count": 126
+					},
+					{
+							"backdrop_path": "/zrMCOQnzIgGyBtGCdMPom9bOw0r.jpg",
+							"first_air_date": "2015-08-23",
+							"genre_ids": [
+									10759,
+									18
+							],
+							"id": 62286,
+							"name": "Fear the Walking Dead",
+							"origin_country": [
+									"US"
+							],
+							"original_language": "en",
+							"original_name": "Fear the Walking Dead",
+							"overview": "What did the world look like as it was transforming into the horrifying apocalypse depicted in \"The Walking Dead\"? This spin-off set in Los Angeles, following new characters as they face the beginning of the end of the world, will answer that question.",
+							"popularity": 683.36,
+							"poster_path": "/upmd11A2ZaZEG1j6wRGdD4B5cxs.jpg",
+							"vote_average": 7.7,
+							"vote_count": 3855
+					},
+					{
+							"backdrop_path": "/vQi00V5qQ5gEJiql9GjWWzDKwdu.jpg",
+							"first_air_date": "2021-10-15",
+							"genre_ids": [
+									10759,
+									10765
+							],
+							"id": 129897,
+							"name": "Day of the Dead",
+							"origin_country": [],
+							"original_language": "en",
+							"original_name": "Day of the Dead",
+							"overview": "A group of strangers try to survive the first 24 hours of an undead invasion. This ode to George A. Romero’s famous flesh-eaters reminds us that sometimes all it takes to bring people together is a horde of hungry zombies trying to rip them apart.",
+							"popularity": 650.736,
+							"poster_path": "/iBeWa2Ds2uCjTOlMikiBqETsS2X.jpg",
+							"vote_average": 7.5,
+							"vote_count": 10
+					},
+					{
+							"backdrop_path": "/gIApbx2ffXVhJb2D4tiEx2b06nl.jpg",
+							"first_air_date": "2005-03-27",
+							"genre_ids": [
+									18
+							],
+							"id": 1416,
+							"name": "Grey's Anatomy",
+							"origin_country": [
+									"US"
+							],
+							"original_language": "en",
+							"original_name": "Grey's Anatomy",
+							"overview": "Follows the personal and professional lives of a group of doctors at Seattle’s Grey Sloan Memorial Hospital.",
+							"popularity": 640.216,
+							"poster_path": "/zPIug5giU8oug6Xes5K1sTfQJxY.jpg",
+							"vote_average": 8.2,
+							"vote_count": 6907
+					},
+					{
+							"backdrop_path": "/qZtAf4Z1lazGQoYVXiHOrvLr5lI.jpg",
+							"first_air_date": "2017-01-26",
+							"genre_ids": [
+									9648,
+									18,
+									80
+							],
+							"id": 69050,
+							"name": "Riverdale",
+							"origin_country": [
+									"US"
+							],
+							"original_language": "en",
+							"original_name": "Riverdale",
+							"overview": "Set in the present, the series offers a bold, subversive take on Archie, Betty, Veronica and their friends, exploring the surreality of small-town life, the darkness and weirdness bubbling beneath Riverdale’s wholesome facade.",
+							"popularity": 620.448,
+							"poster_path": "/wRbjVBdDo5qHAEOVYoMWpM58FSA.jpg",
+							"vote_average": 8.6,
+							"vote_count": 12059
+					}
+			],
+			"total_pages": 500,
+			"total_results": 10000
 	},
-	"discovermovies": {
-    "page": 1,
+	{
+    "page": 2,
     "results": [
         {
-            "adult": false,
-            "backdrop_path": "/lNyLSOKMMeUPr1RsL4KcRuIXwHt.jpg",
+            "backdrop_path": "/b3YoKUxr9fHNLgWEplNBYCtBy8K.jpg",
+            "first_air_date": "2019-08-16",
             "genre_ids": [
-                878,
-                28
+                18
             ],
-            "id": 580489,
-            "original_language": "en",
-            "original_title": "Venom: Let There Be Carnage",
-            "overview": "After finding a host body in investigative reporter Eddie Brock, the alien symbiote must face a new enemy, Carnage, the alter ego of serial killer Cletus Kasady.",
-            "popularity": 7484.462,
-            "poster_path": "/rjkmN1dniUHVYAtwuV3Tji7FsDO.jpg",
-            "release_date": "2021-10-01",
-            "title": "Venom: Let There Be Carnage",
-            "video": false,
-            "vote_average": 7,
-            "vote_count": 1059
+            "id": 90239,
+            "name": "El Juego de las Llaves",
+            "origin_country": [
+                "MX",
+                "US"
+            ],
+            "original_language": "es",
+            "original_name": "El Juego de las Llaves",
+            "overview": "A casual encounter between Adriana and Sergio, two former high school friends, triggers the beginning of the game of the keys where four couples generate new sexual and emotional combinations in a dangerous and lustful game.",
+            "popularity": 575.944,
+            "poster_path": "/9NQybnf78WiXWcxPaf7cyF09bOm.jpg",
+            "vote_average": 7.5,
+            "vote_count": 1410
         },
         {
-            "adult": false,
-            "backdrop_path": "/eeijXm3553xvuFbkPFkDG6CLCbQ.jpg",
+            "backdrop_path": "/yF7G00lb3AbCSa8ZPgR8M4nFtFL.jpg",
+            "first_air_date": "2020-09-14",
+            "genre_ids": [],
+            "id": 107602,
+            "name": "5 chefs dans ma cuisine",
+            "origin_country": [
+                "CA"
+            ],
+            "original_language": "fr",
+            "original_name": "5 chefs dans ma cuisine",
+            "overview": "",
+            "popularity": 565.505,
+            "poster_path": "/2UuRWSoLCTohtKOTpKI1lwL5GrD.jpg",
+            "vote_average": 1.5,
+            "vote_count": 4
+        },
+        {
+            "backdrop_path": "/suopoADq0k8YZr4dQXcU6pToj6s.jpg",
+            "first_air_date": "2011-04-17",
             "genre_ids": [
-                28,
-                12,
+                10765,
                 18,
-                14,
-                878
+                10759
             ],
-            "id": 438631,
+            "id": 1399,
+            "name": "Game of Thrones",
+            "origin_country": [
+                "US"
+            ],
             "original_language": "en",
-            "original_title": "Dune",
-            "overview": "Paul Atreides, a brilliant and gifted young man born into a great destiny beyond his understanding, must travel to the most dangerous planet in the universe to ensure the future of his family and his people. As malevolent forces explode into conflict over the planet's exclusive supply of the most precious resource in existence-a commodity capable of unlocking humanity's greatest potential-only those who can conquer their fear will survive.",
-            "popularity": 5449.083,
-            "poster_path": "/d5NXSklXo0qyIYkgV94XAgMIckC.jpg",
-            "release_date": "2021-10-22",
-            "title": "Dune",
-            "video": false,
-            "vote_average": 8.1,
-            "vote_count": 2176
+            "original_name": "Game of Thrones",
+            "overview": "Seven noble families fight for control of the mythical land of Westeros. Friction between the houses leads to full-scale war. All while a very ancient evil awakens in the farthest north. Amidst the war, a neglected military order of misfits, the Night's Watch, is all that stands between the realms of men and icy horrors beyond.",
+            "popularity": 560.85,
+            "poster_path": "/u3bZgnGQ9T01sWNhyveQz0wH0Hl.jpg",
+            "vote_average": 8.4,
+            "vote_count": 16162
         },
         {
-            "adult": false,
-            "backdrop_path": "/2cdrhlf3hvvueGyQDx0u8jpWvQR.jpg",
+            "backdrop_path": "/1vgdmeW6keP47DQ1tGwfVCdUKqu.jpg",
+            "first_air_date": "2020-10-12",
             "genre_ids": [
-                27,
-                53
+                35
             ],
-            "id": 610253,
+            "id": 111551,
+            "name": "Haireta mou ton Platano",
+            "origin_country": [
+                "GR"
+            ],
+            "original_language": "el",
+            "original_name": "Χαιρέτα μου τον Πλάτανο",
+            "overview": "The small Greek village of Platanos (Plane Tree) buries the elderly recluse Vangelas and notifies the deceased's estranged children and grandchildren about his death. Vangela's will leaves 3 million euros to his family, but requires them to move to the village and obey certain terms in order to inherit.",
+            "popularity": 552.816,
+            "poster_path": "/vAu6or1W4G1q7wJxQfDmATtnIg.jpg",
+            "vote_average": 6,
+            "vote_count": 2
+        },
+        {
+            "backdrop_path": "/6ygiUWflbmz5p2LFc3COVHriQzK.jpg",
+            "first_air_date": "2019-07-25",
+            "genre_ids": [
+                10765,
+                18
+            ],
+            "id": 79130,
+            "name": "Another Life",
+            "origin_country": [
+                "US"
+            ],
             "original_language": "en",
-            "original_title": "Halloween Kills",
-            "overview": "Minutes after Laurie Strode, her daughter Karen and granddaughter Allyson left masked monster Michael Myers caged and burning in Laurie's basement, Laurie is rushed to the hospital with life-threatening injuries, believing she finally killed her lifelong tormentor. But when Michael manages to free himself from Laurie's trap, his ritual bloodbath resumes. As Laurie fights her pain and prepares to defend herself against him, she inspires all of Haddonfield to rise up against their unstoppable monster. The Strode women join a group of other survivors of Michael's first rampage who decide to take matters into their own hands, forming a vigilante mob that sets out to hunt Michael down, once and for all.",
-            "popularity": 3799.665,
-            "poster_path": "/qmJGd5IfURq8iPQ9KF3les47vFS.jpg",
-            "release_date": "2021-10-15",
-            "title": "Halloween Kills",
-            "video": false,
+            "original_name": "Another Life",
+            "overview": "After a massive alien artifact lands on Earth, Niko Breckinridge leads an interstellar mission to track down its source and make first contact.",
+            "popularity": 542.966,
+            "poster_path": "/htazQ0cPoloL5SJ2bqOCKh9UTcc.jpg",
+            "vote_average": 5.8,
+            "vote_count": 146
+        },
+        {
+            "backdrop_path": "/evOGWG3fqgjIpsAKJaVF7d6of1K.jpg",
+            "first_air_date": "1989-12-17",
+            "genre_ids": [
+                10751,
+                16,
+                35
+            ],
+            "id": 456,
+            "name": "The Simpsons",
+            "origin_country": [
+                "US"
+            ],
+            "original_language": "en",
+            "original_name": "The Simpsons",
+            "overview": "Set in Springfield, the average American town, the show focuses on the antics and everyday adventures of the Simpson family; Homer, Marge, Bart, Lisa and Maggie, as well as a virtual cast of thousands. Since the beginning, the series has been a pop culture icon, attracting hundreds of celebrities to guest star. The show has also made name for itself in its fearless satirical take on politics, media and American life in general.",
+            "popularity": 542.804,
+            "poster_path": "/tubgEpjTUA7t0kejVMBsNBZDarZ.jpg",
+            "vote_average": 7.9,
+            "vote_count": 7204
+        },
+        {
+            "backdrop_path": "/vFMvVG4KyMGwxOi9EB9JeIkLdvj.jpg",
+            "first_air_date": "2021-10-06",
+            "genre_ids": [
+                18
+            ],
+            "id": 133086,
+            "name": "The Five Juanas",
+            "origin_country": [
+                "MX"
+            ],
+            "original_language": "es",
+            "original_name": "La venganza de las Juanas",
+            "overview": "Five women with the same birthmark set out to unravel the truth about their pasts and discover a tragic web of lies spun by a powerful politician.",
+            "popularity": 535.238,
+            "poster_path": "/iFffOCcrtf5mSoGKd2J31d2b5yg.jpg",
             "vote_average": 7.4,
-            "vote_count": 637
+            "vote_count": 95
         },
         {
-            "adult": false,
-            "backdrop_path": "/8Y43POKjjKDGI9MH89NW0NAzzp8.jpg",
+            "backdrop_path": "/gFZriCkpJYsApPZEF3jhxL4yLzG.jpg",
+            "first_air_date": "2017-05-02",
             "genre_ids": [
-                35,
-                28,
-                12,
-                878
+                80,
+                18
             ],
-            "id": 550988,
-            "original_language": "en",
-            "original_title": "Free Guy",
-            "overview": "A bank teller called Guy realizes he is a background character in an open world video game called Free City that will soon go offline.",
-            "popularity": 3519.504,
-            "poster_path": "/xmbU4JTUm8rsdtn7Y3Fcm30GpeT.jpg",
-            "release_date": "2021-08-13",
-            "title": "Free Guy",
-            "video": false,
-            "vote_average": 7.8,
-            "vote_count": 3044
+            "id": 71446,
+            "name": "Money Heist",
+            "origin_country": [
+                "ES"
+            ],
+            "original_language": "es",
+            "original_name": "La Casa de Papel",
+            "overview": "To carry out the biggest heist in history, a mysterious man called The Professor recruits a band of eight robbers who have a single characteristic: none of them has anything to lose. Five months of seclusion - memorizing every step, every detail, every probability - culminate in eleven days locked up in the National Coinage and Stamp Factory of Spain, surrounded by police forces and with dozens of hostages in their power, to find out whether their suicide wager will lead to everything or nothing.",
+            "popularity": 533.941,
+            "poster_path": "/reEMJA1uzscCbkpeRJeTT2bjqUp.jpg",
+            "vote_average": 8.3,
+            "vote_count": 14814
         },
         {
-            "adult": false,
-            "backdrop_path": "/VuukZLgaCrho2Ar8Scl9HtV3yD.jpg",
+            "backdrop_path": "/pLn4lsSBtGUY1whHyCoEJhgziaP.jpg",
+            "first_air_date": "1984-09-10",
+            "genre_ids": [],
+            "id": 2912,
+            "name": "Jeopardy!",
+            "origin_country": [
+                "US"
+            ],
+            "original_language": "en",
+            "original_name": "Jeopardy!",
+            "overview": "America's favorite quiz show where contestants are presented with general knowledge clues in the form of answers, and must phrase their responses in question form.",
+            "popularity": 516.357,
+            "poster_path": "/11rWvQOEZBouD7wet0sWHwu7NDs.jpg",
+            "vote_average": 7,
+            "vote_count": 79
+        },
+        {
+            "backdrop_path": "/w1liUsngqb5lBUyKHU0sMV9FDAb.jpg",
+            "first_air_date": "",
             "genre_ids": [
-                878,
-                28
+                10764
             ],
-            "id": 335983,
-            "original_language": "en",
-            "original_title": "Venom",
-            "overview": "Investigative journalist Eddie Brock attempts a comeback following a scandal, but accidentally becomes the host of Venom, a violent, super powerful alien symbiote. Soon, he must rely on his newfound powers to protect the world from a shadowy organization looking for a symbiote of their own.",
-            "popularity": 2162.92,
-            "poster_path": "/2uNW4WbgBXL25BAbXGLnLqX71Sw.jpg",
-            "release_date": "2018-10-05",
-            "title": "Venom",
-            "video": false,
-            "vote_average": 6.8,
-            "vote_count": 11923
+            "id": 100128,
+            "name": "Big Brother",
+            "origin_country": [
+                "PT"
+            ],
+            "original_language": "pt",
+            "original_name": "Big Brother",
+            "overview": "Portuguese version of the reality competition which follows a group of HouseGuests living together 24 hours a day in the \"Big Brother\" house, isolated from the outside world but under constant surveillance with no privacy.",
+            "popularity": 493.006,
+            "poster_path": "/9Gkcvdz89Q7w0glDDga1c8m5vaW.jpg",
+            "vote_average": 2.6,
+            "vote_count": 10
         },
         {
-            "adult": false,
-            "backdrop_path": "/kTOheVmqSBDIRGrQLv2SiSc89os.jpg",
+            "backdrop_path": "/qyDlF1U1yayXIUniECmGA1oBwZy.jpg",
+            "first_air_date": "2011-06-23",
+            "genre_ids": [
+                18
+            ],
+            "id": 37680,
+            "name": "Suits",
+            "origin_country": [
+                "US"
+            ],
+            "original_language": "en",
+            "original_name": "Suits",
+            "overview": "While running from a drug deal gone bad, Mike Ross, a brilliant young college-dropout, slips into a job interview with one of New York City's best legal closers, Harvey Specter. Tired of cookie-cutter law school grads, Harvey takes a gamble by hiring Mike on the spot after he recognizes his raw talent and photographic memory.",
+            "popularity": 492.944,
+            "poster_path": "/vQiryp6LioFxQThywxbC6TuoDjy.jpg",
+            "vote_average": 8.1,
+            "vote_count": 2623
+        },
+        {
+            "backdrop_path": "/bZGAX8oMDm3Mo5i0ZPKh9G2OcaO.jpg",
+            "first_air_date": "2021-06-09",
+            "genre_ids": [
+                18,
+                10765
+            ],
+            "id": 84958,
+            "name": "Loki",
+            "origin_country": [
+                "US"
+            ],
+            "original_language": "en",
+            "original_name": "Loki",
+            "overview": "After stealing the Tesseract during the events of “Avengers: Endgame,” an alternate version of Loki is brought to the mysterious Time Variance Authority, a bureaucratic organization that exists outside of time and space and monitors the timeline. They give Loki a choice: face being erased from existence due to being a “time variant” or help fix the timeline and stop a greater threat.",
+            "popularity": 483.228,
+            "poster_path": "/kEl2t3OhXc3Zb9FBh1AuYzRTgZp.jpg",
+            "vote_average": 8.2,
+            "vote_count": 7975
+        },
+        {
+            "backdrop_path": "/4N6zEMfZ57zNEQcM8gWeERFupMv.jpg",
+            "first_air_date": "2021-08-11",
             "genre_ids": [
                 16,
-                35,
+                10759,
+                10765
+            ],
+            "id": 91363,
+            "name": "What If...?",
+            "origin_country": [
+                "US"
+            ],
+            "original_language": "en",
+            "original_name": "What If...?",
+            "overview": "Taking inspiration from the comic books of the same name, each episode explores a pivotal moment from the Marvel Cinematic Universe and turns it on its head, leading the audience into uncharted territory.",
+            "popularity": 476.927,
+            "poster_path": "/lztz5XBMG1x6Y5ubz7CxfPFsAcW.jpg",
+            "vote_average": 8.5,
+            "vote_count": 2419
+        },
+        {
+            "backdrop_path": "/pkOSjcllDSs4WP9i8DGkw9VgF5Q.jpg",
+            "first_air_date": "2015-07-06",
+            "genre_ids": [
+                10764,
                 10751
             ],
-            "id": 639721,
-            "original_language": "en",
-            "original_title": "The Addams Family 2",
-            "overview": "The Addams get tangled up in more wacky adventures and find themselves involved in hilarious run-ins with all sorts of unsuspecting characters.",
-            "popularity": 2118.999,
-            "poster_path": "/xYLBgw7dHyEqmcrSk2Sq3asuSq5.jpg",
-            "release_date": "2021-10-01",
-            "title": "The Addams Family 2",
-            "video": false,
-            "vote_average": 7.5,
-            "vote_count": 385
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/sjeEHzxdDrtMTHQwARi4UJ4NXN7.jpg",
-            "genre_ids": [
-                878,
-                53,
-                9648
+            "id": 63452,
+            "name": "Wer weiß denn sowas?",
+            "origin_country": [
+                "DE"
             ],
-            "id": 675319,
-            "original_language": "en",
-            "original_title": "Zone 414",
-            "overview": "In the near future on a colony of state-of-the-art robots, a private investigator is hired by the colony's creator to bring his missing daughter home.",
-            "popularity": 1883.928,
-            "poster_path": "/wIm5S6Blkb0qDMTGVu80VWSrQV1.jpg",
-            "release_date": "2021-09-03",
-            "title": "Zone 414",
-            "video": false,
-            "vote_average": 6,
-            "vote_count": 63
+            "original_language": "de",
+            "original_name": "Wer weiß denn sowas?",
+            "overview": "",
+            "popularity": 474.223,
+            "poster_path": "/abKjah96esLWObidBcWmvKJv61E.jpg",
+            "vote_average": 7.6,
+            "vote_count": 5
         },
         {
-            "adult": false,
-            "backdrop_path": "/aO9Nnv9GdwiPdkNO79TISlQ5bbG.jpg",
+            "backdrop_path": "/yv5oliNUwu82JT1XUbz1WSKm18E.jpg",
+            "first_air_date": "2021-10-01",
             "genre_ids": [
-                28,
-                12
+                18
             ],
-            "id": 568620,
+            "id": 111141,
+            "name": "Maid",
+            "origin_country": [
+                "US"
+            ],
             "original_language": "en",
-            "original_title": "Snake Eyes: G.I. Joe Origins",
-            "overview": "After saving the life of their heir apparent, tenacious loner Snake Eyes is welcomed into an ancient Japanese clan called the Arashikage where he is taught the ways of the ninja warrior. But, when secrets from his past are revealed, Snake Eyes' honor and allegiance will be tested – even if that means losing the trust of those closest to him.",
-            "popularity": 1845.224,
-            "poster_path": "/uIXF0sQGXOxQhbaEaKOi2VYlIL0.jpg",
-            "release_date": "2021-07-23",
-            "title": "Snake Eyes: G.I. Joe Origins",
-            "video": false,
-            "vote_average": 6.9,
-            "vote_count": 712
+            "original_name": "Maid",
+            "overview": "After fleeing an abusive relationship, a young mother finds a job cleaning houses and fights to provide a better future for her child.",
+            "popularity": 447.258,
+            "poster_path": "/4brWcSXdH31BZUTtRTHj2BYFe6M.jpg",
+            "vote_average": 7.9,
+            "vote_count": 172
         },
         {
-            "adult": false,
-            "backdrop_path": "/owraiceOKtSOa3t8sp3wA9K2Ox6.jpg",
+            "backdrop_path": "/fRYwdeNjMqC30EhofPx5PlDpdun.jpg",
+            "first_air_date": "2018-10-25",
+            "genre_ids": [
+                10765,
+                18
+            ],
+            "id": 79460,
+            "name": "Legacies",
+            "origin_country": [
+                "US"
+            ],
+            "original_language": "en",
+            "original_name": "Legacies",
+            "overview": "In a place where young witches, vampires, and werewolves are nurtured to be their best selves in spite of their worst impulses, Klaus Mikaelson’s daughter, 17-year-old Hope Mikaelson, Alaric Saltzman’s twins, Lizzie and Josie Saltzman, among others, come of age into heroes and villains at The Salvatore School for the Young and Gifted.",
+            "popularity": 446.008,
+            "poster_path": "/mwJ3OxbliRwCvceSJvAzPiFu4WZ.jpg",
+            "vote_average": 8.5,
+            "vote_count": 2190
+        },
+        {
+            "backdrop_path": "/yfXSvNfF43S0cxpxCEKaU17yZ64.jpg",
+            "first_air_date": "1983-09-19",
+            "genre_ids": [
+                10751
+            ],
+            "id": 2778,
+            "name": "Wheel of Fortune",
+            "origin_country": [
+                "US"
+            ],
+            "original_language": "en",
+            "original_name": "Wheel of Fortune",
+            "overview": "This game show sees contestants solve word puzzles, similar to those used in Hangman, to win cash and prizes determined by spinning a giant carnival wheel.",
+            "popularity": 442.006,
+            "poster_path": "/2fvAIyVfFHQdhJ7OsJWuMlF7836.jpg",
+            "vote_average": 7.3,
+            "vote_count": 26
+        },
+        {
+            "backdrop_path": "/7DE67DzAlZmCOm1OYnAL7gV1B8w.jpg",
+            "first_air_date": "2013-12-02",
             "genre_ids": [
                 16,
-                28,
-                12,
-                878
+                35,
+                10765,
+                10759
             ],
-            "id": 703771,
+            "id": 60625,
+            "name": "Rick and Morty",
+            "origin_country": [
+                "US"
+            ],
             "original_language": "en",
-            "original_title": "Deathstroke: Knights & Dragons - The Movie",
-            "overview": "The assassin Deathstroke tries to save his family from the wrath of H.I.V.E. and the murderous Jackal.",
-            "popularity": 1511.572,
-            "poster_path": "/vFIHbiy55smzi50RmF8LQjmpGcx.jpg",
-            "release_date": "2020-08-04",
-            "title": "Deathstroke: Knights & Dragons - The Movie",
-            "video": false,
-            "vote_average": 7,
-            "vote_count": 283
+            "original_name": "Rick and Morty",
+            "overview": "Rick is a mentally-unbalanced but scientifically gifted old man who has recently reconnected with his family. He spends most of his time involving his young grandson Morty in dangerous, outlandish adventures throughout space and alternate universes. Compounded with Morty's already unstable family life, these events cause Morty much distress at home and school.",
+            "popularity": 441.403,
+            "poster_path": "/8kOWDBK6XlPUzckuHDo3wwVRFwt.jpg",
+            "vote_average": 8.8,
+            "vote_count": 5677
         },
+        {
+            "backdrop_path": "/9RqliZcoDEjSEISeA0LY9meAiNv.jpg",
+            "first_air_date": "2015-10-19",
+            "genre_ids": [
+                10759,
+                16,
+                10762
+            ],
+            "id": 65334,
+            "name": "Miraculous: Tales of Ladybug & Cat Noir",
+            "origin_country": [
+                "FR"
+            ],
+            "original_language": "fr",
+            "original_name": "Miraculous, les aventures de Ladybug et Chat Noir",
+            "overview": "Normal high school kids by day, protectors of Paris by night! Miraculous follows the heroic adventures of Marinette and Adrien as they transform into Ladybug and Cat Noir and set out to capture akumas, creatures responsible for turning the people of Paris into villains. But neither hero knows the other’s true identity – or that they’re classmates!",
+            "popularity": 424.876,
+            "poster_path": "/qxbW47zmgFyBVmZSIqD9NA1DEjT.jpg",
+            "vote_average": 8,
+            "vote_count": 3206
+        },
+        {
+            "backdrop_path": "/pnyT1foDmmXTsho2DfxN2ePI8ix.jpg",
+            "first_air_date": "2018-06-12",
+            "genre_ids": [
+                18
+            ],
+            "id": 80240,
+            "name": "The Queen of Flow",
+            "origin_country": [
+                "CO"
+            ],
+            "original_language": "es",
+            "original_name": "La Reina del Flow",
+            "overview": "After spending seventeen years in prison unfairly, a talented songwriter seeks revenge on the men who sank her and killed her family.",
+            "popularity": 418.641,
+            "poster_path": "/fuVuDYrs8sxvEolnYr0wCSvtyTi.jpg",
+            "vote_average": 8,
+            "vote_count": 1116
+        }
+    ],
+    "total_pages": 500,
+    "total_results": 10000
+}
+	],
+	"discovermovies": [
+		{
+			"page": 1,
+			"results": [
+					{
+							"adult": false,
+							"backdrop_path": "/lNyLSOKMMeUPr1RsL4KcRuIXwHt.jpg",
+							"genre_ids": [
+									878,
+									28
+							],
+							"id": 580489,
+							"original_language": "en",
+							"original_title": "Venom: Let There Be Carnage",
+							"overview": "After finding a host body in investigative reporter Eddie Brock, the alien symbiote must face a new enemy, Carnage, the alter ego of serial killer Cletus Kasady.",
+							"popularity": 6178.157,
+							"poster_path": "/rjkmN1dniUHVYAtwuV3Tji7FsDO.jpg",
+							"release_date": "2021-09-30",
+							"title": "Venom: Let There Be Carnage",
+							"video": false,
+							"vote_average": 6.9,
+							"vote_count": 1318
+					},
+					{
+							"adult": false,
+							"backdrop_path": "/eeijXm3553xvuFbkPFkDG6CLCbQ.jpg",
+							"genre_ids": [
+									28,
+									12,
+									18,
+									878
+							],
+							"id": 438631,
+							"original_language": "en",
+							"original_title": "Dune",
+							"overview": "Paul Atreides, a brilliant and gifted young man born into a great destiny beyond his understanding, must travel to the most dangerous planet in the universe to ensure the future of his family and his people. As malevolent forces explode into conflict over the planet's exclusive supply of the most precious resource in existence-a commodity capable of unlocking humanity's greatest potential-only those who can conquer their fear will survive.",
+							"popularity": 5774.184,
+							"poster_path": "/d5NXSklXo0qyIYkgV94XAgMIckC.jpg",
+							"release_date": "2021-09-15",
+							"title": "Dune",
+							"video": false,
+							"vote_average": 8,
+							"vote_count": 2971
+					},
+					{
+							"adult": false,
+							"backdrop_path": "/8Y43POKjjKDGI9MH89NW0NAzzp8.jpg",
+							"genre_ids": [
+									35,
+									28,
+									12,
+									878
+							],
+							"id": 550988,
+							"original_language": "en",
+							"original_title": "Free Guy",
+							"overview": "A bank teller called Guy realizes he is a background character in an open world video game called Free City that will soon go offline.",
+							"popularity": 2505.007,
+							"poster_path": "/xmbU4JTUm8rsdtn7Y3Fcm30GpeT.jpg",
+							"release_date": "2021-08-11",
+							"title": "Free Guy",
+							"video": false,
+							"vote_average": 7.8,
+							"vote_count": 3237
+					},
+					{
+							"adult": false,
+							"backdrop_path": "/fuuZFPc8x6gQ8mLGoBp9vrmcQMT.jpg",
+							"genre_ids": [
+									27,
+									53
+							],
+							"id": 610253,
+							"original_language": "en",
+							"original_title": "Halloween Kills",
+							"overview": "Minutes after Laurie Strode, her daughter Karen and granddaughter Allyson left masked monster Michael Myers caged and burning in Laurie's basement, Laurie is rushed to the hospital with life-threatening injuries, believing she finally killed her lifelong tormentor. But when Michael manages to free himself from Laurie's trap, his ritual bloodbath resumes. As Laurie fights her pain and prepares to defend herself against him, she inspires all of Haddonfield to rise up against their unstoppable monster. The Strode women join a group of other survivors of Michael's first rampage who decide to take matters into their own hands, forming a vigilante mob that sets out to hunt Michael down, once and for all.",
+							"popularity": 2280.624,
+							"poster_path": "/ir9eyz1mtgsohjvo7UYtqUfFuES.jpg",
+							"release_date": "2021-10-14",
+							"title": "Halloween Kills",
+							"video": false,
+							"vote_average": 7.2,
+							"vote_count": 877
+					},
+					{
+							"adult": false,
+							"backdrop_path": "/aO9Nnv9GdwiPdkNO79TISlQ5bbG.jpg",
+							"genre_ids": [
+									28,
+									12
+							],
+							"id": 568620,
+							"original_language": "en",
+							"original_title": "Snake Eyes: G.I. Joe Origins",
+							"overview": "After saving the life of their heir apparent, tenacious loner Snake Eyes is welcomed into an ancient Japanese clan called the Arashikage where he is taught the ways of the ninja warrior. But, when secrets from his past are revealed, Snake Eyes' honor and allegiance will be tested – even if that means losing the trust of those closest to him.",
+							"popularity": 1996.449,
+							"poster_path": "/uIXF0sQGXOxQhbaEaKOi2VYlIL0.jpg",
+							"release_date": "2021-07-22",
+							"title": "Snake Eyes: G.I. Joe Origins",
+							"video": false,
+							"vote_average": 6.9,
+							"vote_count": 749
+					},
+					{
+							"adult": false,
+							"backdrop_path": "/eBGKU0ZLJmxtVtzESTB1mfllX1J.jpg",
+							"genre_ids": [
+									80,
+									28,
+									53
+							],
+							"id": 630004,
+							"original_language": "en",
+							"original_title": "The Vault",
+							"overview": "When an engineer learns of a mysterious, impenetrable fortress hidden under The Bank of Spain, he joins a crew of master thieves who plan to steal the legendary lost treasure locked inside while the whole country is distracted by Spain's World Cup Final. With thousands of soccer fans cheering in the streets, and security forces closing in, the crew have just minutes to pull off the score of a lifetime.",
+							"popularity": 1859.624,
+							"poster_path": "/kWhXubAiIcHW0xn5GThflqaKZqh.jpg",
+							"release_date": "2021-03-03",
+							"title": "The Vault",
+							"video": false,
+							"vote_average": 7,
+							"vote_count": 363
+					},
+					{
+							"adult": false,
+							"backdrop_path": "/wfrfxivLOBtGMC98tIr2LSOeKSe.jpg",
+							"genre_ids": [
+									16,
+									35,
+									10751
+							],
+							"id": 639721,
+							"original_language": "en",
+							"original_title": "The Addams Family 2",
+							"overview": "The Addams get tangled up in more wacky adventures and find themselves involved in hilarious run-ins with all sorts of unsuspecting characters.",
+							"popularity": 1769.988,
+							"poster_path": "/ld7YB9vBRp1GM1DT3KmFWSmtBPB.jpg",
+							"release_date": "2021-10-01",
+							"title": "The Addams Family 2",
+							"video": false,
+							"vote_average": 7.6,
+							"vote_count": 463
+					},
+					{
+							"adult": false,
+							"backdrop_path": "/VuukZLgaCrho2Ar8Scl9HtV3yD.jpg",
+							"genre_ids": [
+									878,
+									28
+							],
+							"id": 335983,
+							"original_language": "en",
+							"original_title": "Venom",
+							"overview": "Investigative journalist Eddie Brock attempts a comeback following a scandal, but accidentally becomes the host of Venom, a violent, super powerful alien symbiote. Soon, he must rely on his newfound powers to protect the world from a shadowy organization looking for a symbiote of their own.",
+							"popularity": 1659.551,
+							"poster_path": "/2uNW4WbgBXL25BAbXGLnLqX71Sw.jpg",
+							"release_date": "2018-09-28",
+							"title": "Venom",
+							"video": false,
+							"vote_average": 6.8,
+							"vote_count": 12014
+					},
+					{
+							"adult": false,
+							"backdrop_path": "/4O40vu2KOgnFfxvrZgzBG6havQ.jpg",
+							"genre_ids": [
+									28,
+									80,
+									53
+							],
+							"id": 645788,
+							"original_language": "en",
+							"original_title": "The Protégé",
+							"overview": "Rescued as a child by the legendary assassin Moody and trained in the family business, Anna is the world’s most skilled contract killer. When Moody, the man who was like a father to her and taught her everything she needs to know about trust and survival, is brutally killed, Anna vows revenge. As she becomes entangled with an enigmatic killer whose attraction to her goes way beyond cat and mouse, their confrontation turns deadly and the loose ends of a life spent killing will weave themselves ever tighter.",
+							"popularity": 1571.187,
+							"poster_path": "/o9FY8N5c8CXf22q8s4CmRRjAQJx.jpg",
+							"release_date": "2021-08-19",
+							"title": "The Protégé",
+							"video": false,
+							"vote_average": 6.8,
+							"vote_count": 298
+					},
+					{
+							"adult": false,
+							"backdrop_path": "/sjeEHzxdDrtMTHQwARi4UJ4NXN7.jpg",
+							"genre_ids": [
+									878,
+									53,
+									9648
+							],
+							"id": 675319,
+							"original_language": "en",
+							"original_title": "Zone 414",
+							"overview": "In the near future on a colony of state-of-the-art robots, a private investigator is hired by the colony's creator to bring his missing daughter home.",
+							"popularity": 1188.531,
+							"poster_path": "/wIm5S6Blkb0qDMTGVu80VWSrQV1.jpg",
+							"release_date": "2021-09-03",
+							"title": "Zone 414",
+							"video": false,
+							"vote_average": 5.9,
+							"vote_count": 74
+					},
+					{
+							"adult": false,
+							"backdrop_path": "/7h5WAPAcUzOWpp2jrwHBB48790j.jpg",
+							"genre_ids": [
+									16,
+									28
+							],
+							"id": 843241,
+							"original_language": "ja",
+							"original_title": "劇場版 七つの大罪 光に呪われし者たち",
+							"overview": "With the help of the \"Dragon Sin of Wrath\" Meliodas and the worst rebels in history, the Seven Deadly Sins, the \"Holy War\", in which four races, including Humans, Goddesses, Fairies and Giants fought against the Demons, is finally over. At the cost of the \"Lion Sin of Pride\" Escanor's life, the Demon King was defeated and the world regained peace. After that, each of the Sins take their own path.",
+							"popularity": 1160.78,
+							"poster_path": "/k0ThmZQl5nHe4JefC2bXjqtgYp0.jpg",
+							"release_date": "2021-07-02",
+							"title": "The Seven Deadly Sins: Cursed by Light",
+							"video": false,
+							"vote_average": 8.4,
+							"vote_count": 199
+					},
+					{
+							"adult": false,
+							"backdrop_path": "/owraiceOKtSOa3t8sp3wA9K2Ox6.jpg",
+							"genre_ids": [
+									16,
+									28,
+									12,
+									878
+							],
+							"id": 703771,
+							"original_language": "en",
+							"original_title": "Deathstroke: Knights & Dragons - The Movie",
+							"overview": "The assassin Deathstroke tries to save his family from the wrath of H.I.V.E. and the murderous Jackal.",
+							"popularity": 1104.824,
+							"poster_path": "/vFIHbiy55smzi50RmF8LQjmpGcx.jpg",
+							"release_date": "2020-08-04",
+							"title": "Deathstroke: Knights & Dragons - The Movie",
+							"video": false,
+							"vote_average": 6.9,
+							"vote_count": 287
+					},
+					{
+							"adult": false,
+							"backdrop_path": "/cinER0ESG0eJ49kXlExM0MEWGxW.jpg",
+							"genre_ids": [
+									28,
+									12,
+									14
+							],
+							"id": 566525,
+							"original_language": "en",
+							"original_title": "Shang-Chi and the Legend of the Ten Rings",
+							"overview": "Shang-Chi must confront the past he thought he left behind when he is drawn into the web of the mysterious Ten Rings organization.",
+							"popularity": 1093.288,
+							"poster_path": "/1BIoJGKbXjdFDAqUEiA2VHqkK1Z.jpg",
+							"release_date": "2021-09-01",
+							"title": "Shang-Chi and the Legend of the Ten Rings",
+							"video": false,
+							"vote_average": 7.7,
+							"vote_count": 1358
+					},
+					{
+							"adult": false,
+							"backdrop_path": "/akwg1s7hV5ljeSYFfkw7hTHjVqk.jpg",
+							"genre_ids": [
+									16,
+									35,
+									12,
+									10751
+							],
+							"id": 459151,
+							"original_language": "en",
+							"original_title": "The Boss Baby: Family Business",
+							"overview": "The Templeton brothers — Tim and his Boss Baby little bro Ted — have become adults and drifted away from each other. But a new boss baby with a cutting-edge approach and a can-do attitude is about to bring them together again … and inspire a new family business.",
+							"popularity": 1065.615,
+							"poster_path": "/kv2Qk9MKFFQo4WQPaYta599HkJP.jpg",
+							"release_date": "2021-07-01",
+							"title": "The Boss Baby: Family Business",
+							"video": false,
+							"vote_average": 7.7,
+							"vote_count": 1556
+					},
+					{
+							"adult": false,
+							"backdrop_path": "/dIibeeq4QMay5bTJ2vjr72IFFRo.jpg",
+							"genre_ids": [
+									14,
+									12,
+									35
+							],
+							"id": 589754,
+							"original_language": "ru",
+							"original_title": "Последний богатырь: Корень зла",
+							"overview": "Peace and tranquility have set in Belogorie. The evil was defeated and Ivan is now enjoying his well-deserved fame. He is surrounded by his family, friends and small wonders from the modern world that help him lead a comfortable life. Luckily, he has his Magic Sword to cut a gap between the worlds to get some supplies quite regularly. But when an ancient evil rises and the existence of the magic world is put to danger, Ivan has to team up with his old friends and his new rivals. They will set out on a long journey beyond the known world to find a way to defeat the enemies and to return peace to Belogorie.",
+							"popularity": 1050.825,
+							"poster_path": "/5VJSIAhSn4qUsg5nOj4MhQhF5wQ.jpg",
+							"release_date": "2021-01-01",
+							"title": "The Last Warrior: Root of Evil",
+							"video": false,
+							"vote_average": 7.2,
+							"vote_count": 61
+					},
+					{
+							"adult": false,
+							"backdrop_path": "/5UmoOvOmnCHiJj3TAKVn7uNAKAW.jpg",
+							"genre_ids": [
+									28,
+									35,
+									12
+							],
+							"id": 772436,
+							"original_language": "es",
+							"original_title": "Matando Cabos 2: La Máscara del Máscara",
+							"overview": "Faced with the unexpected death of his estranged father -El Máscara- and the subsequent theft of his precious mask, Rubén -Mascarita- will find himself confronted with his past. Alongside his invincible bodyguard Tony \"The Cannibal\" and, an unexpected ally, he will have only one day to recover it and make amends with the memory of his father.",
+							"popularity": 1037.9,
+							"poster_path": "/jxdKa1467pktAILLbfw6kZyQlbW.jpg",
+							"release_date": "2021-10-01",
+							"title": "Matando Cabos 2: La Máscara del Máscara",
+							"video": false,
+							"vote_average": 8.1,
+							"vote_count": 51
+					},
+					{
+							"adult": false,
+							"backdrop_path": "/4vCh8R4yd6ybOmbxRAPOzaXmLTV.jpg",
+							"genre_ids": [
+									10749,
+									18
+							],
+							"id": 744275,
+							"original_language": "en",
+							"original_title": "After We Fell",
+							"overview": "Just as Tessa's life begins to become unglued, nothing is what she thought it would be. Not her friends nor her family. The only person that she should be able to rely on is Hardin, who is furious when he discovers the massive secret that she's been keeping. Before Tessa makes the biggest decision of her life, everything changes because of revelations about her family.",
+							"popularity": 1035.59,
+							"poster_path": "/3WfvjNWr5k1Zzww81b3GWc8KQhb.jpg",
+							"release_date": "2021-09-01",
+							"title": "After We Fell",
+							"video": false,
+							"vote_average": 7.5,
+							"vote_count": 519
+					},
+					{
+							"adult": false,
+							"backdrop_path": "/jlGmlFOcfo8n5tURmhC7YVd4Iyy.jpg",
+							"genre_ids": [
+									28,
+									12,
+									14
+							],
+							"id": 436969,
+							"original_language": "en",
+							"original_title": "The Suicide Squad",
+							"overview": "Supervillains Harley Quinn, Bloodsport, Peacemaker and a collection of nutty cons at Belle Reve prison join the super-secret, super-shady Task Force X as they are dropped off at the remote, enemy-infused island of Corto Maltese.",
+							"popularity": 963.206,
+							"poster_path": "/kb4s0ML0iVZlG6wAKbbs9NAm6X.jpg",
+							"release_date": "2021-07-28",
+							"title": "The Suicide Squad",
+							"video": false,
+							"vote_average": 7.8,
+							"vote_count": 4566
+					},
+					{
+							"adult": false,
+							"backdrop_path": "/4KpNHvQIjyg1YFovRAoUXoFrGnR.jpg",
+							"genre_ids": [
+									16,
+									12
+							],
+							"id": 662708,
+							"original_language": "ja",
+							"original_title": "劇場版ポケットモンスター ココ",
+							"overview": "In the Forest of Okoya, Koko is a feral child who has been raised as a Pokémon by the Mythical Pokémon Zarude. Koko has grown up never doubting that he is a Pokémon even though he can't really use any sort of moves. Ash Ketchum and Pikachu meet Koko and help him protect the Great Tree from the crooked scientist Dr. Zed.",
+							"popularity": 946.809,
+							"poster_path": "/vGcHyV9s1N2I7bJLSBODvqHTYLL.jpg",
+							"release_date": "2020-12-25",
+							"title": "Pokémon the Movie: Secrets of the Jungle",
+							"video": false,
+							"vote_average": 7.4,
+							"vote_count": 57
+					},
+					{
+							"adult": false,
+							"backdrop_path": "/xIA0FTw8iiDd4kAdMKlVRDxnnsi.jpg",
+							"genre_ids": [
+									27
+							],
+							"id": 760195,
+							"original_language": "en",
+							"original_title": "Separation",
+							"overview": "A young girl finds solace in her artist father and the ghost of her dead mother.",
+							"popularity": 929.005,
+							"poster_path": "/lHbSC2Np17CRsRXIbaE0YY1Hora.jpg",
+							"release_date": "2021-04-30",
+							"title": "Separation",
+							"video": false,
+							"vote_average": 6,
+							"vote_count": 70
+					}
+			],
+			"total_pages": 500,
+			"total_results": 10000
+	},
+	{
+    "page": 2,
+    "results": [
         {
             "adult": false,
             "backdrop_path": "/ux6gkGSKNFtp2NFYxwYFxVWdnGa.jpg",
@@ -2499,51 +3121,73 @@
             "original_language": "tr",
             "original_title": "Kin",
             "overview": "Ahead of a promotion, a police chief becomes entangled in a deadly incident and uncovers an intrigue fueled by grudge that threatens his colleagues.",
-            "popularity": 1465.021,
+            "popularity": 918.133,
             "poster_path": "/xSqtHT2DWbWBZ4dUvvMs6z1OfFK.jpg",
             "release_date": "2021-10-08",
             "title": "Grudge",
             "video": false,
-            "vote_average": 6.5,
+            "vote_average": 6.4,
             "vote_count": 25
         },
         {
             "adult": false,
-            "backdrop_path": "/4vCh8R4yd6ybOmbxRAPOzaXmLTV.jpg",
+            "backdrop_path": "/1yJ8wBmWyEM24UFUSDaRHJFMPPL.jpg",
             "genre_ids": [
-                10749,
-                18
+                28,
+                35,
+                53,
+                27
             ],
-            "id": 744275,
-            "original_language": "en",
-            "original_title": "After We Fell",
-            "overview": "Just as Tessa's life begins to become unglued, nothing is what she thought it would be. Not her friends nor her family. The only person that she should be able to rely on is Hardin, who is furious when he discovers the massive secret that she's been keeping. Before Tessa makes the biggest decision of her life, everything changes because of revelations about her family.",
-            "popularity": 1452.437,
-            "poster_path": "/3WfvjNWr5k1Zzww81b3GWc8KQhb.jpg",
-            "release_date": "2021-09-30",
-            "title": "After We Fell",
+            "id": 760747,
+            "original_language": "no",
+            "original_title": "I onde dager",
+            "overview": "A dysfunctional couple head to a remote lakeside cabin under the guise of reconnecting, but each has secret designs to kill the other. Before they can carry out their respective plans, unexpected visitors arrive and the couple is faced with a greater danger than anything they could have plotted.",
+            "popularity": 916.99,
+            "poster_path": "/uXGoV9IgKChvN7UGMj01y3purGc.jpg",
+            "release_date": "2021-07-30",
+            "title": "The Trip",
             "video": false,
-            "vote_average": 7.8,
-            "vote_count": 420
+            "vote_average": 7,
+            "vote_count": 83
         },
         {
             "adult": false,
-            "backdrop_path": "/4KpNHvQIjyg1YFovRAoUXoFrGnR.jpg",
+            "backdrop_path": "/fWjcUTKOKsAPK4VUAzEQW4kN4K6.jpg",
             "genre_ids": [
-                16,
-                12
+                28,
+                80,
+                53
             ],
-            "id": 662708,
-            "original_language": "ja",
-            "original_title": "劇場版ポケットモンスター ココ",
-            "overview": "In the Forest of Okoya, Koko is a feral child who has been raised as a Pokémon by the Mythical Pokémon Zarude. Koko has grown up never doubting that he is a Pokémon even though he can't really use any sort of moves. Ash Ketchum and Pikachu meet Koko and help him protect the Great Tree from the crooked scientist Dr. Zed.",
-            "popularity": 1431.415,
-            "poster_path": "/vGcHyV9s1N2I7bJLSBODvqHTYLL.jpg",
-            "release_date": "2021-10-08",
-            "title": "Pokémon the Movie: Secrets of the Jungle",
+            "id": 385128,
+            "original_language": "en",
+            "original_title": "F9",
+            "overview": "Dominic Toretto and his crew battle the most skilled assassin and high-performance driver they've ever encountered: his forsaken brother.",
+            "popularity": 870.116,
+            "poster_path": "/bOFaAXmWWXC3Rbv4u4uM9ZSzRXP.jpg",
+            "release_date": "2021-05-19",
+            "title": "F9",
             "video": false,
-            "vote_average": 7.5,
-            "vote_count": 51
+            "vote_average": 7.4,
+            "vote_count": 4220
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/vkIJ2QgcKMJRvi6pBW4Tr2kgLdy.jpg",
+            "genre_ids": [
+                80,
+                53
+            ],
+            "id": 637534,
+            "original_language": "fr",
+            "original_title": "BAC Nord",
+            "overview": "A police brigade working in the dangerous northern neighborhoods of Marseille, where the level of crime is higher than anywhere else in France.",
+            "popularity": 854.475,
+            "poster_path": "/nLanxl7Xhfbd5s8FxPy8jWZw4rv.jpg",
+            "release_date": "2021-08-18",
+            "title": "The Stronghold",
+            "video": false,
+            "vote_average": 7.7,
+            "vote_count": 465
         },
         {
             "adult": false,
@@ -2558,114 +3202,159 @@
             "original_language": "en",
             "original_title": "Injustice",
             "overview": "When Lois Lane is killed, an unhinged Superman decides to take control of the Earth. Determined to stop him, Batman creates a team of freedom-fighting heroes. But when superheroes go to war, can the world survive?",
-            "popularity": 1261.199,
+            "popularity": 843.826,
             "poster_path": "/lNRdCfVcjLs2LhO1Vb5rgnHV4JW.jpg",
             "release_date": "2021-10-09",
             "title": "Injustice",
             "video": false,
-            "vote_average": 8.1,
-            "vote_count": 246
+            "vote_average": 8,
+            "vote_count": 293
         },
         {
             "adult": false,
-            "backdrop_path": "/dNQTwFmEj1b5SktT8oWGH5Cunlx.jpg",
+            "backdrop_path": "/gKZAQ3b9yApxFunUBlS5Mp74QG4.jpg",
             "genre_ids": [
-                28,
-                12,
-                14
+                10751,
+                16,
+                14,
+                10402,
+                35,
+                12
             ],
-            "id": 566525,
+            "id": 354912,
             "original_language": "en",
-            "original_title": "Shang-Chi and the Legend of the Ten Rings",
-            "overview": "Shang-Chi must confront the past he thought he left behind when he is drawn into the web of the mysterious Ten Rings organization.",
-            "popularity": 1194.052,
-            "poster_path": "/1BIoJGKbXjdFDAqUEiA2VHqkK1Z.jpg",
-            "release_date": "2021-09-03",
-            "title": "Shang-Chi and the Legend of the Ten Rings",
+            "original_title": "Coco",
+            "overview": "Despite his family’s baffling generations-old ban on music, Miguel dreams of becoming an accomplished musician like his idol, Ernesto de la Cruz. Desperate to prove his talent, Miguel finds himself in the stunning and colorful Land of the Dead following a mysterious chain of events. Along the way, he meets charming trickster Hector, and together, they set off on an extraordinary journey to unlock the real story behind Miguel's family history.",
+            "popularity": 834.968,
+            "poster_path": "/gGEsBPAijhVUFoiNpgZXqRVWJt2.jpg",
+            "release_date": "2017-10-27",
+            "title": "Coco",
+            "video": false,
+            "vote_average": 8.2,
+            "vote_count": 14635
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/mtRW6eAwOO27h3zrfU2foQFW7Hg.jpg",
+            "genre_ids": [
+                16,
+                10751,
+                12,
+                35
+            ],
+            "id": 675445,
+            "original_language": "en",
+            "original_title": "PAW Patrol: The Movie",
+            "overview": "Ryder and the pups are called to Adventure City to stop Mayor Humdinger from turning the bustling metropolis into a state of chaos.",
+            "popularity": 826.143,
+            "poster_path": "/ic0intvXZSfBlYPIvWXpU1ivUCO.jpg",
+            "release_date": "2021-08-09",
+            "title": "PAW Patrol: The Movie",
             "video": false,
             "vote_average": 7.7,
-            "vote_count": 1315
+            "vote_count": 643
         },
         {
             "adult": false,
-            "backdrop_path": "/jlGmlFOcfo8n5tURmhC7YVd4Iyy.jpg",
+            "backdrop_path": "/hrzoy8vvUrxQixOM11pwW9AX7Bu.jpg",
             "genre_ids": [
+                80,
+                18
+            ],
+            "id": 524369,
+            "original_language": "en",
+            "original_title": "The Many Saints of Newark",
+            "overview": "Young Anthony Soprano is growing up in one of the most tumultuous eras in Newark, N.J., history, becoming a man just as rival gangsters start to rise up and challenge the all-powerful DiMeo crime family. Caught up in the changing times is the uncle he idolizes, Dickie Moltisanti, whose influence over his nephew will help shape the impressionable teenager into the all-powerful mob boss, Tony Soprano.",
+            "popularity": 787.828,
+            "poster_path": "/1UkbPQspPbq1FPbFP4VV1ELCfSN.jpg",
+            "release_date": "2021-09-22",
+            "title": "The Many Saints of Newark",
+            "video": false,
+            "vote_average": 6.8,
+            "vote_count": 158
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/xPpXYnCWfjkt3zzE0dpCNME1pXF.jpg",
+            "genre_ids": [
+                16,
                 28,
                 12,
                 14
             ],
-            "id": 436969,
-            "original_language": "en",
-            "original_title": "The Suicide Squad",
-            "overview": "Supervillains Harley Quinn, Bloodsport, Peacemaker and a collection of nutty cons at Belle Reve prison join the super-secret, super-shady Task Force X as they are dropped off at the remote, enemy-infused island of Corto Maltese.",
-            "popularity": 1101.364,
-            "poster_path": "/kb4s0ML0iVZlG6wAKbbs9NAm6X.jpg",
-            "release_date": "2021-08-06",
-            "title": "The Suicide Squad",
+            "id": 635302,
+            "original_language": "ja",
+            "original_title": "劇場版「鬼滅の刃」無限列車編",
+            "overview": "Tanjirō Kamado, joined with Inosuke Hashibira, a boy raised by boars who wears a boar's head, and Zenitsu Agatsuma, a scared boy who reveals his true power when he sleeps, boards the Infinity Train on a new mission with the Fire Hashira, Kyōjurō Rengoku, to defeat a demon who has been tormenting the people and killing the demon slayers who oppose it!",
+            "popularity": 786.802,
+            "poster_path": "/h8Rb9gBr48ODIwYUttZNYeMWeUU.jpg",
+            "release_date": "2020-10-16",
+            "title": "Demon Slayer -Kimetsu no Yaiba- The Movie: Mugen Train",
             "video": false,
-            "vote_average": 7.8,
-            "vote_count": 4485
+            "vote_average": 8.4,
+            "vote_count": 1800
         },
         {
             "adult": false,
-            "backdrop_path": "/akwg1s7hV5ljeSYFfkw7hTHjVqk.jpg",
+            "backdrop_path": "/7WJjFviFBffEJvkAms4uWwbcVUk.jpg",
+            "genre_ids": [
+                12,
+                14,
+                35,
+                28
+            ],
+            "id": 451048,
+            "original_language": "en",
+            "original_title": "Jungle Cruise",
+            "overview": "Dr. Lily Houghton enlists the aid of wisecracking skipper Frank Wolff to take her down the Amazon in his dilapidated boat. Together, they search for an ancient tree that holds the power to heal – a discovery that will change the future of medicine.",
+            "popularity": 783.231,
+            "poster_path": "/9dKCd55IuTT5QRs989m9Qlb7d2B.jpg",
+            "release_date": "2021-07-28",
+            "title": "Jungle Cruise",
+            "video": false,
+            "vote_average": 7.8,
+            "vote_count": 3047
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/620hnMVLu6RSZW6a5rwO8gqpt0t.jpg",
             "genre_ids": [
                 16,
                 35,
-                12,
-                10751
+                10751,
+                14
             ],
-            "id": 459151,
+            "id": 508943,
             "original_language": "en",
-            "original_title": "The Boss Baby: Family Business",
-            "overview": "The Templeton brothers — Tim and his Boss Baby little bro Ted — have become adults and drifted away from each other. But a new boss baby with a cutting-edge approach and a can-do attitude is about to bring them together again … and inspire a new family business.",
-            "popularity": 1087.959,
-            "poster_path": "/uWStkK8bq9ixY3fc7y209ZleCoF.jpg",
-            "release_date": "2021-07-02",
-            "title": "The Boss Baby: Family Business",
+            "original_title": "Luca",
+            "overview": "Luca and his best friend Alberto experience an unforgettable summer on the Italian Riviera. But all the fun is threatened by a deeply-held secret: they are sea monsters from another world just below the water’s surface.",
+            "popularity": 760.511,
+            "poster_path": "/jTswp6KyDYKtvC52GbHagrZbGvD.jpg",
+            "release_date": "2021-06-17",
+            "title": "Luca",
             "video": false,
-            "vote_average": 7.7,
-            "vote_count": 1529
+            "vote_average": 8,
+            "vote_count": 4924
         },
         {
             "adult": false,
-            "backdrop_path": "/eBGKU0ZLJmxtVtzESTB1mfllX1J.jpg",
+            "backdrop_path": "/q6krHSCZk5DfdOhKRK7ejtZbCbN.jpg",
             "genre_ids": [
-                80,
-                28,
-                53
+                27,
+                53,
+                28
             ],
-            "id": 630004,
+            "id": 669671,
             "original_language": "en",
-            "original_title": "The Vault",
-            "overview": "When an engineer learns of a mysterious, impenetrable fortress hidden under The Bank of Spain, he joins a crew of master thieves who plan to steal the legendary lost treasure locked inside while the whole country is distracted by Spain's World Cup Final. With thousands of soccer fans cheering in the streets, and security forces closing in, the crew have just minutes to pull off the score of a lifetime.",
-            "popularity": 1026.196,
-            "poster_path": "/iiHubBBVFg6K7t5THdsImqy1ct2.jpg",
-            "release_date": "2021-03-26",
-            "title": "The Vault",
+            "original_title": "Night Teeth",
+            "overview": "A college student moonlighting as a chauffeur picks up two mysterious women for a night of party-hopping across LA. But when he uncovers their bloodthirsty intentions - and their dangerous, shadowy underworld - he must fight to stay alive.",
+            "popularity": 729.76,
+            "poster_path": "/4niEFGAUEz3GUqwk9Y2y4aAERhE.jpg",
+            "release_date": "2021-10-20",
+            "title": "Night Teeth",
             "video": false,
-            "vote_average": 7.1,
-            "vote_count": 334
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/fWjcUTKOKsAPK4VUAzEQW4kN4K6.jpg",
-            "genre_ids": [
-                28,
-                80,
-                53
-            ],
-            "id": 385128,
-            "original_language": "en",
-            "original_title": "F9",
-            "overview": "Dominic Toretto and his crew battle the most skilled assassin and high-performance driver they've ever encountered: his forsaken brother.",
-            "popularity": 997.594,
-            "poster_path": "/bOFaAXmWWXC3Rbv4u4uM9ZSzRXP.jpg",
-            "release_date": "2021-06-25",
-            "title": "F9",
-            "video": false,
-            "vote_average": 7.4,
-            "vote_count": 4145
+            "vote_average": 7,
+            "vote_count": 216
         },
         {
             "adult": false,
@@ -2677,35 +3366,155 @@
             "original_language": "en",
             "original_title": "Cosmic Sin",
             "overview": "In the year 2524, four centuries after humans started colonizing the outer planets, retired General James Ford gets called back into service when a hostile alien fleet attacks soldiers on a remote planet. The threat against mankind soon escalates into an interstellar war as Ford and a team of elite soldiers try to stop the imminent attack before it's too late.",
-            "popularity": 974.468,
+            "popularity": 720.255,
             "poster_path": "/6Wm7P6y22UZA40QuPYHyWyJ6leI.jpg",
             "release_date": "2021-03-12",
             "title": "Cosmic Sin",
             "video": false,
             "vote_average": 4.5,
-            "vote_count": 346
+            "vote_count": 351
         },
         {
             "adult": false,
-            "backdrop_path": "/vkIJ2QgcKMJRvi6pBW4Tr2kgLdy.jpg",
+            "backdrop_path": "/5PQhNs4M3RxIqaNAdBI6mXlXyYh.jpg",
             "genre_ids": [
+                27,
+                14,
+                9648
+            ],
+            "id": 839436,
+            "original_language": "en",
+            "original_title": "Dragon Fury",
+            "overview": "A group of soldiers are taken to the mountains of Wales to investigate a strange beast.",
+            "popularity": 710.452,
+            "poster_path": "/6WcJ4cV2Y3gnTYp5zHu968TYmTJ.jpg",
+            "release_date": "2021-06-15",
+            "title": "Dragon Fury",
+            "video": false,
+            "vote_average": 5.9,
+            "vote_count": 19
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/8s4h9friP6Ci3adRGahHARVd76E.jpg",
+            "genre_ids": [
+                16,
+                35,
+                10751,
+                878
+            ],
+            "id": 379686,
+            "original_language": "en",
+            "original_title": "Space Jam: A New Legacy",
+            "overview": "When LeBron and his young son Dom are trapped in a digital space by a rogue A.I., LeBron must get them home safe by leading Bugs, Lola Bunny and the whole gang of notoriously undisciplined Looney Tunes to victory over the A.I.'s digitized champions on the court. It's Tunes versus Goons in the highest-stakes challenge of his life.",
+            "popularity": 677.54,
+            "poster_path": "/5bFK5d3mVTAvBCXi5NPWH0tYjKl.jpg",
+            "release_date": "2021-07-08",
+            "title": "Space Jam: A New Legacy",
+            "video": false,
+            "vote_average": 7.3,
+            "vote_count": 2502
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/keIxh0wPr2Ymj0Btjh4gW7JJ89e.jpg",
+            "genre_ids": [
+                28,
+                12,
+                878
+            ],
+            "id": 497698,
+            "original_language": "en",
+            "original_title": "Black Widow",
+            "overview": "Natasha Romanoff, also known as Black Widow, confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises. Pursued by a force that will stop at nothing to bring her down, Natasha must deal with her history as a spy and the broken relationships left in her wake long before she became an Avenger.",
+            "popularity": 660.32,
+            "poster_path": "/qAZ0pzat24kLdO3o8ejmbLxyOac.jpg",
+            "release_date": "2021-07-07",
+            "title": "Black Widow",
+            "video": false,
+            "vote_average": 7.7,
+            "vote_count": 5696
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/pXLdhDTJmrmg0PMBvgpzl67cCST.jpg",
+            "genre_ids": [
+                16
+            ],
+            "id": 882206,
+            "original_language": "en",
+            "original_title": "LOL Surprise: The Movie",
+            "overview": "Dazzling doll sisters Queen Bee and Royal Bee make their first movie with help from their fashionable friends in this one-of-a-kind magical adventure.",
+            "popularity": 615.698,
+            "poster_path": "/vbc8H3SR3BM6TZkJw6UBN4ekdjK.jpg",
+            "release_date": "2021-10-08",
+            "title": "LOL Surprise: The Movie",
+            "video": false,
+            "vote_average": 7.8,
+            "vote_count": 16
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/n9ikn33MeCpYyHN7apLj7QgQv0V.jpg",
+            "genre_ids": [
+                16,
+                14,
+                10751
+            ],
+            "id": 878962,
+            "original_language": "en",
+            "original_title": "Sharkdog’s Fintastic Halloween",
+            "overview": "The Sharkpack gets ready for Halloween with the spooky legend of the \"Fearsome Fog\" — and Sharkdog must save trick-or-treating from a slimy sea monster!",
+            "popularity": 609.32,
+            "poster_path": "/mtPok0matqyS25yBXnNmKt6NfUU.jpg",
+            "release_date": "2021-10-15",
+            "title": "Sharkdog’s Fintastic Halloween",
+            "video": false,
+            "vote_average": 3.7,
+            "vote_count": 3
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/70AV2Xx5FQYj20labp0EGdbjI6E.jpg",
+            "genre_ids": [
+                28,
                 80,
                 53
             ],
-            "id": 637534,
-            "original_language": "fr",
-            "original_title": "BAC Nord",
-            "overview": "A police brigade working in the dangerous northern neighborhoods of Marseille, where the level of crime is higher than anywhere else in France.",
-            "popularity": 964.312,
-            "poster_path": "/nLanxl7Xhfbd5s8FxPy8jWZw4rv.jpg",
-            "release_date": "2021-09-17",
-            "title": "The Stronghold",
+            "id": 637649,
+            "original_language": "en",
+            "original_title": "Wrath of Man",
+            "overview": "A cold and mysterious new security guard for a Los Angeles cash truck company surprises his co-workers when he unleashes precision skills during a heist. The crew is left wondering who he is and where he came from. Soon, the marksman's ultimate motive becomes clear as he takes dramatic and irrevocable steps to settle a score.",
+            "popularity": 604.989,
+            "poster_path": "/M7SUK85sKjaStg4TKhlAVyGlz3.jpg",
+            "release_date": "2021-04-22",
+            "title": "Wrath of Man",
             "video": false,
             "vote_average": 7.8,
-            "vote_count": 445
+            "vote_count": 2528
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/iTgM25ftE7YtFgZwUZupVp8A61S.jpg",
+            "genre_ids": [
+                9648,
+                53
+            ],
+            "id": 631843,
+            "original_language": "en",
+            "original_title": "Old",
+            "overview": "A group of families on a tropical holiday discover that the secluded beach where they are staying is somehow causing them to age rapidly – reducing their entire lives into a single day.",
+            "popularity": 602.804,
+            "poster_path": "/vclShucpUmPhdAOmKgf3B3Z4POD.jpg",
+            "release_date": "2021-07-21",
+            "title": "Old",
+            "video": false,
+            "vote_average": 6.7,
+            "vote_count": 1466
         }
     ],
     "total_pages": 500,
     "total_results": 10000
-	}
+}
+	]
 }
