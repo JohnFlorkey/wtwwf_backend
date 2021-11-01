@@ -8,11 +8,13 @@ app.use(express.json());
 app.use(cors());
 
 const discoverRoutes = require("./routes/discover");
+const friendGroupsRoutes = require("./routes/friendGroups");
 const movieRoutes = require("./routes/movies");
 const searchRoutes = require("./routes/search");
 const tvRoutes = require("./routes/tv");
 
 app.use("/discover", discoverRoutes);
+app.use("/friendGroups", friendGroupsRoutes);
 app.use("/movies", movieRoutes);
 app.use("/search", searchRoutes);
 app.use("/tv", tvRoutes);
