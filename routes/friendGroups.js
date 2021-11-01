@@ -12,11 +12,21 @@ router.get("/", async (req, res, next) => {
       responseData[g.id] = { ...g };
       delete responseData[g.id].movierecommendations;
       delete responseData[g.id].tvrecommendations;
-      responseData[g.id].movieRecommendations = g.movierecommendations.map(
-        (r) => MediaItem.factory(r, "movies")
+      responseData[g.id].movieRecommendations = {};
+      responseData[g.id].tvRecommendations = {};
+      g.movierecommendations.map(
+        (r) =>
+          (responseData[g.id].movieRecommendations[r.id] = MediaItem.factory(
+            r,
+            "movies"
+          ))
       );
-      responseData[g.id].tvRecommendations = g.tvrecommendations.map((r) =>
-        MediaItem.factory(r, "tv")
+      g.tvrecommendations.map(
+        (r) =>
+          (responseData[g.id].tvRecommendations[r.id] = MediaItem.factory(
+            r,
+            "tv"
+          ))
       );
     });
 
