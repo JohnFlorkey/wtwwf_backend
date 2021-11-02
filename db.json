@@ -873,7 +873,9 @@
   "movierecommendations": [
     {
       "id": 1,
-      "results": [
+      "name": "best friends group",
+      "type": "movies",
+      "recommendations": [
         {
           "adult": false,
           "backdrop_path": "/azIbQpeKKNF9r85lBSRrNnMK0Si.jpg",
@@ -1306,7 +1308,9 @@
     },
     {
       "id": 2,
-      "results": [
+      "name": "other friends group",
+      "type": "movies",
+      "recommendations": [
         {
           "adult": false,
           "backdrop_path": "/iPnH51khswDrYij6XIBHKlAznW.jpg",
@@ -1717,7 +1721,9 @@
   "tvrecommendations": [
     {
       "id": 1,
-      "results": [
+      "name": "best friends group",
+      "type": "tv",
+      "recommendations": [
         {
           "backdrop_path": "/AdJgkXb8oLI8e4rsk8XzkvABIuw.jpg",
           "episode_run_time": [
@@ -1849,7 +1855,9 @@
     },
     {
       "id": 2,
-      "results": [
+      "name": "other friends group",
+      "type": "tv",
+      "recommendations": [
         {
           "backdrop_path": "/m6eRgkR1KC6Mr6gKx6gKCzSn6vD.jpg",
           "first_air_date": "2008-10-03",
