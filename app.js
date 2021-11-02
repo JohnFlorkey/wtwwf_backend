@@ -12,12 +12,14 @@ const friendGroupsRoutes = require("./routes/friendGroups");
 const movieRoutes = require("./routes/movies");
 const searchRoutes = require("./routes/search");
 const tvRoutes = require("./routes/tv");
+const usersRoutes = require("./routes/users");
 
 app.use("/discover", discoverRoutes);
 app.use("/friendGroups", friendGroupsRoutes);
 app.use("/movies", movieRoutes);
 app.use("/search", searchRoutes);
 app.use("/tv", tvRoutes);
+app.use("/users", usersRoutes);
 
 app.use(function (req, res, next) {
   const err = new ExpressError("Not Found", 404);
