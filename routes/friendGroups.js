@@ -34,4 +34,23 @@ router.get("/:id/movies", async (req, res, next) => {
   }
 });
 
+router.get("/:id/tv", async (req, res, next) => {
+  try {
+    const friendGroupID = req.params.id;
+    const response = await axios.get(
+      `http://localhost:3001/tvrecommendations/${friendGroupID}`
+    );
+    const responseData = { ...response.data };
+    delete responseData.recommendations;
+    responseData.recommendations = {};
+    response.data.recommendations.map(
+      (r) => (responseData.recommendations[r.id] = MediaItem.factory(r, "tv"))
+    );
+
+    return res.json(responseData);
+  } catch (err) {
+    throw new ExpressError("Bad Request", 404);
+  }
+});
+
 module.exports = router;
