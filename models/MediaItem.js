@@ -1,7 +1,7 @@
-const IMAGE_BASE_URL = require("../config");
+const { IMAGE_BASE_URL } = require("../config");
 
 class MediaItem {
-  constructor({
+  constructor(
     id,
     genres,
     keywords = [],
@@ -13,8 +13,8 @@ class MediaItem {
     title,
     type,
     voteAverage,
-    watchProviders = [],
-  }) {
+    watchProviders = []
+  ) {
     this.id = id;
     this.genres = genres;
     this.keywords = keywords;
@@ -30,76 +30,52 @@ class MediaItem {
   }
 
   /**
-   * Takes an object as an input parameter and returns a MediaItem object.
+   * Takes a Movie or TV object as an input parameter and returns a MediaItem object.
    * @param {object} obj
    */
-  static factory(obj, type) {
-    if (type === "movies") {
-      const {
-        id,
-        genre_ids,
-        keywords,
-        overview,
-        popularity,
-        poster_path,
-        release_date,
-        runtime,
-        title,
-        vote_average,
-        watchProviders,
-      } = obj;
-      const genres = genre_ids;
-      const posterURL = poster_path ? `${IMAGE_BASE_URL}${poster_path}` : null;
-      const releaseDate = release_date;
-      const voteAverage = vote_average;
-      return new MediaItem({
-        id,
-        genres,
-        keywords,
-        overview,
-        popularity,
+  static factory(obj) {
+    if (Object.getPrototypeOf(obj).constructor.name === "Movie") {
+      const posterURL = obj.posterPath
+        ? `${IMAGE_BASE_URL}${obj.posterPath}`
+        : null;
+
+      return new MediaItem(
+        obj.id,
+        obj.genres,
+        obj.keywords,
+        obj.overview,
+        obj.popularity,
         posterURL,
-        releaseDate,
-        runtime,
-        title,
-        type,
-        voteAverage,
-        watchProviders,
-      });
-    } else if (type === "tv") {
-      const {
-        id,
-        episode_run_time,
-        genre_ids,
-        keywords,
-        overview,
-        popularity,
-        poster_path,
-        first_air_date,
-        name,
-        vote_average,
-        watchProviders,
-      } = obj;
-      const genres = genre_ids;
-      const title = name;
-      const posterURL = poster_path ? `${IMAGE_BASE_URL}${poster_path}` : null;
-      const releaseDate = first_air_date;
-      const runtime = episode_run_time;
-      const voteAverage = vote_average;
-      return new MediaItem({
-        id,
-        genres,
-        keywords,
-        overview,
-        popularity,
+        obj.releaseDate,
+        obj.runtime,
+        obj.title,
+        "movies",
+        obj.voteAverage,
+        obj.watchProviders
+      );
+    } else if (Object.getPrototypeOf(obj).constructor.name === "TV") {
+      // const genres = genre_ids;
+      // const title = name;
+      const posterURL = obj.posterPath
+        ? `${IMAGE_BASE_URL}${obj.posterPath}`
+        : null;
+      // const releaseDate = first_air_date;
+      // const runtime = episode_run_time;
+      // const voteAverage = vote_average;
+      return new MediaItem(
+        obj.id,
+        obj.genres,
+        obj.keywords,
+        obj.overview,
+        obj.popularity,
         posterURL,
-        releaseDate,
-        runtime,
-        title,
-        type,
-        voteAverage,
-        watchProviders,
-      });
+        obj.firstAirDate,
+        obj.episodeRuntime,
+        obj.name,
+        "TV",
+        obj.voteAverage,
+        obj.watchProviders
+      );
     }
   }
 }
