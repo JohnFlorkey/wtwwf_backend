@@ -54,14 +54,9 @@ class MediaItem {
         obj.watchProviders
       );
     } else if (Object.getPrototypeOf(obj).constructor.name === "TV") {
-      // const genres = genre_ids;
-      // const title = name;
       const posterURL = obj.posterPath
         ? `${IMAGE_BASE_URL}${obj.posterPath}`
         : null;
-      // const releaseDate = first_air_date;
-      // const runtime = episode_run_time;
-      // const voteAverage = vote_average;
       return new MediaItem(
         obj.id,
         obj.genres,

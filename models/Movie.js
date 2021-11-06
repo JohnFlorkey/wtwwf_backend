@@ -23,38 +23,43 @@ class Movie {
   }
 
   static async getAll(userID) {
-    const result = await db.query(
-      `SELECT
-				m.id,
-				um.added_date,
-				m.overview,
-				m.popularity,
-				m.poster_path,
-				m.release_date,
-				m.runtime,
-				m.title,
-				m.vote_average
-			FROM movie AS m
-			INNER JOIN user_movie AS um ON um.movie_id = m.id
-			WHERE um.user_id = $1`,
-      [userID]
-    );
+    try {
+      const result = await db.query(
+        `SELECT
+          m.id,
+          um.added_date,
+          m.overview,
+          m.popularity,
+          m.poster_path,
+          m.release_date,
+          m.runtime,
+          m.title,
+          m.vote_average
+        FROM movie AS m
+        INNER JOIN user_movie AS um ON um.movie_id = m.id
+        WHERE um.user_id = $1`,
+        [userID]
+      );
 
-    const movies = result.rows.map(
-      (r) =>
-        new Movie(
-          r.id,
-          r.overview,
-          r.popularity,
-          r.poster_path,
-          r.release_date,
-          r.runtime,
-          r.title,
-          r.vote_average
-        )
-    );
+      const movies = result.rows.map(
+        (r) =>
+          new Movie(
+            r.id,
+            r.overview,
+            r.popularity,
+            r.poster_path,
+            r.release_date,
+            r.runtime,
+            r.title,
+            r.vote_average
+          )
+      );
 
-    return movies;
+      return movies;
+    } catch (e) {
+      console.log(e);
+      throw new ExpressError("Error retirieving movies from db", 404);
+    }
   }
 }
 
