@@ -2,7 +2,7 @@ const db = require("../db");
 const ExpressError = require("../expressError");
 
 class TV {
-  constructor(
+  constructor({
     id,
     added_date,
     episode_runtime = [],
@@ -11,8 +11,8 @@ class TV {
     overview,
     popularity,
     poster_path,
-    vote_average
-  ) {
+    vote_average,
+  }) {
     this.id = id;
     this.addedDate = added_date;
     this.episodeRuntime = episode_runtime;
@@ -44,17 +44,17 @@ class TV {
 
     const tv = result.rows.map(
       (r) =>
-        new TV(
-          r.id,
-          r.added_date,
-          r.episode_runtime,
-          r.first_air_date,
-          r.name,
-          r.overview,
-          r.popularity,
-          r.poster_path,
-          r.vote_average
-        )
+        new TV({
+          id: r.id,
+          added_date: r.added_date,
+          episode_runtime: r.episode_runtime,
+          first_air_date: r.first_air_date,
+          name: r.name,
+          overview: r.overview,
+          popularity: r.popularity,
+          poster_path: r.poster_path,
+          vote_average: r.vote_average,
+        })
     );
 
     return tv;

@@ -2,7 +2,7 @@ const db = require("../db");
 const ExpressError = require("../expressError");
 
 class Movie {
-  constructor(
+  constructor({
     id,
     overview,
     popularity,
@@ -10,8 +10,8 @@ class Movie {
     release_date,
     runtime,
     title,
-    vote_average
-  ) {
+    vote_average,
+  }) {
     this.id = id;
     this.overview = overview;
     this.popularity = popularity;
@@ -43,16 +43,16 @@ class Movie {
 
       const movies = result.rows.map(
         (r) =>
-          new Movie(
-            r.id,
-            r.overview,
-            r.popularity,
-            r.poster_path,
-            r.release_date,
-            r.runtime,
-            r.title,
-            r.vote_average
-          )
+          new Movie({
+            id: r.id,
+            overview: r.overview,
+            popularity: r.popularity,
+            poster_path: r.poster_path,
+            release_date: r.release_date,
+            runtime: r.runtime,
+            title: r.title,
+            vote_average: r.vote_average,
+          })
       );
 
       return movies;
