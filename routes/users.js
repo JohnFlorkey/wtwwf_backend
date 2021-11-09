@@ -5,6 +5,9 @@ const ExpressError = require("../expressError");
 const MediaItem = require("../models/MediaItem");
 const Movie = require("../models/Movie");
 const TV = require("../models/TV");
+const User = require("../models/User");
+const { TMDB_API_BASE_URL } = require("../config");
+const token = process.env.TMDB_API_BEARER_TOKEN;
 
 router.get("/:userID", async (req, res, next) => {
   try {
@@ -20,7 +23,9 @@ router.get("/:userID", async (req, res, next) => {
 router.get("/:userID/movies", async (req, res, next) => {
   try {
     const userID = req.params.userID;
-    const response = await Movie.getAll(userID);
+    const user = await User.getById(userID);
+
+    const response = await user.getMovies();
 
     const responseData = {};
     response.map((r) => (responseData[r.id] = MediaItem.factory(r)));
@@ -34,8 +39,9 @@ router.get("/:userID/movies", async (req, res, next) => {
 router.get("/:userID/tv", async (req, res, next) => {
   try {
     const userID = req.params.userID;
-    if (!userID) throw new ExpressError("Bad Request: No user", 400);
-    const response = await TV.getAll(userID);
+    const user = await User.getById(userID);
+
+    const response = await user.getTV();
 
     const responseData = {};
     response.map((r) => (responseData[r.id] = MediaItem.factory(r)));
@@ -43,6 +49,147 @@ router.get("/:userID/tv", async (req, res, next) => {
     return res.json(responseData);
   } catch (e) {
     throw new ExpressError("Bad Request", 400);
+  }
+});
+
+router.post("/:userID/movies", async (req, res, next) => {
+  try {
+    const { movieID } = req.body;
+    const { userID } = req.params;
+
+    // if this movie is already in our db we can skip some steps
+    let movie = await Movie.getById(movieID);
+    if (!movie) {
+      // get the movie details from TMDB
+      const movieDetailResponse = await axios.get(
+        `${TMDB_API_BASE_URL}/3/movie/${movieID}`,
+        {
+          headers: {
+            Authorization: `Bearer ${token}`,
+          },
+        }
+      );
+      const {
+        id,
+        overview,
+        popularity,
+        poster_path,
+        release_date,
+        runtime,
+        title,
+        vote_average,
+      } = movieDetailResponse.data;
+
+      // get the keywords
+      // const movieKeywordResponse = await axios.get(
+      //   `${TMDB_API_BASE_URL}/3/movie/${movieID}/keywords`,
+      //   {
+      //     headers: {
+      //       Authorization: `Bearer ${token}`,
+      //     },
+      //   }
+      // );
+
+      // const keywords = movieKeywordResponse.data.keywords;
+      // console.log(movieKeywordResponse);
+
+      movie = await Movie.create({
+        id,
+        overview,
+        popularity,
+        poster_path,
+        release_date,
+        runtime,
+        title,
+        vote_average,
+      });
+    }
+
+    // add movie to user's list
+    const user = await User.getById(userID);
+    const addedMovie = user.addMovie(movie.id);
+
+    // get the watch providers
+    // const movieWatchProvidersResponse = await axios.get(
+    //   `${TMDB_API_BASE_URL}/3/movie/${movieID}/watch/providers`,
+    //   {
+    //     headers: {
+    //       Authorization: `Bearer ${token}`,
+    //     },
+    //   }
+    // );
+    // const watchProviders = movieWatchProvidersResponse.data.results["US"];
+    // console.log(movieWatchProvidersResponse);
+    // assemble all the data
+    // write it to the db
+    // return a MediaItem
+    return res.json(MediaItem.factory(movie));
+  } catch (e) {
+    console.log(e);
+  }
+});
+
+router.post("/:userID/tv", async (req, res, next) => {
+  try {
+    const { tvID } = req.body;
+    const { userID } = req.params;
+
+    // if this tv is already in our db we can skip some steps
+    let tv = await TV.getById(tvID);
+    if (!tv) {
+      // get the tv details from TMDB
+      const tvDetailResponse = await axios.get(
+        `${TMDB_API_BASE_URL}/3/tv/${tvID}`,
+        {
+          headers: {
+            Authorization: `Bearer ${token}`,
+          },
+        }
+      );
+      const {
+        id,
+        episode_runtime,
+        first_air_date,
+        name,
+        overview,
+        popularity,
+        poster_path,
+        vote_average,
+      } = tvDetailResponse.data;
+
+      tv = await TV.create({
+        id,
+        episode_runtime,
+        first_air_date,
+        name,
+        overview,
+        popularity,
+        poster_path,
+        vote_average,
+      });
+    }
+
+    // add movie to user's list
+    const user = await User.getById(userID);
+    const addedTV = user.addTV(tv.id);
+
+    // get the watch providers
+    // const movieWatchProvidersResponse = await axios.get(
+    //   `${TMDB_API_BASE_URL}/3/movie/${movieID}/watch/providers`,
+    //   {
+    //     headers: {
+    //       Authorization: `Bearer ${token}`,
+    //     },
+    //   }
+    // );
+    // const watchProviders = movieWatchProvidersResponse.data.results["US"];
+    // console.log(movieWatchProvidersResponse);
+    // assemble all the data
+    // write it to the db
+    // return a MediaItem
+    return res.json(MediaItem.factory(tv));
+  } catch (e) {
+    console.log(e);
   }
 });
 

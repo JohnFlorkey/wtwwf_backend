@@ -6,7 +6,7 @@ const MediaItem = require("../models/MediaItem");
 const Movie = require("../models/Movie");
 const TV = require("../models/TV");
 const { TMDB_API_BASE_URL } = require("../config");
-const token = process.env.TMDB_BEARER_TOKEN;
+const token = process.env.TMDB_API_BEARER_TOKEN;
 
 router.get("/:type", async (req, res, next) => {
   try {

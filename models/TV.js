@@ -4,7 +4,6 @@ const ExpressError = require("../expressError");
 class TV {
   constructor({
     id,
-    added_date,
     episode_runtime = [],
     first_air_date,
     name,
@@ -14,7 +13,6 @@ class TV {
     vote_average,
   }) {
     this.id = id;
-    this.addedDate = added_date;
     this.episodeRuntime = episode_runtime;
     this.firstAirDate = first_air_date;
     this.name = name;
@@ -24,11 +22,56 @@ class TV {
     this.voteAverage = vote_average;
   }
 
-  static async getAll(userID) {
+  static async create({
+    id,
+    episode_runtime,
+    first_air_date,
+    name,
+    overview,
+    popularity,
+    poster_path,
+    vote_average,
+  }) {
+    const result = await db.query(
+      `INSERT INTO tv (
+        id,
+        episode_runtime,
+        first_air_date,
+        name,
+        overview,
+        popularity,
+        poster_path,
+        vote_average
+      ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8)
+      `,
+      [
+        id,
+        episode_runtime,
+        first_air_date,
+        name,
+        overview,
+        popularity,
+        poster_path,
+        vote_average,
+      ]
+    );
+
+    return new TV({
+      id,
+      episode_runtime,
+      first_air_date,
+      name,
+      overview,
+      popularity,
+      poster_path,
+      vote_average,
+    });
+  }
+
+  static async getById(id) {
     const result = await db.query(
       `SELECT
 				t.id,
-				ut.added_date,
 				t.episode_runtime,
 				t.first_air_date,
 				t.name,
@@ -37,27 +80,13 @@ class TV {
 				t.poster_path,
 				t.vote_average
 			FROM tv AS t
-			INNER JOIN user_tv AS ut ON ut.tv_id = t.id
-			WHERE ut.user_id = $1`,
-      [userID]
+			WHERE t.id = $1`,
+      [id]
     );
 
-    const tv = result.rows.map(
-      (r) =>
-        new TV({
-          id: r.id,
-          added_date: r.added_date,
-          episode_runtime: r.episode_runtime,
-          first_air_date: r.first_air_date,
-          name: r.name,
-          overview: r.overview,
-          popularity: r.popularity,
-          poster_path: r.poster_path,
-          vote_average: r.vote_average,
-        })
-    );
+    const tv = result.rows[0];
 
-    return tv;
+    return tv ? new TV(tv) : undefined;
   }
 }
 

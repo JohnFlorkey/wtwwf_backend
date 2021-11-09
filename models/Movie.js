@@ -4,6 +4,8 @@ const ExpressError = require("../expressError");
 class Movie {
   constructor({
     id,
+    genres,
+    keywords,
     overview,
     popularity,
     poster_path,
@@ -13,6 +15,8 @@ class Movie {
     vote_average,
   }) {
     this.id = id;
+    this.genres = genres;
+    this.keywords = keywords;
     this.overview = overview;
     this.popularity = popularity;
     this.posterPath = poster_path;
@@ -22,44 +26,71 @@ class Movie {
     this.voteAverage = vote_average;
   }
 
-  static async getAll(userID) {
-    try {
-      const result = await db.query(
-        `SELECT
-          m.id,
-          um.added_date,
-          m.overview,
-          m.popularity,
-          m.poster_path,
-          m.release_date,
-          m.runtime,
-          m.title,
-          m.vote_average
-        FROM movie AS m
-        INNER JOIN user_movie AS um ON um.movie_id = m.id
-        WHERE um.user_id = $1`,
-        [userID]
-      );
+  static async create({
+    id,
+    overview,
+    popularity,
+    poster_path,
+    release_date,
+    runtime,
+    title,
+    vote_average,
+  }) {
+    const result = await db.query(
+      `INSERT INTO movie (
+        id,
+        overview,
+        popularity,
+        poster_path,
+        release_date,
+        runtime,
+        title,
+        vote_average
+      ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8)
+      `,
+      [
+        id,
+        overview,
+        popularity,
+        poster_path,
+        release_date,
+        runtime,
+        title,
+        vote_average,
+      ]
+    );
 
-      const movies = result.rows.map(
-        (r) =>
-          new Movie({
-            id: r.id,
-            overview: r.overview,
-            popularity: r.popularity,
-            poster_path: r.poster_path,
-            release_date: r.release_date,
-            runtime: r.runtime,
-            title: r.title,
-            vote_average: r.vote_average,
-          })
-      );
+    return new Movie({
+      id,
+      overview,
+      popularity,
+      poster_path,
+      release_date,
+      runtime,
+      title,
+      vote_average,
+    });
+  }
 
-      return movies;
-    } catch (e) {
-      console.log(e);
-      throw new ExpressError("Error retirieving movies from db", 404);
-    }
+  static async getById(id) {
+    const result = await db.query(
+      `SELECT
+        id,
+        overview,
+        popularity,
+        poster_path,
+        release_date,
+        runtime,
+        title,
+        vote_average
+      FROM movie
+      WHERE id = $1`,
+      [id]
+    );
+
+    const movie = result.rows[0];
+
+    return movie ? new Movie(movie) : undefined;
   }
 }
 

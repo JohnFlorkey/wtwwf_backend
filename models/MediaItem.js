@@ -67,7 +67,7 @@ class MediaItem {
         obj.firstAirDate,
         obj.episodeRuntime,
         obj.name,
-        "TV",
+        "tv",
         obj.voteAverage,
         obj.watchProviders
       );
