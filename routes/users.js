@@ -7,6 +7,7 @@ const Movie = require("../models/Movie");
 const TV = require("../models/TV");
 const User = require("../models/User");
 const { TMDB_API_BASE_URL } = require("../config");
+const FriendGroup = require("../models/FriendGroup");
 const token = process.env.TMDB_API_BEARER_TOKEN;
 
 router.get("/:userID", async (req, res, next) => {
@@ -17,6 +18,19 @@ router.get("/:userID", async (req, res, next) => {
     return res.json(response.data);
   } catch (e) {
     throw new ExpressError("Bad request", 400);
+  }
+});
+
+router.get("/:userID/friendGroups", async (req, res, next) => {
+  try {
+    const userID = req.params.userID;
+    const user = await User.getById(userID);
+
+    const response = await FriendGroup.getByUserID(userID);
+
+    return res.json(response);
+  } catch (e) {
+    console.log(e);
   }
 });
 
@@ -188,6 +202,20 @@ router.post("/:userID/tv", async (req, res, next) => {
     // write it to the db
     // return a MediaItem
     return res.json(MediaItem.factory(tv));
+  } catch (e) {
+    console.log(e);
+  }
+});
+
+router.delete("/:userID/movies/:movieID", async (req, res, next) => {
+  try {
+    const { movieID, userID } = req.params;
+
+    const user = await User.getById(userID);
+
+    const result = await user.deleteMovie(movieID);
+
+    return res.json(result);
   } catch (e) {
     console.log(e);
   }

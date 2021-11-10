@@ -36,6 +36,24 @@ class User {
     return id;
   }
 
+  async deleteMovie(movieID) {
+    try {
+      const result = await db.query(
+        `DELETE FROM user_movie
+        WHERE movie_id = $1
+          AND user_id = $2
+        RETURNING movie_id`,
+        [movieID, this.id]
+      );
+      const deleteResult = result.rows[0];
+      const deleteID = deleteResult.movie_id;
+
+      return deleteID;
+    } catch (e) {
+      console.log(e);
+    }
+  }
+
   static async getById(id) {
     try {
       const result = await db.query(

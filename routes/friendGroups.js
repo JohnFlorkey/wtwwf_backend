@@ -4,15 +4,15 @@ const axios = require("axios");
 const ExpressError = require("../expressError");
 const MediaItem = require("../models/MediaItem");
 
-router.get("/", async (req, res, next) => {
-  try {
-    const response = await axios.get(`http://localhost:3001/friendgroups/`);
+// router.get("/", async (req, res, next) => {
+//   try {
+//     const response = await axios.get(`http://localhost:3001/friendgroups/`);
 
-    return res.json(response.data);
-  } catch (e) {
-    throw new ExpressError("Bad request", 400);
-  }
-});
+//     return res.json(response.data);
+//   } catch (e) {
+//     throw new ExpressError("Bad request", 400);
+//   }
+// });
 
 router.get("/:id/movies", async (req, res, next) => {
   try {
