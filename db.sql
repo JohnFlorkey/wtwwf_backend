@@ -86,3 +86,9 @@ CREATE TABLE user_friend_group (
     user_id INTEGER REFERENCES user_profile,
     friend_group_id INTEGER REFERENCES friend_group
 );
+
+CREATE TABLE app_data (
+    id SERIAL PRIMARY KEY,
+    app_data_key text,
+    value text
+);

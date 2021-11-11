@@ -1,10 +1,25 @@
 const db = require("../db");
+const Movie = require("./Movie");
+const TV = require("./TV");
 
 class FriendGroup {
   constructor({ id, members = [], name }) {
     this.id = id;
     this.members = members;
     this.name = name;
+  }
+
+  static async getByID(friendGroupID) {
+    const result = await db.query(
+      `SELECT
+        id,
+        name
+      FROM friend_group
+      WHERE id = $1`,
+      [friendGroupID]
+    );
+
+    return new FriendGroup(result.rows[0]);
   }
 
   static async getByUserID(userID) {
@@ -54,6 +69,60 @@ class FriendGroup {
       }
 
       return friendGroups;
+    } catch (e) {
+      console.log(e);
+    }
+  }
+
+  async getMovieRecommendations() {
+    try {
+      const seedResult = await db.query(
+        `SELECT
+          m.id as movie_id,
+          SUM(m.popularity) AS weighted_popularity,
+          COUNT(*) as appearances
+        FROM friend_group as fg
+        INNER JOIN user_friend_group as ufg ON ufg.friend_group_id = fg.id
+        INNER JOIN user_movie as um ON um.user_id = ufg.user_id
+        INNER JOIN movie as m ON m.id = um.movie_id
+        WHERE fg.id = $1
+        GROUP BY m.id
+        ORDER BY appearances DESC, weighted_popularity DESC`,
+        [this.id]
+      );
+
+      const movies = await Promise.all(
+        seedResult.rows.map((r) => Movie.getById(r.movie_id))
+      );
+
+      return movies;
+    } catch (e) {
+      console.log(e);
+    }
+  }
+
+  async getTVRecommendations() {
+    try {
+      const seedResult = await db.query(
+        `SELECT
+          tv.id as tv_id,
+          SUM(tv.popularity) AS weighted_popularity,
+          COUNT(*) as appearances
+        FROM friend_group as fg
+        INNER JOIN user_friend_group as ufg ON ufg.friend_group_id = fg.id
+        INNER JOIN user_tv as ut ON ut.user_id = ufg.user_id
+        INNER JOIN tv as tv ON tv.id = ut.tv_id
+        WHERE fg.id = $1
+        GROUP BY tv.id
+        ORDER BY appearances DESC, weighted_popularity DESC`,
+        [this.id]
+      );
+
+      const tv = await Promise.all(
+        seedResult.rows.map((r) => TV.getById(r.tv_id))
+      );
+
+      return tv;
     } catch (e) {
       console.log(e);
     }

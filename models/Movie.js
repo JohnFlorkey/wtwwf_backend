@@ -26,8 +26,23 @@ class Movie {
     this.voteAverage = vote_average;
   }
 
+  async addGenre(genreID) {
+    const result = await db.query(
+      `INSERT INTO movie_genre (
+        movie_id,
+        genre_id
+      ) VALUES (
+        $1,
+        $2
+      )
+      `,
+      [this.id, genreID]
+    );
+  }
+
   static async create({
     id,
+    genres,
     overview,
     popularity,
     poster_path,
@@ -36,7 +51,7 @@ class Movie {
     title,
     vote_average,
   }) {
-    const result = await db.query(
+    const movieResult = await db.query(
       `INSERT INTO movie (
         id,
         overview,
@@ -60,7 +75,7 @@ class Movie {
       ]
     );
 
-    return new Movie({
+    const newMovie = new Movie({
       id,
       overview,
       popularity,
@@ -70,6 +85,20 @@ class Movie {
       title,
       vote_average,
     });
+
+    // create movie-genre relationships
+    const movieGenreResult = await Promise.all(
+      genres.map((g) => {
+        newMovie.addGenre(g.id);
+        return g.name;
+      })
+    );
+    console.log(movieGenreResult);
+
+    newMovie.genres = movieGenreResult;
+    console.log(newMovie);
+
+    return newMovie;
   }
 
   static async getById(id) {

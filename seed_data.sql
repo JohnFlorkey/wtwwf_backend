@@ -113,7 +113,9 @@ INSERT INTO user_movie (
 ) VALUES
     (1891, 1),
     (1892, 1),
-    (11, 1);
+    (11, 1),
+    (1891, 2),
+    (11, 2);
 
 INSERT INTO user_tv (
     tv_id,
@@ -121,7 +123,9 @@ INSERT INTO user_tv (
 ) VALUES
     (60554, 1),
     (82856, 1),
-    (4194, 1);
+    (4194, 1),
+    (82856, 2),
+    (4194, 2);
 
 INSERT INTO friend_group (
     name
@@ -151,3 +155,9 @@ INSERT INTO user_friend_group (
     2,
     3
 );
+
+INSERT INTO app_data (
+    app_data,
+    value
+) VALUES
+    ('lastGenreGet', null);

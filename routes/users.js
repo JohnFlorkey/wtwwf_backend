@@ -85,6 +85,7 @@ router.post("/:userID/movies", async (req, res, next) => {
       );
       const {
         id,
+        genres,
         overview,
         popularity,
         poster_path,
@@ -109,6 +110,7 @@ router.post("/:userID/movies", async (req, res, next) => {
 
       movie = await Movie.create({
         id,
+        genres,
         overview,
         popularity,
         poster_path,
