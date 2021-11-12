@@ -162,6 +162,38 @@ INSERT INTO app_data (
 ) VALUES
     ('lastGenreSync', null);
 
+INSERT INTO genre (
+    id,
+    name
+) VALUES
+    (12,'Adventure'),
+    (14,'Fantasy'),
+    (16,'Animation'),
+    (18,'Drama'),
+    (27,'Horror'),
+    (28,'Action'),
+    (35,'Comedy'),
+    (36,'History'),
+    (37,'Western'),
+    (53,'Thriller'),
+    (80,'Crime'),
+    (99,'Documentary'),
+    (878,'Science Fiction'),
+    (9648,'Mystery'),
+    (10402,'Music'),
+    (10749,'Romance'),
+    (10751,'Family'),
+    (10752,'War'),
+    (10759,'Action & Adventure'),
+    (10762,'Kids'),
+    (10763,'News'),
+    (10764,'Reality'),
+    (10765,'Sci-Fi & Fantasy'),
+    (10766,'Soap'),
+    (10767,'Talk'),
+    (10768,'War & Politics'),
+    (10770,'TV Movie');
+
 INSERT INTO movie_genre (
     movie_id,
     genre_id
@@ -174,7 +206,7 @@ INSERT INTO movie_genre (
     (1891, 878),
     (11, 12),
     (11, 28),
-    (11, 878)
+    (11, 878);
 
 INSERT INTO tv_genre (
     tv_id,
@@ -188,4 +220,83 @@ INSERT INTO tv_genre (
     (82856, 18),
     (4194, 10759),
     (4194, 16),
-    (4194, 10765)
+    (4194, 10765);
+
+INSERT INTO keyword (
+    id,
+    name
+) VALUES
+    (380, 'sibling relationship'),
+    (526, 'rebel'),
+    (803, 'android'),
+    (1612, 'spacecraft'),
+    (2280, 'emperor'),
+    (2902, 'space battle'),
+    (3373, 'snowstorm'),
+    (3388, 'space colony'), 
+    (4270, 'galaxy'),
+    (4271, 'hermit'),
+    (5144, 'matter of life and death'),
+    (6212, 'smuggling (contraband)'),
+    (10013, 'death star'),
+    (10014, 'jabba the hutt'),
+    (10015, 'ewoks'),
+    (10016,	'lightsaber'),
+    (10527, 'jedi'),
+    (11107,	'rescue mission'),
+    (11195, 'empire'),
+    (11196,	'rebellion'),
+    (13194,	'planet'),
+    (160134, 'the force'),
+    (161176, 'space opera'),
+    (163295, 'galactic war'),
+    (178710, 'stormtrooper'),
+    (178712, 'totalitarianism'),
+    (210346, 'wookie'),
+    (232452, 'jedi master'),
+    (232453, 'jedi training'),
+    (232454, 'droid');
+
+INSERT INTO movie_keyword (
+    movie_id,
+    keyword_id
+) VALUES
+    (1892, 380),
+    (1892, 526),
+    (1892, 1612),
+    (1892, 2280),
+    (1892, 2902),
+    (1892, 5144),
+    (1892, 10013),
+    (1892, 10014),
+    (1892, 10015),
+    (1892, 10527),
+    (1892, 161176),
+    (1891, 3373),
+    (1891, 3388),
+    (1891, 10016),
+    (1891, 10527),
+    (1891, 11196),
+    (1891, 160134),
+    (1891, 161176),
+    (1891, 178710),
+    (1891, 210346),
+    (1891, 232452),
+    (1891, 232453),
+    (1891, 232454),
+    (11, 803),
+    (11, 4270),
+    (11, 4271),
+    (11, 6212),
+    (11, 10013),
+    (11, 10016),
+    (11, 10527),
+    (11, 11107),
+    (11, 11195),
+    (11, 11196),
+    (11, 13194),
+    (11, 160134),
+    (11, 161176),
+    (11, 163295),
+    (11, 178710),
+    (11, 178712);

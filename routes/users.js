@@ -95,19 +95,6 @@ router.post("/:userID/movies", async (req, res, next) => {
         vote_average,
       } = movieDetailResponse.data;
 
-      // get the keywords
-      // const movieKeywordResponse = await axios.get(
-      //   `${TMDB_API_BASE_URL}/3/movie/${movieID}/keywords`,
-      //   {
-      //     headers: {
-      //       Authorization: `Bearer ${token}`,
-      //     },
-      //   }
-      // );
-
-      // const keywords = movieKeywordResponse.data.keywords;
-      // console.log(movieKeywordResponse);
-
       movie = await Movie.create({
         id,
         genres,

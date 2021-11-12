@@ -1,6 +1,7 @@
 const db = require("../db");
 const ExpressError = require("../expressError");
 const Genre = require("./Genre");
+const Keyword = require("./Keyword");
 
 class Movie {
   constructor({
@@ -41,6 +42,20 @@ class Movie {
     );
   }
 
+  static async addKeyword(movieID, keywordID) {
+    const result = await db.query(
+      `INSERT INTO movie_keyword (
+        movie_id,
+        keyword_id
+      ) VALUES (
+        $1,
+        $2
+      )
+      `,
+      [movieID, keywordID]
+    );
+  }
+
   static async build({
     id,
     overview,
@@ -51,12 +66,17 @@ class Movie {
     title,
     vote_average,
   }) {
+    //get genres
     const genreResult = await Genre.getByMovieID(id);
     const genres = genreResult.map((g) => g.name);
     // get keywords
+    const keywordResult = await Keyword.getByMovieID(id);
+    const keywords = keywordResult.map((k) => k.name);
+
     return new Movie({
       id,
       genres,
+      keywords,
       overview,
       popularity,
       poster_path,
@@ -108,6 +128,13 @@ class Movie {
         Movie.addGenre(id, g.id);
         return g.name;
       })
+    );
+
+    // get keywords for the movie from the external API
+    const keywordResult = await Keyword.getFromExtAPIByMovieID(id);
+    // associate to movie
+    const movieKeywordResult = await Promise.all(
+      keywordResult.map((k) => Movie.addKeyword(id, k.id))
     );
 
     const newMovie = Movie.build({
