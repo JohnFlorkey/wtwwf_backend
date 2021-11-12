@@ -157,7 +157,35 @@ INSERT INTO user_friend_group (
 );
 
 INSERT INTO app_data (
-    app_data,
+    app_data_key,
     value
 ) VALUES
-    ('lastGenreGet', null);
+    ('lastGenreSync', null);
+
+INSERT INTO movie_genre (
+    movie_id,
+    genre_id
+) VALUES 
+    (1892, 12),
+    (1892, 28),
+    (1892, 878),
+    (1891, 12),
+    (1891, 28),
+    (1891, 878),
+    (11, 12),
+    (11, 28),
+    (11, 878)
+
+INSERT INTO tv_genre (
+    tv_id,
+    genre_id
+) VALUES
+    (60554, 10759),
+    (60554, 16),
+    (82856, 10765),
+    (82856, 10759),
+    (82856, 37),
+    (82856, 18),
+    (4194, 10759),
+    (4194, 16),
+    (4194, 10765)

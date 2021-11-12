@@ -96,7 +96,7 @@ class User {
         [this.id]
       );
 
-      const movies = result.rows.map((m) => new Movie(m));
+      const movies = await Promise.all(result.rows.map((m) => Movie.build(m)));
 
       return movies;
     } catch (e) {
@@ -123,7 +123,7 @@ class User {
         [this.id]
       );
 
-      const tv = result.rows.map((t) => new TV(t));
+      const tv = await Promise.all(result.rows.map((t) => TV.build(t)));
 
       return tv;
     } catch (e) {

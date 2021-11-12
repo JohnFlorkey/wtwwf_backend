@@ -34,6 +34,34 @@ class Genre {
     return genre ? new Genre(genre) : undefined;
   }
 
+  static async getByMovieID(movieID) {
+    const result = await db.query(
+      `SELECT
+        g.id,
+        g.name
+      FROM genre AS g
+      INNER JOIN movie_genre AS mg ON mg.genre_id = g.id
+      WHERE mg.movie_id = $1`,
+      [movieID]
+    );
+
+    return result.rows;
+  }
+
+  static async getByTVID(tvID) {
+    const result = await db.query(
+      `SELECT
+        g.id,
+        g.name
+      FROM genre AS g
+      INNER JOIN tv_genre AS tg ON tg.genre_id = g.id
+      WHERE tg.tv_id = $1`,
+      [tvID]
+    );
+
+    return result.rows;
+  }
+
   async save() {
     const result = await db.query(
       `UPDATE genre

@@ -1,11 +1,12 @@
 const db = require("../db");
 const ExpressError = require("../expressError");
+const Genre = require("./Genre");
 
 class Movie {
   constructor({
     id,
-    genres,
-    keywords,
+    genres = [],
+    keywords = [],
     overview,
     popularity,
     poster_path,
@@ -26,7 +27,7 @@ class Movie {
     this.voteAverage = vote_average;
   }
 
-  async addGenre(genreID) {
+  static async addGenre(movieID, genreID) {
     const result = await db.query(
       `INSERT INTO movie_genre (
         movie_id,
@@ -36,8 +37,34 @@ class Movie {
         $2
       )
       `,
-      [this.id, genreID]
+      [movieID, genreID]
     );
+  }
+
+  static async build({
+    id,
+    overview,
+    popularity,
+    poster_path,
+    release_date,
+    runtime,
+    title,
+    vote_average,
+  }) {
+    const genreResult = await Genre.getByMovieID(id);
+    const genres = genreResult.map((g) => g.name);
+    // get keywords
+    return new Movie({
+      id,
+      genres,
+      overview,
+      popularity,
+      poster_path,
+      release_date,
+      runtime,
+      title,
+      vote_average,
+    });
   }
 
   static async create({
@@ -75,7 +102,15 @@ class Movie {
       ]
     );
 
-    const newMovie = new Movie({
+    // create movie-genre relationships
+    const movieGenreResult = await Promise.all(
+      genres.map((g) => {
+        Movie.addGenre(id, g.id);
+        return g.name;
+      })
+    );
+
+    const newMovie = Movie.build({
       id,
       overview,
       popularity,
@@ -85,18 +120,6 @@ class Movie {
       title,
       vote_average,
     });
-
-    // create movie-genre relationships
-    const movieGenreResult = await Promise.all(
-      genres.map((g) => {
-        newMovie.addGenre(g.id);
-        return g.name;
-      })
-    );
-    console.log(movieGenreResult);
-
-    newMovie.genres = movieGenreResult;
-    console.log(newMovie);
 
     return newMovie;
   }
@@ -119,7 +142,7 @@ class Movie {
 
     const movie = result.rows[0];
 
-    return movie ? new Movie(movie) : undefined;
+    return movie ? Movie.build(movie) : undefined;
   }
 }
 

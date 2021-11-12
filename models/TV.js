@@ -1,11 +1,13 @@
 const db = require("../db");
 const ExpressError = require("../expressError");
+const Genre = require("./Genre");
 
 class TV {
   constructor({
     id,
     episode_runtime = [],
     first_air_date,
+    genres = [],
     name,
     overview,
     popularity,
@@ -15,6 +17,7 @@ class TV {
     this.id = id;
     this.episodeRuntime = episode_runtime;
     this.firstAirDate = first_air_date;
+    this.genres = genres;
     this.name = name;
     this.overview = overview;
     this.popularity = popularity;
@@ -22,10 +25,51 @@ class TV {
     this.voteAverage = vote_average;
   }
 
+  static async addGenre(tvID, genreID) {
+    const result = await db.query(
+      `INSERT INTO tv_genre (
+        tv_id,
+        genre_id
+      ) VALUES (
+        $1,
+        $2
+      )
+      `,
+      [tvID, genreID]
+    );
+  }
+
+  static async build({
+    id,
+    episode_runtime = [],
+    first_air_date,
+    name,
+    overview,
+    popularity,
+    poster_path,
+    vote_average,
+  }) {
+    const genreResult = await Genre.getByTVID(id);
+    const genres = genreResult.map((g) => g.name);
+    // get keywords
+    return new TV({
+      id,
+      episode_runtime,
+      first_air_date,
+      genres,
+      name,
+      overview,
+      popularity,
+      poster_path,
+      vote_average,
+    });
+  }
+
   static async create({
     id,
     episode_runtime,
     first_air_date,
+    genres,
     name,
     overview,
     popularity,
@@ -56,7 +100,15 @@ class TV {
       ]
     );
 
-    return new TV({
+    // create tv-genre relationships
+    const tvGenreResult = await Promise.all(
+      genres.map((g) => {
+        TV.addGenre(id, g.id);
+        return g.name;
+      })
+    );
+
+    const newTV = await TV.build({
       id,
       episode_runtime,
       first_air_date,
@@ -66,6 +118,8 @@ class TV {
       poster_path,
       vote_average,
     });
+
+    return newTV;
   }
 
   static async getById(id) {

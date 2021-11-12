@@ -123,7 +123,7 @@ router.post("/:userID/movies", async (req, res, next) => {
 
     // add movie to user's list
     const user = await User.getById(userID);
-    const addedMovie = user.addMovie(movie.id);
+    const addedMovie = await user.addMovie(movie.id);
 
     // get the watch providers
     // const movieWatchProvidersResponse = await axios.get(
@@ -166,6 +166,7 @@ router.post("/:userID/tv", async (req, res, next) => {
         id,
         episode_runtime,
         first_air_date,
+        genres,
         name,
         overview,
         popularity,
@@ -177,6 +178,7 @@ router.post("/:userID/tv", async (req, res, next) => {
         id,
         episode_runtime,
         first_air_date,
+        genres,
         name,
         overview,
         popularity,
@@ -187,7 +189,7 @@ router.post("/:userID/tv", async (req, res, next) => {
 
     // add movie to user's list
     const user = await User.getById(userID);
-    const addedTV = user.addTV(tv.id);
+    const addedTV = await user.addTV(tv.id);
 
     // get the watch providers
     // const movieWatchProvidersResponse = await axios.get(
