@@ -1,6 +1,7 @@
 const db = require("../db");
 const ExpressError = require("../expressError");
 const Genre = require("./Genre");
+const Keyword = require("./Keyword");
 
 class TV {
   constructor({
@@ -8,6 +9,7 @@ class TV {
     episode_runtime = [],
     first_air_date,
     genres = [],
+    keywords = [],
     name,
     overview,
     popularity,
@@ -18,6 +20,7 @@ class TV {
     this.episodeRuntime = episode_runtime;
     this.firstAirDate = first_air_date;
     this.genres = genres;
+    this.keywords = keywords;
     this.name = name;
     this.overview = overview;
     this.popularity = popularity;
@@ -39,6 +42,20 @@ class TV {
     );
   }
 
+  static async addKeyword(tvID, keywordID) {
+    const result = await db.query(
+      `INSERT INTO tv_keyword (
+        tv_id,
+        keyword_id
+      ) VALUES (
+        $1,
+        $2
+      )
+      `,
+      [tvID, keywordID]
+    );
+  }
+
   static async build({
     id,
     episode_runtime = [],
@@ -49,14 +66,19 @@ class TV {
     poster_path,
     vote_average,
   }) {
+    // get genres
     const genreResult = await Genre.getByTVID(id);
     const genres = genreResult.map((g) => g.name);
     // get keywords
+    const keywordResult = await Keyword.getByTVID(id);
+    const keywords = keywordResult.map((k) => k.name);
+
     return new TV({
       id,
       episode_runtime,
       first_air_date,
       genres,
+      keywords,
       name,
       overview,
       popularity,
@@ -76,6 +98,9 @@ class TV {
     poster_path,
     vote_average,
   }) {
+    const episode_runtimeObj = {};
+    episode_runtime.map((r) => episode_runtimeObj[r]);
+
     const result = await db.query(
       `INSERT INTO tv (
         id,
@@ -90,7 +115,7 @@ class TV {
       `,
       [
         id,
-        episode_runtime,
+        episode_runtimeObj,
         first_air_date,
         name,
         overview,
@@ -106,6 +131,13 @@ class TV {
         TV.addGenre(id, g.id);
         return g.name;
       })
+    );
+
+    // get keywords for the tv show from the external API
+    const keywordResult = await Keyword.getFromExtAPIByTVID(id);
+    // associate to movie
+    const movieKeywordResult = await Promise.all(
+      keywordResult.map((k) => TV.addKeyword(id, k.id))
     );
 
     const newTV = await TV.build({
@@ -140,7 +172,7 @@ class TV {
 
     const tv = result.rows[0];
 
-    return tv ? new TV(tv) : undefined;
+    return tv ? TV.build(tv) : undefined;
   }
 }
 

@@ -25,6 +25,8 @@ class Keyword {
 
       return new Keyword(result.rows[0]);
     }
+
+    return keyword;
   }
   static async getByID(keywordID) {
     const result = await db.query(
@@ -54,6 +56,20 @@ class Keyword {
     return result.rows;
   }
 
+  static async getByTVID(tvID) {
+    const result = await db.query(
+      `SELECT
+        k.id,
+        k.name
+      FROM keyword AS k
+      INNER JOIN tv_keyword AS tk ON tk.keyword_id = k.id
+      WHERE tk.tv_id = $1`,
+      [tvID]
+    );
+
+    return result.rows;
+  }
+
   static async getFromExtAPIByMovieID(movieID) {
     const response = await axios.get(
       `${TMDB_API_BASE_URL}/3/movie/${movieID}/keywords`,
@@ -67,6 +83,26 @@ class Keyword {
     const keywords = await Promise.all(
       response.data.keywords.map((k) => Keyword.create(k.id, k.name))
     );
+
+    return keywords;
+  }
+
+  static async getFromExtAPIByTVID(tvID) {
+    const response = await axios.get(
+      `${TMDB_API_BASE_URL}/3/tv/${tvID}/keywords`,
+      {
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      }
+    );
+
+    let keywords = [];
+    if (response.data.results.length > 0) {
+      keywords = await Promise.all(
+        response.data.results.map((k) => Keyword.create(k.id, k.name))
+      );
+    }
 
     return keywords;
   }

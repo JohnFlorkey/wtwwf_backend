@@ -197,7 +197,7 @@ INSERT INTO genre (
 INSERT INTO movie_genre (
     movie_id,
     genre_id
-) VALUES 
+) VALUES
     (1892, 12),
     (1892, 28),
     (1892, 878),
@@ -228,13 +228,13 @@ INSERT INTO keyword (
 ) VALUES
     (380, 'sibling relationship'),
     (526, 'rebel'),
-    (801, "bounty hunter"),
+    (801, 'bounty hunter'),
     (803, 'android'),
     (1612, 'spacecraft'),
     (2280, 'emperor'),
     (2902, 'space battle'),
     (3373, 'snowstorm'),
-    (3388, 'space colony'), 
+    (3388, 'space colony'),
     (4270, 'galaxy'),
     (4271, 'hermit'),
     (5144, 'matter of life and death'),
@@ -247,15 +247,15 @@ INSERT INTO keyword (
     (11107,	'rescue mission'),
     (11195, 'empire'),
     (11196,	'rebellion'),
-    (11606, "space western"),
+    (11606, 'space western'),
     (13194,	'planet'),
     (160134, 'the force'),
     (161176, 'space opera'),
     (163295, 'galactic war'),
     (178710, 'stormtrooper'),
     (178712, 'totalitarianism'),
-    (191132, "space exploration"),
-    (195114, "space adventure"),
+    (191132, 'space exploration'),
+    (195114, 'space adventure'),
     (210346, 'wookie'),
     (232452, 'jedi master'),
     (232453, 'jedi training'),

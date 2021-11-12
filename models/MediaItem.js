@@ -3,7 +3,7 @@ const { IMAGE_BASE_URL } = require("../config");
 class MediaItem {
   constructor(
     id,
-    genres,
+    genres = [],
     keywords = [],
     overview,
     popularity,
@@ -57,6 +57,11 @@ class MediaItem {
       const posterURL = obj.posterPath
         ? `${IMAGE_BASE_URL}${obj.posterPath}`
         : null;
+      const episodeRuntime =
+        obj.episodeRuntime && obj.episodeRuntime.length > 0
+          ? obj.episodeRuntime[0]
+          : undefined;
+
       return new MediaItem(
         obj.id,
         obj.genres,
@@ -65,7 +70,7 @@ class MediaItem {
         obj.popularity,
         posterURL,
         obj.firstAirDate,
-        obj.episodeRuntime,
+        episodeRuntime,
         obj.name,
         "tv",
         obj.voteAverage,
