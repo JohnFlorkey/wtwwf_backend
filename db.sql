@@ -37,6 +37,12 @@ CREATE TABLE movie_keyword (
     keyword_id INTEGER REFERENCES keyword
 );
 
+CREATE TABLE tv_keyword (
+    id SERIAL PRIMARY KEY,
+    tv_id INTEGER REFERENCES tv,
+    keyword_id INTEGER REFERENCES keyword
+);
+
 CREATE TABLE genre (
     id INTEGER PRIMARY KEY,
     name TEXT

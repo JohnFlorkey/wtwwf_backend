@@ -228,6 +228,7 @@ INSERT INTO keyword (
 ) VALUES
     (380, 'sibling relationship'),
     (526, 'rebel'),
+    (801, "bounty hunter"),
     (803, 'android'),
     (1612, 'spacecraft'),
     (2280, 'emperor'),
@@ -246,12 +247,15 @@ INSERT INTO keyword (
     (11107,	'rescue mission'),
     (11195, 'empire'),
     (11196,	'rebellion'),
+    (11606, "space western"),
     (13194,	'planet'),
     (160134, 'the force'),
     (161176, 'space opera'),
     (163295, 'galactic war'),
     (178710, 'stormtrooper'),
     (178712, 'totalitarianism'),
+    (191132, "space exploration"),
+    (195114, "space adventure"),
     (210346, 'wookie'),
     (232452, 'jedi master'),
     (232453, 'jedi training'),
@@ -300,3 +304,15 @@ INSERT INTO movie_keyword (
     (11, 163295),
     (11, 178710),
     (11, 178712);
+
+INSERT INTO tv_keyword (
+    tv_id,
+    keyword_id
+) VALUES
+    (4194, 161176),
+    (60554, 161176),
+    (82856, 801),
+    (82856, 11606),
+    (82856, 161176),
+    (82856, 191132),
+    (82856, 195114);
