@@ -54,6 +54,30 @@ class User {
     }
   }
 
+  static async getByFriendGroupID(friendGroupID) {
+    try {
+      const result = await db.query(
+        `SELECT
+          up.id,
+          up.country,
+          up.email,
+          up.password,
+          up.username
+        FROM user_profile AS up
+        INNER JOIN user_friend_group AS ufg ON ufg.user_id = up.id
+        WHERE ufg.friend_group_id = $1`,
+        [friendGroupID]
+      );
+
+      let users = [];
+      if (result.rows.length > 0) users = result.rows.map((u) => new User(u));
+
+      return users;
+    } catch (e) {
+      console.log(e);
+    }
+  }
+
   static async getById(id) {
     try {
       const result = await db.query(
@@ -119,13 +143,30 @@ class User {
 					t.vote_average
 				FROM tv AS t
 				INNER JOIN user_tv AS ut ON ut.tv_id = t.id
-				WHERE ut.user_id = $1`,
+				WHERE ut.user_id = $1
+          AND t.watched = 0`,
         [this.id]
       );
 
       const tv = await Promise.all(result.rows.map((t) => TV.build(t)));
 
       return tv;
+    } catch (e) {
+      console.log(e);
+    }
+  }
+
+  async watchedTV(tvID) {
+    try {
+      const result = await db.query(
+        `UPDATE user_tv
+        SET watched = true
+        WHERE tv_id = $1
+          AND user_id = $2`,
+        [tvID, this.id]
+      );
+
+      return true;
     } catch (e) {
       console.log(e);
     }

@@ -39,4 +39,19 @@ router.get("/:id/tv", async (req, res, next) => {
   }
 });
 
+router.post("/:id/tv/", async (req, res, next) => {
+  try {
+    const friendGroupID = req.params.id;
+    const tvID = req.body.tvID;
+    const friendGroup = await FriendGroup.getByID(friendGroupID);
+
+    if (friendGroup.members.length > 0)
+      friendGroup.members.map((m) => m.watchedTV(tvID));
+
+    return res.json(true);
+  } catch (e) {
+    console.log(e);
+  }
+});
+
 module.exports = router;

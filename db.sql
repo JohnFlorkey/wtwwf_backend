@@ -72,14 +72,16 @@ CREATE TABLE user_movie (
     id SERIAL PRIMARY KEY,
     added_date TIMESTAMP DEFAULT now(),
     movie_id INTEGER REFERENCES movie,
-    user_id INTEGER REFERENCES user_profile 
+    user_id INTEGER REFERENCES user_profile,
+    watched BOOLEAN DEFAULT false
 );
 
 CREATE TABLE user_tv (
     id SERIAL PRIMARY KEY,
     added_date TIMESTAMP DEFAULT now(),
     tv_id INTEGER REFERENCES tv,
-    user_id INTEGER REFERENCES user_profile    
+    user_id INTEGER REFERENCES user_profile,
+    watched BOOLEAN DEFAULT false
 );
 
 CREATE TABLE friend_group (

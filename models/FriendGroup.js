@@ -1,6 +1,7 @@
 const db = require("../db");
 const Movie = require("./Movie");
 const TV = require("./TV");
+const User = require("./User");
 
 class FriendGroup {
   constructor({ id, members = [], name }) {
@@ -10,7 +11,7 @@ class FriendGroup {
   }
 
   static async getByID(friendGroupID) {
-    const result = await db.query(
+    const friendGroupResult = await db.query(
       `SELECT
         id,
         name
@@ -19,7 +20,25 @@ class FriendGroup {
       [friendGroupID]
     );
 
-    return new FriendGroup(result.rows[0]);
+    const friendGroupData = {};
+    if (friendGroupResult.rows.length > 0) {
+      friendGroupData.id = friendGroupResult.rows[0].id;
+      friendGroupData.name = friendGroupResult.rows[0].name;
+      friendGroupData.members = [];
+
+      const friendGroupUsersResult = await User.getByFriendGroupID(
+        friendGroupID
+      );
+      if (friendGroupUsersResult.length > 0)
+        friendGroupData.members = friendGroupUsersResult;
+    }
+
+    let friendGroup = {};
+    if (Object.keys(friendGroupData).length > 0) {
+      friendGroup = new FriendGroup(friendGroupData);
+    }
+
+    return friendGroup;
   }
 
   static async getByUserID(userID) {
