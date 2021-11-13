@@ -132,6 +132,7 @@ class FriendGroup {
         INNER JOIN user_tv as ut ON ut.user_id = ufg.user_id
         INNER JOIN tv as tv ON tv.id = ut.tv_id
         WHERE fg.id = $1
+          AND ut.watched = false
         GROUP BY tv.id
         ORDER BY appearances DESC, weighted_popularity DESC`,
         [this.id]

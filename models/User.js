@@ -144,7 +144,7 @@ class User {
 				FROM tv AS t
 				INNER JOIN user_tv AS ut ON ut.tv_id = t.id
 				WHERE ut.user_id = $1
-          AND t.watched = 0`,
+          AND ut.watched = false`,
         [this.id]
       );
 
