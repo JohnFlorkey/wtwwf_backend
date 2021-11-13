@@ -2,6 +2,7 @@ const db = require("../db");
 const ExpressError = require("../expressError");
 const Genre = require("./Genre");
 const Keyword = require("./Keyword");
+const WatchProvider = require("./WatchProvider");
 
 class TV {
   constructor({
@@ -15,6 +16,7 @@ class TV {
     popularity,
     poster_path,
     vote_average,
+    watchProviders = {},
   }) {
     this.id = id;
     this.episodeRuntime = episode_runtime;
@@ -26,6 +28,7 @@ class TV {
     this.popularity = popularity;
     this.posterPath = poster_path;
     this.voteAverage = vote_average;
+    this.watchProviders = watchProviders;
   }
 
   static async addGenre(tvID, genreID) {
@@ -72,6 +75,8 @@ class TV {
     // get keywords
     const keywordResult = await Keyword.getByTVID(id);
     const keywords = keywordResult.map((k) => k.name);
+    // get watchProviders
+    const watchProviders = await WatchProvider.getByTVID(id);
 
     return new TV({
       id,
@@ -84,6 +89,7 @@ class TV {
       popularity,
       poster_path,
       vote_average,
+      watchProviders,
     });
   }
 

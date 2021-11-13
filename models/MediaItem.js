@@ -13,7 +13,7 @@ class MediaItem {
     title,
     type,
     voteAverage,
-    watchProviders = []
+    watchProviders = {}
   ) {
     this.id = id;
     this.genres = genres;

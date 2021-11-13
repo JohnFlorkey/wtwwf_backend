@@ -2,6 +2,7 @@ const db = require("../db");
 const ExpressError = require("../expressError");
 const Genre = require("./Genre");
 const Keyword = require("./Keyword");
+const WatchProvider = require("./WatchProvider");
 
 class Movie {
   constructor({
@@ -15,6 +16,7 @@ class Movie {
     runtime,
     title,
     vote_average,
+    watchProviders = {},
   }) {
     this.id = id;
     this.genres = genres;
@@ -26,6 +28,7 @@ class Movie {
     this.runtime = runtime;
     this.title = title;
     this.voteAverage = vote_average;
+    this.watchProviders = watchProviders;
   }
 
   static async addGenre(movieID, genreID) {
@@ -72,6 +75,8 @@ class Movie {
     // get keywords
     const keywordResult = await Keyword.getByMovieID(id);
     const keywords = keywordResult.map((k) => k.name);
+    // get watchProviders
+    const watchProviders = await WatchProvider.getByMovieID(id);
 
     return new Movie({
       id,
@@ -84,6 +89,7 @@ class Movie {
       runtime,
       title,
       vote_average,
+      watchProviders,
     });
   }
 
