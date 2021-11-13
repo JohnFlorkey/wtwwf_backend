@@ -22,6 +22,21 @@ router.get("/:id/movies", async (req, res, next) => {
   }
 });
 
+router.post("/:id/movies/", async (req, res, next) => {
+  try {
+    const friendGroupID = req.params.id;
+    const movieID = req.body.id;
+    const friendGroup = await FriendGroup.getByID(friendGroupID);
+
+    if (friendGroup.members.length > 0)
+      friendGroup.members.map((m) => m.watchedMovie(movieID));
+
+    return res.json(true);
+  } catch (e) {
+    console.log(e);
+  }
+});
+
 router.get("/:id/tv", async (req, res, next) => {
   try {
     const friendGroupID = req.params.id;

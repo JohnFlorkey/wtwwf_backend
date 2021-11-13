@@ -105,6 +105,7 @@ class FriendGroup {
         INNER JOIN user_movie as um ON um.user_id = ufg.user_id
         INNER JOIN movie as m ON m.id = um.movie_id
         WHERE fg.id = $1
+          AND um.watched = false
         GROUP BY m.id
         ORDER BY appearances DESC, weighted_popularity DESC`,
         [this.id]

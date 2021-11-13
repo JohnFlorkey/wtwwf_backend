@@ -116,7 +116,7 @@ class User {
         FROM user_movie AS um
         INNER JOIN movie AS m ON m.id = um.movie_id
         WHERE um.user_id = $1
-        `,
+          AND um.watched = false`,
         [this.id]
       );
 
@@ -151,6 +151,22 @@ class User {
       const tv = await Promise.all(result.rows.map((t) => TV.build(t)));
 
       return tv;
+    } catch (e) {
+      console.log(e);
+    }
+  }
+
+  async watchedMovie(movieID) {
+    try {
+      const result = await db.query(
+        `UPDATE user_movie
+        SET watched = true
+        WHERE movie_id = $1
+          AND user_id = $2`,
+        [movieID, this.id]
+      );
+
+      return true;
     } catch (e) {
       console.log(e);
     }
