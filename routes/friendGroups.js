@@ -42,7 +42,7 @@ router.get("/:id/tv", async (req, res, next) => {
 router.post("/:id/tv/", async (req, res, next) => {
   try {
     const friendGroupID = req.params.id;
-    const tvID = req.body.tvID;
+    const tvID = req.body.id;
     const friendGroup = await FriendGroup.getByID(friendGroupID);
 
     if (friendGroup.members.length > 0)
