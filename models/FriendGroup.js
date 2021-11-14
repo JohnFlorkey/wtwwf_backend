@@ -10,6 +10,18 @@ class FriendGroup {
     this.name = name;
   }
 
+  async deleteMemberByID(userID) {
+    const result = await db.query(
+      `DELETE FROM user_friend_group
+      WHERE friend_group_id = $1
+        AND user_id = $2
+      RETURNING id AS userFriendGroupID`,
+      [this.id, userID]
+    );
+
+    return result.rows[0].userfriendgroupid;
+  }
+
   static async getByID(friendGroupID) {
     const friendGroupResult = await db.query(
       `SELECT

@@ -37,6 +37,19 @@ router.post("/:id/movies/", async (req, res, next) => {
   }
 });
 
+router.delete("/:id/members/:userID", async (req, res, next) => {
+  try {
+    const friendGroupID = req.params.id;
+    const { userID } = req.params;
+    const friendGroup = await FriendGroup.getByID(friendGroupID);
+    const result = await friendGroup.deleteMemberByID(userID);
+
+    return res.json(result);
+  } catch (e) {
+    console.log(e);
+  }
+});
+
 router.get("/:id/tv", async (req, res, next) => {
   try {
     const friendGroupID = req.params.id;

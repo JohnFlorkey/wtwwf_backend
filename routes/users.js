@@ -46,7 +46,7 @@ router.get("/:userID/movies", async (req, res, next) => {
 
     return res.json(responseData);
   } catch (e) {
-    throw new ExpressError("Bad Request", 400);
+    console.log(e);
   }
 });
 
