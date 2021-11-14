@@ -316,3 +316,17 @@ INSERT INTO tv_keyword (
     (82856, 161176),
     (82856, 191132),
     (82856, 195114);
+
+INSERT INTO invitation (
+    id,
+    email,
+    friend_group_id,
+    inviting_user_id,
+    is_active
+) VALUES (
+    'f4dca540-41a2-479f-814e-628bbeb66e6a',
+    'invited.user@nodomain.com',
+    1,
+    1,
+    true
+);

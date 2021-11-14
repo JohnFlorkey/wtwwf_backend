@@ -1,4 +1,5 @@
 const db = require("../db");
+const { v4: uuid } = require("uuid");
 const Movie = require("./Movie");
 const TV = require("./TV");
 const User = require("./User");
@@ -8,6 +9,33 @@ class FriendGroup {
     this.id = id;
     this.members = members;
     this.name = name;
+  }
+
+  static async createInvitation(email, friendGroupID, invitingUserID) {
+    try {
+      const friendGroup = await FriendGroup.getByID(friendGroupID);
+      const user = await User.getById(invitingUserID);
+      const result = await db.query(
+        `INSERT INTO invitation (
+          id,
+          email,
+          friend_group_id,
+          inviting_user_id,
+          is_active
+        ) VALUES (
+          $1,
+          $2,
+          $3,
+          $4,
+          true
+        ) RETURNING id`,
+        [uuid(), email, friendGroup.id, user.id]
+      );
+
+      return result.rows[0];
+    } catch (e) {
+      console.log(e);
+    }
   }
 
   async addMemberByID(userID) {

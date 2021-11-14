@@ -100,3 +100,11 @@ CREATE TABLE app_data (
     app_data_key text,
     value text
 );
+
+CREATE TABLE invitation (
+    id TEXT PRIMARY KEY,
+    email TEXT,
+    friend_group_id INTEGER REFERENCES friend_group,
+    inviting_user_id INTEGER REFERENCES user_profile,
+    is_active BOOLEAN DEFAULT true
+);
