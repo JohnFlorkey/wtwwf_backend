@@ -5,6 +5,18 @@ const ExpressError = require("../expressError");
 const MediaItem = require("../models/MediaItem");
 const FriendGroup = require("../models/FriendGroup");
 
+router.post("/", async (req, res, next) => {
+  try {
+    const { name, userID } = req.body;
+    const friendGroup = await FriendGroup.create(name);
+    await friendGroup.addMemberByID(userID);
+
+    return res.json(friendGroup);
+  } catch (e) {
+    console.log(e);
+  }
+});
+
 router.get("/:id/movies", async (req, res, next) => {
   try {
     const friendGroupID = req.params.id;

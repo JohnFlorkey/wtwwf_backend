@@ -10,6 +10,46 @@ class FriendGroup {
     this.name = name;
   }
 
+  async addMemberByID(userID) {
+    try {
+      const newMember = await User.getById(userID);
+      const result = await db.query(
+        `INSERT INTO user_friend_group (
+          friend_group_id,
+          user_id
+        ) VALUES (
+          $1,
+          $2
+        ) RETURNING id`,
+        [this.id, userID]
+      );
+
+      this.members.push(newMember);
+
+      return this;
+    } catch (e) {
+      console.log(e);
+    }
+  }
+
+  static async create(newName) {
+    try {
+      const result = await db.query(
+        `INSERT INTO friend_group (
+          name
+        ) VALUES ($1)
+        RETURNING id, name`,
+        [newName]
+      );
+      const { id, name } = result.rows[0];
+      const friendGroup = new FriendGroup({ id, name });
+
+      return friendGroup;
+    } catch (e) {
+      console.log(e);
+    }
+  }
+
   async deleteMemberByID(userID) {
     const result = await db.query(
       `DELETE FROM user_friend_group
