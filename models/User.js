@@ -1,7 +1,9 @@
 const db = require("../db");
+const bcrypt = require("bcrypt");
 const ExpressError = require("../expressError");
 const Movie = require("./Movie");
 const TV = require("./TV");
+const { BCRYPT_WORK_FACTOR } = require("../config");
 
 class User {
   constructor({ id, country, email, password, username }) {
@@ -154,6 +156,28 @@ class User {
     } catch (e) {
       console.log(e);
     }
+  }
+
+  static async register({ country, email, password, username }) {
+    const hashedPassword = await bcrypt.hash(password, BCRYPT_WORK_FACTOR);
+    const result = await db.query(
+      `INSERT INTO user_profile (
+        country,
+        email,
+        password,
+        username
+      ) VALUES (
+        $1,
+        $2,
+        $3,
+        $4
+      ) RETURNING id`,
+      [country, email, hashedPassword, username]
+    );
+
+    const { id } = result.rows[0];
+
+    return new User({ id, country, email, username });
   }
 
   async watchedMovie(movieID) {

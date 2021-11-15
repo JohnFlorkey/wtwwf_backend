@@ -11,6 +11,7 @@ app.use(cors());
 
 syncGenres();
 
+const authRoutes = require("./routes/auth");
 const discoverRoutes = require("./routes/discover");
 const friendGroupsRoutes = require("./routes/friendGroups");
 const invitationRoutes = require("./routes/invitations");
@@ -19,6 +20,7 @@ const searchRoutes = require("./routes/search");
 const tvRoutes = require("./routes/tv");
 const usersRoutes = require("./routes/users");
 
+app.use("/auth", authRoutes);
 app.use("/discover", discoverRoutes);
 app.use("/friendGroups", friendGroupsRoutes);
 app.use("/invitations", invitationRoutes);
