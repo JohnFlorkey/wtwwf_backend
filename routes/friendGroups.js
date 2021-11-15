@@ -17,22 +17,6 @@ router.post("/", async (req, res, next) => {
   }
 });
 
-router.post("/:id/invitations", async (req, res, next) => {
-  try {
-    const friendGroupID = req.params.id;
-    const { email, invitingUserID } = req.body;
-    const invitation = await FriendGroup.createInvitation(
-      email,
-      friendGroupID,
-      invitingUserID
-    );
-
-    return res.json(invitation);
-  } catch (e) {
-    console.log(e);
-  }
-});
-
 router.get("/:id/movies", async (req, res, next) => {
   try {
     const friendGroupID = req.params.id;

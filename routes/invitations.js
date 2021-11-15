@@ -9,6 +9,21 @@ router.get(`/`, async (req, res, next) => {
   return res.json(response);
 });
 
+router.post("/", async (req, res, next) => {
+  try {
+    const { email, friendGroupID, invitingUserID } = req.body;
+    const invitation = await Invitation.createInvitation(
+      email,
+      friendGroupID,
+      invitingUserID
+    );
+
+    return res.json(invitation);
+  } catch (e) {
+    console.log(e);
+  }
+});
+
 router.post(`/accept`, async (req, res, next) => {
   const invitationID = req.body.id;
   const userID = req.body.userID;
