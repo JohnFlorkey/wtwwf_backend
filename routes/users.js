@@ -13,9 +13,9 @@ const token = process.env.TMDB_API_BEARER_TOKEN;
 router.get("/:userID", async (req, res, next) => {
   try {
     const userID = req.params.userID;
-    const response = await axios.get(`http://localhost:3001/users/${userID}`);
+    const response = await User.getById(userID);
 
-    return res.json(response.data);
+    return res.json(response);
   } catch (e) {
     throw new ExpressError("Bad request", 400);
   }

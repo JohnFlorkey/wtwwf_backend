@@ -87,7 +87,6 @@ class User {
           id,
           country,
           email,
-          password,
           username
         FROM user_profile
         WHERE id = $1
