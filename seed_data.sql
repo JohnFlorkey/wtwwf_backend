@@ -148,6 +148,10 @@ INSERT INTO user_friend_group (
     2
 ),
 (
+    1,
+    3
+),
+(
     2,
     1
 ),
