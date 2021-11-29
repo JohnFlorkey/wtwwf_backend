@@ -8,6 +8,8 @@ const BCRYPT_WORK_FACTOR = 12;
 
 const DB_URI = process.env.DATABASE_URL;
 
+const PORT = +process.env.PORT;
+
 const JWT_SECRET_KEY = process.env.JWT_SECRET_KEY;
 
 module.exports = {
@@ -16,5 +18,6 @@ module.exports = {
   IMAGE_BASE_URL,
   JWT_SECRET_KEY,
   TMDB_API_BASE_URL,
+  PORT,
   PROVIDER_IMAGE_BASE_URL,
 };
