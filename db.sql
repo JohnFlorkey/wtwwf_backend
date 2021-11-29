@@ -1,8 +1,8 @@
-DROP DATABASE IF EXISTS wtwwf WITH (FORCE);
+-- DROP DATABASE IF EXISTS wtwwf WITH (FORCE);
 
-CREATE DATABASE wtwwf;
+-- CREATE DATABASE wtwwf;
 
-\c wtwwf;
+-- \c wtwwf;
 
 CREATE TABLE movie (
     id INTEGER PRIMARY KEY,
