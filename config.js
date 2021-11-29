@@ -6,10 +6,7 @@ const PROVIDER_SIZE_PATH = "/w45";
 const PROVIDER_IMAGE_BASE_URL = TMDB_IMAGE_BASE_URL + PROVIDER_SIZE_PATH;
 const BCRYPT_WORK_FACTOR = 12;
 
-const DB_URI =
-  process.env.NODE_ENV === "test"
-    ? "postgresql:///wtwwf_test"
-    : "postgresql:///wtwwf";
+const DB_URI = process.env.DATABASE_URL;
 
 const JWT_SECRET_KEY = process.env.JWT_SECRET_KEY;
 
