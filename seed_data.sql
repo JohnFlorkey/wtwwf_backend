@@ -1,4 +1,4 @@
-\c wtwwf;
+-- \c wtwwf;
 
 INSERT INTO user_profile (
     country,
