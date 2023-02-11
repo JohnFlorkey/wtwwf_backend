@@ -2,12 +2,14 @@ const express = require("express");
 const cors = require("cors");
 const ExpressError = require("./expressError");
 require("dotenv").config();
+const { authenticateToken } = require("./middleware/auth");
 const syncGenres = require("./startup/genres");
 
 const app = express();
 
 app.use(express.json());
 app.use(cors());
+app.use(authenticateToken);
 
 syncGenres();
 

@@ -56,6 +56,25 @@ class User {
     }
   }
 
+  static async getByEmail(email) {
+    try {
+      const result = await db.query(
+        `SELECT
+          id,
+          country,
+          email,
+          username
+        FROM user_profile
+        WHERE email = $1`,
+        [email]
+      );
+
+      return new User(result.rows[0]);
+    } catch (e) {
+      console.log(e);
+    }
+  }
+
   static async getByFriendGroupID(friendGroupID) {
     try {
       const result = await db.query(
@@ -157,26 +176,61 @@ class User {
     }
   }
 
+  static async login({ email, password }) {
+    try {
+      const result = await db.query(
+        `SELECT password
+        FROM user_profile
+        WHERE email = $1`,
+        [email]
+      );
+      const hashedPassword = result.rows[0]["password"];
+      if (await bcrypt.compare(password, hashedPassword)) {
+        return User.getByEmail(email);
+      }
+      throw "email and password do not match";
+    } catch (e) {
+      console.log(e);
+      return false;
+    }
+  }
+
   static async register({ country, email, password, username }) {
-    const hashedPassword = await bcrypt.hash(password, BCRYPT_WORK_FACTOR);
-    const result = await db.query(
-      `INSERT INTO user_profile (
-        country,
-        email,
-        password,
-        username
-      ) VALUES (
-        $1,
-        $2,
-        $3,
-        $4
-      ) RETURNING id`,
-      [country, email, hashedPassword, username]
-    );
+    try {
+      const existingEmail = await db.query(
+        `SELECT 1 as emailExists
+        FROM user_profile
+        WHERE email = $1`,
+        [email]
+      );
+      if (existingEmail.rows[0].emailExists == 1) {
+        throw new ExpressError("Email already exists");
+      }
+      const hashedPassword = await bcrypt.hash(password, BCRYPT_WORK_FACTOR);
+      const result = await db.query(
+        `INSERT INTO user_profile (
+          country,
+          email,
+          password,
+          username
+        ) VALUES (
+          $1,
+          $2,
+          $3,
+          $4
+        ) RETURNING id`,
+        [country, email, hashedPassword, username]
+      );
 
-    const { id } = result.rows[0];
+      const { id } = result.rows[0];
+      if (id) {
+        return true;
+      }
 
-    return new User({ id, country, email, username });
+      throw new ExpressError("Something went wrong");
+    } catch (e) {
+      return e;
+    }
   }
 
   async watchedMovie(movieID) {
